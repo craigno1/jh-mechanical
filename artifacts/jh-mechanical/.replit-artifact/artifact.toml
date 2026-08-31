@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "JH Mechanical"
+description = "A professional local-service website for JH Mechanical, a heavy vehicle diesel mechanic serving Bendigo and surrounding Victorian communities with servicing, repairs, breakdown support, and maintenance."
+version = "1.0.0"
+id = "artifacts/jh-mechanical"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19141
+
+[services.development]
+run = "pnpm --filter @workspace/jh-mechanical run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/jh-mechanical", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/jh-mechanical/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19141"
+BASE_PATH = "/"
