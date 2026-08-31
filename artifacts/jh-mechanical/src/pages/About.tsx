@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'wouter';
 import { ArrowLeft, ArrowUpRight, CheckCircle2, Facebook, MapPin, PhoneCall, ShieldCheck, Wrench } from 'lucide-react';
-import logoPath from '@assets/image_1788154033698.png';
+import logoMarkPath from '@assets/image_1788175621031.png';
 import storefrontImg from '@assets/image_1788154164791.png';
 
 const phone = '03 5448 8149';
@@ -34,8 +34,11 @@ function About() {
       <AboutSeo />
       <header className="border-b border-[#303530] bg-[#1c201d] text-[#f2f0e8]">
         <div className="mx-auto flex h-[76px] max-w-[1240px] items-center justify-between px-5 lg:px-8">
-          <Link href="/" className="flex shrink-0 rounded-sm bg-[#fdfcf7] p-2 transition-opacity hover:opacity-90" data-testid="link-about-home-logo">
-            <img src={logoPath} alt="JH Mechanical" className="h-[36px] w-auto sm:h-[44px] object-contain" />
+           <Link href="/" className="flex shrink-0 items-center gap-3 rounded-sm transition-opacity hover:opacity-90" data-testid="link-about-home-logo">
+             <span className="flex h-[42px] w-[48px] items-center justify-center overflow-hidden rounded-sm bg-[#fdfcf7] p-1 sm:h-[48px] sm:w-[54px]">
+               <img src={logoMarkPath} alt="JH Mechanical mark" className="h-full w-full object-contain" />
+             </span>
+             <span className="display-face text-xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8] sm:text-2xl">JH Mechanical</span>
           </Link>
           <div className="flex items-center gap-3"><Link href="/" className="hidden items-center gap-2 text-sm text-[#bec5b8] hover:text-[#83C438] sm:flex" data-testid="link-about-back"><ArrowLeft size={15} /> Back to home</Link><a href={phoneHref} className="flex items-center gap-2 bg-[#83C438] px-3 py-2 sm:px-4 sm:py-3 text-[10px] sm:text-xs font-bold uppercase tracking-[.08em] text-[#1c201d] hover:bg-[#94d14b]" data-testid="link-about-call"><PhoneCall size={14} className="sm:h-[15px] sm:w-[15px]" /> <span className="hidden sm:inline">Call </span>{phone}</a></div>
         </div>
