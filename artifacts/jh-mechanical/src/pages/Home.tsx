@@ -216,7 +216,7 @@ function Home() {
           <div className="hero-grid absolute inset-0 opacity-40" />
           <div className="relative mx-auto grid max-w-[1240px] items-center gap-12 px-5 pb-20 pt-16 sm:pt-24 lg:grid-cols-[1.05fr_.95fr] lg:px-8 lg:pb-28 lg:pt-24">
             <div className="reveal">
-              <h1 className="display-face max-w-3xl text-[3.8rem] font-bold uppercase leading-[.87] tracking-[-.03em] sm:text-[6.6rem] lg:text-[8rem]">Victoria's trusted<br /><span className="text-[#83C438]">diesel mechanic.</span></h1>
+              <h1 className="display-face max-w-3xl text-[2.65rem] font-bold uppercase leading-[.87] tracking-[-.03em] sm:text-[4.6rem] lg:text-[5.6rem]">Victoria's trusted<br /><span className="text-[#83C438]">diesel mechanic.</span></h1>
               <p className="mt-7 max-w-xl text-base leading-7 text-[#bdc5ba] sm:text-lg">Straightforward diesel servicing, repairs and breakdown help for trucks, fleets and heavy vehicles across Bendigo and surrounding Victoria.</p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
                 <button onClick={scrollToQuote} className="flex items-center justify-center gap-3 bg-[#83C438] px-6 py-4 text-sm font-bold uppercase tracking-[.08em] text-[#1c201d] hover:bg-[#94d14b]" data-testid="button-hero-quote">Get a free quote <ArrowUpRight size={17} /></button>
@@ -237,7 +237,6 @@ function Home() {
                   <p className="display-face mt-1 text-3xl font-bold uppercase text-[#f2f0e8]">Built for the road</p>
                 </div>
               </div>
-              <div className="absolute -bottom-5 -left-5 bg-[#83C438] px-5 py-4 text-[#1c201d] shadow-lg sm:left-[-28px]"><p className="mono-face text-[10px] font-bold uppercase tracking-[.14em]">Call when it counts</p><a href={phoneHref} className="mt-1 block text-xl font-bold" data-testid="link-hero-card-phone">{phone}</a></div>
             </div>
           </div>
           <div className="absolute bottom-5 right-5 hidden items-center gap-3 text-[#849083] lg:flex"><span className="h-px w-16 bg-[#526052]" />01 / 04</div>
@@ -251,9 +250,9 @@ function Home() {
           </div>
         </section>
 
-        <section id="services" className="bg-[#f6f4ed] px-5 py-14 sm:py-20 lg:px-8">
+        <section id="services" className="bg-[#f6f4ed] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto max-w-[1240px]">
-            <div className="flex flex-col justify-between gap-5 lg:flex-row lg:items-end"><div><h2 className="display-face text-4xl font-bold uppercase tracking-tight sm:text-5xl lg:text-6xl text-[#1c201d]">What we do</h2></div><p className="max-w-md text-sm leading-6 text-[#61675d] lg:mb-1">From routine diesel servicing to an unexpected breakdown, JH Mechanical keeps heavy vehicles safe, reliable and ready to earn their keep.</p></div>
+            <div className="flex flex-col justify-between gap-5 lg:flex-row lg:items-end"><div><h2 className="display-face text-4xl font-bold uppercase tracking-tight sm:text-5xl lg:text-6xl text-[#1c201d]">Our services</h2></div><p className="max-w-md text-sm leading-6 text-[#61675d] lg:mb-1">From routine diesel servicing to an unexpected breakdown, JH Mechanical keeps heavy vehicles safe, reliable and ready to earn their keep.</p></div>
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
               {services.map(({ title, text, icon: Icon }, index) => (
                 <a href="#quote" key={title} className={`service-card group flex min-h-[250px] flex-col border border-[#d8d4c9] bg-[#f0eee6] p-5 sm:p-6 lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`} data-testid={`link-service-${index}`}>
@@ -265,8 +264,8 @@ function Home() {
           </div>
         </section>
 
-        <section className="bg-[#262d27] px-5 py-14 text-[#f2f0e8] sm:py-20 lg:px-8">
-          <div className="mx-auto grid max-w-[1240px] items-center gap-9 lg:grid-cols-[.85fr_1.15fr]">
+        <section className="bg-[#262d27] px-5 py-10 text-[#f2f0e8] sm:py-14 lg:px-8">
+          <div className="mx-auto grid max-w-[1240px] items-center gap-8 lg:grid-cols-[.85fr_1.15fr]">
             <div><span className="eyebrow">The JH difference</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Capable hands.<br /><span className="text-[#83C438]">No drama.</span></h2><p className="mt-6 max-w-md text-sm leading-6 text-[#b9c1b7]">When your vehicle is part of how you make a living, you need more than a quick patch. You need someone who listens, knows diesel and tells you the truth about the job.</p><Link href="/about" className="mt-8 inline-flex items-center gap-2 border-b border-[#83C438] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#83C438]" data-testid="link-about-difference">Meet JH Mechanical <ArrowUpRight size={16} /></Link></div>
             <div className="grid gap-px bg-[#485348] sm:grid-cols-2">
               {[['01', 'Local knowledge', 'Bendigo based, with a practical understanding of the work and roads around central Victoria.'], ['02', 'Straight talking', 'We explain what is happening, what matters now and what can wait.'], ['03', 'Work-ready thinking', 'Repairs and maintenance decisions made around uptime, not guesswork.'], ['04', 'One call away', 'When the unexpected happens, you can speak to a real mechanic about the next move.']].map(([number, title, text]) => <div key={number} className="bg-[#262d27] p-6 sm:p-7"><span className="mono-face text-xs text-[#83C438]">{number}</span><h3 className="display-face mt-8 text-3xl font-bold uppercase">{title}</h3><p className="mt-3 text-sm leading-6 text-[#aeb7aa]">{text}</p></div>)}
@@ -274,14 +273,14 @@ function Home() {
           </div>
         </section>
 
-        <section id="quote" className="bg-[#dedbd0] px-5 py-14 sm:py-20 lg:px-8">
+        <section id="quote" className="bg-[#dedbd0] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] gap-10 lg:grid-cols-[.75fr_1.25fr] lg:items-start">
             <div className="pt-3"><span className="eyebrow">Let’s get moving</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.9] sm:text-7xl">Good work<br />starts with<br /><span className="text-[#83C438]">a chat.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#5f665d]">Have a job in mind or a vehicle that will not cooperate? Send the details through and we will get back to you.</p><div className="mt-9 flex items-center gap-3"><span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#262d27] text-[#83C438]"><PhoneCall size={18} /></span><div><p className="mono-face text-[10px] uppercase tracking-[.12em] text-[#73796f]">Prefer to call?</p><a href={phoneHref} className="text-lg font-bold text-[#252b25]" data-testid="link-quote-section-phone">{phone}</a></div></div></div>
             <QuoteForm />
           </div>
         </section>
 
-        <section className="bg-[#f6f4ed] px-5 py-14 sm:py-20 lg:px-8">
+        <section className="bg-[#f6f4ed] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto max-w-[1240px]">
             <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
               <div>
@@ -298,7 +297,7 @@ function Home() {
           </div>
         </section>
 
-        <section id="areas" className="bg-[#e9e7de] px-5 py-14 sm:py-20 lg:px-8">
+        <section id="areas" className="bg-[#e9e7de] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] gap-9 lg:grid-cols-[.8fr_1.2fr]">
             <div><span className="eyebrow">Where we work</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Central Victoria<br /><span className="text-[#83C438]">covered.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#626a60]">Based in Bendigo, JH Mechanical helps keep vehicles moving across the region and along the routes that connect it.</p><a href="https://www.google.com/maps/search/Bendigo+Victoria" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 border-b border-[#30372f] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#30372f]" data-testid="link-map-directions"><MapPin size={16} className="text-[#83C438]" /> Open Bendigo map <ArrowUpRight size={15} /></a></div>
             <div className="relative min-h-[360px] overflow-hidden border border-[#c3c5ba] bg-[#e1e3d8] shadow-[0_12px_25px_rgba(55,68,54,.08)] sm:min-h-[410px]">
@@ -322,13 +321,13 @@ function Home() {
           </div>
         </section>
 
-        <section className="bg-[#f6f4ed] px-5 py-14 sm:py-20 lg:px-8">
-          <div className="mx-auto max-w-[1240px]"><div className="max-w-3xl"><span className="eyebrow">What people say</span><h2 className="display-face mt-4 text-[3.8rem] font-bold uppercase leading-[.88] tracking-[-.02em] sm:text-7xl lg:text-[7.2rem]">Good operators<br /><span className="text-[#83C438]">notice good work.</span></h2></div><div className="mt-8 grid gap-5 lg:grid-cols-3">
+        <section className="bg-[#f6f4ed] px-5 py-10 sm:py-14 lg:px-8">
+          <div className="mx-auto max-w-[1240px]"><div className="max-w-3xl"><span className="eyebrow">What people say</span><h2 className="display-face mt-4 text-[2.65rem] font-bold uppercase leading-[.88] tracking-[-.02em] sm:text-[4.9rem] lg:text-[5rem]">Good operators<br /><span className="text-[#83C438]">notice good work.</span></h2></div><div className="mt-8 grid gap-5 lg:grid-cols-3">
             {[['“The kind of mechanic you want when the truck is your livelihood. Clear about the issue and got us back on the road.”', 'Illustrative placeholder', 'Fleet operator · Bendigo'], ['“No fuss, no guessing. JH explained what needed doing and what could wait — exactly what you want from a local trade.”', 'Illustrative placeholder', 'Owner-driver · Heathcote'], ['“A practical answer when we needed one. The follow-up advice was as valuable as the repair itself.”', 'Illustrative placeholder', 'Workshop customer · Central Victoria']].map(([quote, name, role], index) => <figure key={index} className="border-t-2 border-[#83C438] bg-[#eeece3] p-6 sm:p-8" data-testid={`testimonial-${index}`}><Quote size={25} className="text-[#83C438]" /><blockquote className="mt-6 text-lg font-medium leading-7 text-[#333a32]">{quote}</blockquote><figcaption className="mt-8 border-t border-[#d2d0c5] pt-4"><p className="text-sm font-bold text-[#333a32]">{name}</p><p className="mt-1 text-xs text-[#71786e]">{role}</p></figcaption></figure>)}
           </div><p className="mt-6 text-xs text-[#81877c]">Testimonials shown above are illustrative placeholders for the finished website.</p></div>
         </section>
 
-        <section id="faq" className="bg-[#dedbd0] px-5 py-14 sm:py-20 lg:px-8">
+        <section id="faq" className="bg-[#dedbd0] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1000px] gap-12 lg:grid-cols-[.75fr_1.25fr]"><div><span className="eyebrow">Questions, answered</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">No guesswork<br /><span className="text-[#83C438]">here.</span></h2><p className="mt-6 text-sm leading-6 text-[#646b61]">Still unsure? Give us a call and we will point you in the right direction.</p><a href={phoneHref} className="mt-7 inline-flex items-center gap-2 text-sm font-bold text-[#30372f]" data-testid="link-faq-phone"><PhoneCall size={16} className="text-[#83C438]" /> {phone}</a></div><div className="border-t border-[#bcbdb2]">{faqs.map((faq, index) => <div key={faq.q} className="border-b border-[#bcbdb2]"><button onClick={() => setOpenFaq(openFaq === index ? -1 : index)} className="flex w-full items-center justify-between gap-5 py-5 text-left text-base font-bold text-[#30372f]" aria-expanded={openFaq === index} data-testid={`button-faq-${index}`}><span>{faq.q}</span><ChevronDown size={19} className={`shrink-0 text-[#83C438] transition-transform ${openFaq === index ? 'rotate-180' : ''}`} /></button>{openFaq === index && <p className="max-w-2xl pb-6 pr-8 text-sm leading-6 text-[#62695f]" data-testid={`answer-faq-${index}`}>{faq.a}</p>}</div>)}</div></div>
         </section>
       </main>
