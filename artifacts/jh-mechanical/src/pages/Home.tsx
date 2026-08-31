@@ -233,8 +233,7 @@ function Home() {
                 <img src={heroImg} alt="JH Mechanical working on a heavy vehicle" className="absolute inset-0 h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111511]/90 via-[#111511]/20 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
-                  <p className="mono-face text-xs uppercase tracking-[.15em] text-[#83C438]">JH / 01</p>
-                  <p className="display-face mt-1 text-3xl font-bold uppercase text-[#f2f0e8]">Built for the road</p>
+                  <p className="display-face text-3xl font-bold uppercase text-[#f2f0e8]">Keep your work moving</p>
                 </div>
               </div>
             </div>
