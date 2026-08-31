@@ -10,9 +10,12 @@ import {
   Facebook,
   Gauge,
   MapPin,
+  Maximize2,
   Menu,
+  Minus,
   Navigation,
   PhoneCall,
+  Plus,
   Quote,
   ShieldCheck,
   Truck,
@@ -89,12 +92,15 @@ function Header({ menuOpen, setMenuOpen, onQuote }: { menuOpen: boolean; setMenu
   return (
     <header className="sticky top-0 z-40 border-b border-[#303530] bg-[#1c201d]/95 text-[#f2f0e8] backdrop-blur-md">
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-[#a4d45a] focus:px-4 focus:py-3 focus:text-[#1c201d]" data-testid="link-skip-content">Skip to content</a>
-      <div className="mx-auto flex h-[76px] max-w-[1240px] items-center justify-between px-5 lg:px-8">
-        <Link href="/" className="flex items-center gap-3" data-testid="link-home-logo">
-          <span className="flex h-12 w-14 items-center justify-center overflow-hidden bg-[#f8f7f0]">
-            <img src={logoPath} alt="JH Mechanical diesel mechanic logo" className="h-[90px] w-[90px] max-w-none object-contain" />
+      <div className="mx-auto flex h-[76px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
+        <Link href="/" className="flex items-center gap-3 group shrink-0" data-testid="link-home-logo">
+          <span className="relative block h-[42px] w-[50px] shrink-0 overflow-hidden rounded-sm bg-white">
+            <img src={logoPath} alt="JH Mark" className="absolute left-1/2 top-[-7px] w-[80px] max-w-none -translate-x-1/2" />
           </span>
-          <span className="hidden border-l border-[#566056] pl-3 text-[10px] font-semibold uppercase tracking-[0.18em] text-[#bec5b8] sm:block">Bendigo<br />Victoria</span>
+          <div className="flex flex-col">
+            <span className="display-face text-[24px] font-bold uppercase leading-none tracking-wide text-[#f2f0e8] transition-colors group-hover:text-[#a4d45a] sm:text-[26px]">JH Mechanical</span>
+            <span className="mono-face mt-0.5 text-[10px] uppercase tracking-[0.15em] text-[#a4d45a] sm:text-[11px]">Diesel Mechanic · Bendigo VIC</span>
+          </div>
         </Link>
         <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
           <a href="#services" className="text-sm text-[#d4d9d0] transition-colors hover:text-[#a4d45a]" data-testid="link-nav-services">Services</a>
@@ -106,7 +112,7 @@ function Header({ menuOpen, setMenuOpen, onQuote }: { menuOpen: boolean; setMenu
           <a href={phoneHref} className="flex items-center gap-2 text-sm font-semibold text-[#f2f0e8]" data-testid="link-header-phone"><PhoneCall size={16} className="text-[#a4d45a]" /> {phone}</a>
           <button onClick={onQuote} className="bg-[#a4d45a] px-4 py-3 text-xs font-bold uppercase tracking-[0.09em] text-[#1c201d] transition-colors hover:bg-[#c2eb7b]" data-testid="button-header-quote">Get a quote</button>
         </div>
-        <button onClick={() => setMenuOpen(!menuOpen)} className="p-2 text-[#f2f0e8] md:hidden" aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'} aria-expanded={menuOpen} data-testid="button-mobile-menu">
+        <button onClick={() => setMenuOpen(!menuOpen)} className="p-2 text-[#f2f0e8] md:hidden shrink-0" aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'} aria-expanded={menuOpen} data-testid="button-mobile-menu">
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
@@ -170,6 +176,7 @@ function QuoteForm() {
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
+  const [mapZoom, setMapZoom] = useState(13);
   const scrollToQuote = () => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   return (
     <div className="noise min-h-[100dvh] overflow-hidden">
@@ -181,7 +188,7 @@ function Home() {
           <div className="relative mx-auto grid max-w-[1240px] items-center gap-12 px-5 pb-20 pt-16 sm:pt-24 lg:grid-cols-[1.05fr_.95fr] lg:px-8 lg:pb-28 lg:pt-24">
             <div className="reveal">
               <span className="eyebrow">Diesel mechanic · Bendigo VIC</span>
-              <h1 className="display-face mt-6 max-w-3xl text-[4.2rem] font-bold uppercase leading-[.87] tracking-[-.03em] sm:text-[6.6rem] lg:text-[8rem]">Keep your<br /><span className="text-[#a4d45a]">work moving.</span></h1>
+              <h1 className="display-face mt-6 max-w-3xl text-[3.8rem] font-bold uppercase leading-[.87] tracking-[-.03em] sm:text-[6.6rem] lg:text-[8rem]">Keep your<br /><span className="text-[#a4d45a]">work moving.</span></h1>
               <p className="mt-7 max-w-xl text-base leading-7 text-[#bdc5ba] sm:text-lg">Straightforward diesel servicing, repairs and breakdown help for trucks, fleets and heavy vehicles across Bendigo and surrounding Victoria.</p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
                 <button onClick={scrollToQuote} className="flex items-center justify-center gap-3 bg-[#a4d45a] px-6 py-4 text-sm font-bold uppercase tracking-[.08em] text-[#1c201d] hover:bg-[#c2eb7b]" data-testid="button-hero-quote">Get a free quote <ArrowUpRight size={17} /></button>
@@ -218,12 +225,12 @@ function Home() {
 
         <section id="services" className="bg-[#f6f4ed] px-5 py-20 sm:py-28 lg:px-8">
           <div className="mx-auto max-w-[1240px]">
-            <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-end"><div><span className="eyebrow">What we do</span><h2 className="display-face mt-4 max-w-2xl text-5xl font-bold uppercase leading-[.93] sm:text-6xl">The right fix.<br /><span className="text-[#76ae35]">Done properly.</span></h2></div><p className="max-w-md text-sm leading-6 text-[#61675d]">From routine diesel servicing to an unexpected breakdown, JH Mechanical keeps heavy vehicles safe, reliable and ready to earn their keep.</p></div>
-            <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+            <div className="flex flex-col justify-between gap-7 lg:flex-row lg:items-end"><div><span className="eyebrow">What we do</span><h2 className="display-face mt-4 max-w-3xl text-[3.8rem] font-bold uppercase leading-[.88] tracking-[-.02em] sm:text-7xl lg:text-[7.2rem]">The right fix.<br /><span className="text-[#76ae35]">Done properly.</span></h2></div><p className="max-w-md text-sm leading-6 text-[#61675d] lg:mb-2">From routine diesel servicing to an unexpected breakdown, JH Mechanical keeps heavy vehicles safe, reliable and ready to earn their keep.</p></div>
+            <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
               {services.map(({ title, text, icon: Icon }, index) => (
-                <a href="#quote" key={title} className={`service-card group border border-[#d8d4c9] bg-[#f0eee6] p-5 ${index === 0 ? 'lg:translate-y-7' : index === 4 ? 'lg:translate-y-7' : ''}`} data-testid={`link-service-${index}`}>
+                <a href="#quote" key={title} className={`service-card group flex min-h-[286px] flex-col border border-[#d8d4c9] bg-[#f0eee6] p-5 sm:p-6 lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`} data-testid={`link-service-${index}`}>
                   <div className="flex items-start justify-between"><Icon size={30} strokeWidth={1.5} className="text-[#76ae35]" /><ArrowUpRight size={19} className="text-[#9ea59a] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" /></div>
-                  <h3 className="display-face mt-14 text-3xl font-bold uppercase leading-none">{title}</h3><p className="mt-3 text-sm leading-5 text-[#646b61]">{text}</p>
+                  <h3 className="display-face mt-auto pt-12 text-[2.15rem] font-bold uppercase leading-[.9] tracking-[-.01em]">{title}</h3><p className="mt-3 text-sm leading-5 text-[#646b61]">{text}</p>
                 </a>
               ))}
             </div>
@@ -259,13 +266,46 @@ function Home() {
         <section id="areas" className="bg-[#e9e7de] px-5 py-20 sm:py-28 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] gap-12 lg:grid-cols-[.8fr_1.2fr]">
             <div><span className="eyebrow">Where we work</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Central Victoria<br /><span className="text-[#76ae35]">covered.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#626a60]">Based in Bendigo, JH Mechanical helps keep vehicles moving across the region and along the routes that connect it.</p><a href="https://www.google.com/maps/search/Bendigo+Victoria" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 border-b border-[#30372f] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#30372f]" data-testid="link-map-directions"><MapPin size={16} className="text-[#76ae35]" /> Open Bendigo map <ArrowUpRight size={15} /></a></div>
-            <div className="relative min-h-[360px] overflow-hidden border border-[#c3c5ba] bg-[#d3d5c9] p-6 sm:min-h-[410px]"><div className="absolute inset-0 opacity-70" style={{ backgroundImage: 'linear-gradient(28deg, transparent 0 31%, #aeb7a8 31% 31.5%, transparent 31.5% 57%, #aeb7a8 57% 57.5%, transparent 57.5%), linear-gradient(112deg, transparent 0 43%, #bec6b8 43% 43.7%, transparent 43.7% 74%, #b1baab 74% 74.7%, transparent 74.7%), linear-gradient(4deg, transparent 0 76%, #bbc3b4 76% 77%, transparent 77%)' }} /><div className="absolute left-[45%] top-[45%] flex -translate-x-1/2 -translate-y-1/2 flex-col items-center"><span className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-[#d3d5c9] bg-[#262d27] text-[#a4d45a] shadow-lg"><MapPin size={22} fill="currentColor" /></span><span className="mt-2 bg-[#262d27] px-3 py-1.5 text-xs font-bold uppercase tracking-[.1em] text-[#f2f0e8]">Bendigo</span></div><div className="absolute left-6 top-6 mono-face text-[10px] uppercase tracking-[.15em] text-[#6d776b]">Service radius / Central Victoria</div><div className="absolute bottom-6 right-6 text-right text-xs leading-5 text-[#667064]">Heathcote · Seymour · Macedon<br />Shepparton · Lockington · Melbourne · Sunbury</div></div>
+            <div className="relative min-h-[360px] overflow-hidden border border-[#c3c5ba] bg-[#e1e3d8] shadow-[0_12px_25px_rgba(55,68,54,.08)] sm:min-h-[410px]">
+              <div className="absolute inset-0" style={{ transform: `scale(${1 + (mapZoom - 13) * .025})`, transformOrigin: 'center' }}>
+                <div className="absolute -left-[8%] top-[15%] h-[36%] w-[47%] rotate-[16deg] rounded-[45%] bg-[#c4d7c0]" />
+                <div className="absolute -right-[12%] bottom-[2%] h-[31%] w-[45%] rotate-[-18deg] rounded-[50%] bg-[#cadbc1]" />
+                <div className="absolute left-[9%] top-[45%] h-[18%] w-[22%] rotate-[-15deg] rounded-[48%] bg-[#c3d8c2]" />
+                <div className="absolute -left-[10%] top-[68%] h-[12px] w-[125%] rotate-[-18deg] border-y border-[#aebdc1] bg-[#b9d2d2]" />
+                <div className="absolute -left-[12%] top-[29%] h-[10px] w-[125%] rotate-[28deg] border-y border-[#d3c7a9] bg-[#fffdf2]" />
+                <div className="absolute -left-[12%] top-[55%] h-[9px] w-[124%] rotate-[-8deg] border-y border-[#d3c7a9] bg-[#fffdf2]" />
+                <div className="absolute left-[40%] top-[-12%] h-[125%] w-[10px] rotate-[21deg] border-x border-[#d3c7a9] bg-[#fffdf2]" />
+                <div className="absolute left-[63%] top-[-15%] h-[130%] w-[7px] rotate-[-32deg] border-x border-[#d3c7a9] bg-[#fffdf2]" />
+                <div className="absolute left-[20%] top-[4%] h-[92%] w-[4px] rotate-[43deg] bg-[#f8faf0]" />
+                <div className="absolute left-[6%] top-[19%] h-[8px] w-[29%] rotate-[4deg] bg-[#fffdf2]" />
+                <div className="absolute left-[49%] top-[37%] h-[10px] w-[31%] rotate-[74deg] bg-[#fffdf2]" />
+                <div className="absolute left-[75%] top-[8%] h-[13%] w-[16%] border border-[#d0d4c8] bg-[#dbdfd1]" />
+                <div className="absolute left-[70%] top-[72%] h-[12%] w-[23%] border border-[#d0d4c8] bg-[#dce0d2]" />
+                <div className="absolute left-[17%] top-[72%] h-[10%] w-[20%] border border-[#d0d4c8] bg-[#dce0d2]" />
+                <span className="absolute left-[28%] top-[25%] rotate-[28deg] text-[10px] text-[#7b8d80]">Bendigo Creek</span>
+                <span className="absolute left-[12%] top-[14%] text-[10px] font-medium text-[#789177]">Kangaroo Flat</span>
+                <span className="absolute right-[12%] top-[22%] text-[10px] font-medium text-[#789177]">Epsom</span>
+                <span className="absolute left-[13%] bottom-[18%] text-[10px] font-medium text-[#789177]">Golden Square</span>
+                <span className="absolute right-[8%] bottom-[17%] text-[10px] font-medium text-[#789177]">Strathfieldsaye</span>
+                <span className="absolute left-[45%] top-[14%] rotate-[21deg] text-[9px] text-[#9b9f92]">High Street</span>
+                <span className="absolute left-[56%] top-[59%] rotate-[-32deg] text-[9px] text-[#9b9f92]">McIvor Highway</span>
+                <span className="absolute left-[18%] top-[65%] rotate-[-8deg] text-[9px] text-[#9b9f92]">Bendigo Creek Trail</span>
+              </div>
+              <div className="absolute left-5 top-5 rounded-sm bg-[#f8f9f1]/90 px-3 py-2 shadow-sm"><p className="mono-face text-[9px] uppercase tracking-[.14em] text-[#6d776b]">Service radius</p><p className="mt-0.5 text-xs font-semibold text-[#3d493d]">Central Victoria</p></div>
+              <div className="absolute right-4 top-4 overflow-hidden rounded-sm border border-[#c9cdc1] bg-[#f8f9f1] shadow-sm">
+                <button type="button" onClick={() => setMapZoom(Math.min(15, mapZoom + 1))} className="block border-b border-[#d5d8ce] p-2.5 text-[#4c5a4b] hover:bg-[#e7ecdf]" aria-label="Zoom in" data-testid="button-map-zoom-in"><Plus size={16} /></button>
+                <button type="button" onClick={() => setMapZoom(Math.max(11, mapZoom - 1))} className="block border-b border-[#d5d8ce] p-2.5 text-[#4c5a4b] hover:bg-[#e7ecdf]" aria-label="Zoom out" data-testid="button-map-zoom-out"><Minus size={16} /></button>
+                <button type="button" className="block p-2.5 text-[#4c5a4b] hover:bg-[#e7ecdf]" aria-label="Expand map" data-testid="button-map-expand"><Maximize2 size={15} /></button>
+              </div>
+              <div className="absolute left-[45%] top-[45%] flex -translate-x-1/2 -translate-y-1/2 flex-col items-center"><span className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-[#f7f8ef] bg-[#262d27] text-[#a4d45a] shadow-[0_3px_8px_rgba(25,38,25,.32)]"><MapPin size={22} fill="currentColor" /></span><span className="mt-2 rounded-sm bg-[#262d27] px-3 py-1.5 text-xs font-bold uppercase tracking-[.1em] text-[#f2f0e8] shadow-sm">Bendigo</span></div>
+              <div className="absolute bottom-4 left-5 rounded-sm bg-[#f8f9f1]/85 px-2 py-1 text-[9px] text-[#7b8377]">Map data mockup · Bendigo VIC</div>
+            </div>
             <div className="flex flex-wrap gap-x-8 gap-y-3 border-t border-[#c8c8bd] pt-7 lg:col-start-2">{areas.map((area) => <a href="#quote" key={area} className="text-sm font-semibold text-[#3d453c] underline decoration-[#99bd62] decoration-2 underline-offset-4 hover:text-[#76ae35]" data-testid={`link-area-${area.toLowerCase()}`}>{area}</a>)}</div>
           </div>
         </section>
 
         <section className="bg-[#f6f4ed] px-5 py-20 sm:py-28 lg:px-8">
-          <div className="mx-auto max-w-[1240px]"><div className="max-w-2xl"><span className="eyebrow">What people say</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Good operators<br /><span className="text-[#76ae35]">notice good work.</span></h2></div><div className="mt-12 grid gap-5 lg:grid-cols-3">
+          <div className="mx-auto max-w-[1240px]"><div className="max-w-3xl"><span className="eyebrow">What people say</span><h2 className="display-face mt-4 text-[3.8rem] font-bold uppercase leading-[.88] tracking-[-.02em] sm:text-7xl lg:text-[7.2rem]">Good operators<br /><span className="text-[#76ae35]">notice good work.</span></h2></div><div className="mt-12 grid gap-5 lg:grid-cols-3">
             {[['“The kind of mechanic you want when the truck is your livelihood. Clear about the issue and got us back on the road.”', 'Illustrative placeholder', 'Fleet operator · Bendigo'], ['“No fuss, no guessing. JH explained what needed doing and what could wait — exactly what you want from a local trade.”', 'Illustrative placeholder', 'Owner-driver · Heathcote'], ['“A practical answer when we needed one. The follow-up advice was as valuable as the repair itself.”', 'Illustrative placeholder', 'Workshop customer · Central Victoria']].map(([quote, name, role], index) => <figure key={index} className="border-t-2 border-[#a4d45a] bg-[#eeece3] p-6 sm:p-8" data-testid={`testimonial-${index}`}><Quote size={25} className="text-[#76ae35]" /><blockquote className="mt-6 text-lg font-medium leading-7 text-[#333a32]">{quote}</blockquote><figcaption className="mt-8 border-t border-[#d2d0c5] pt-4"><p className="text-sm font-bold text-[#333a32]">{name}</p><p className="mt-1 text-xs text-[#71786e]">{role}</p></figcaption></figure>)}
           </div><p className="mt-6 text-xs text-[#81877c]">Testimonials shown above are illustrative placeholders for the finished website.</p></div>
         </section>
@@ -275,7 +315,15 @@ function Home() {
         </section>
       </main>
       <footer className="bg-[#1c201d] px-5 pb-7 pt-16 text-[#e9ece4] lg:px-8">
-        <div className="mx-auto max-w-[1240px]"><div className="grid gap-12 border-b border-[#3b443b] pb-12 md:grid-cols-[1.4fr_.8fr_.8fr_1fr]"><div><div className="flex items-center gap-3"><span className="flex h-12 w-14 items-center justify-center overflow-hidden bg-[#f8f7f0]"><img src={logoPath} alt="JH Mechanical logo" className="h-[90px] w-[90px] max-w-none object-contain" /></span><div className="display-face text-2xl font-bold uppercase">JH Mechanical</div></div><p className="mt-6 max-w-xs text-sm leading-6 text-[#aeb7a9]">Diesel mechanic services for trucks, fleets and heavy vehicles across Bendigo and surrounding Victoria.</p><a href={phoneHref} className="mt-6 inline-flex items-center gap-2 text-base font-bold text-[#a4d45a]" data-testid="link-footer-phone"><PhoneCall size={16} /> {phone}</a></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#a4d45a]">Navigate</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#services" data-testid="link-footer-services">Services</a><a href="#areas" data-testid="link-footer-areas">Service areas</a><Link href="/about" data-testid="link-footer-about">About JH</Link><a href="#faq" data-testid="link-footer-faq">FAQ</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#a4d45a]">Services</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#quote" data-testid="link-footer-diesel">Diesel mechanic</a><a href="#quote" data-testid="link-footer-servicing">Diesel servicing</a><a href="#quote" data-testid="link-footer-maintenance">Vehicle maintenance</a><a href="#quote" data-testid="link-footer-breakdown">Vehicle breakdown</a><a href="#quote" data-testid="link-footer-repairs">Vehicle repairs</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#a4d45a]">Find us online</h2><a href="https://www.facebook.com/dieselmechbendigo" target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-2 text-sm text-[#c4ccc1] hover:text-[#a4d45a]" data-testid="link-footer-facebook"><Facebook size={17} /> Facebook</a><div className="mt-8 border-l-2 border-[#a4d45a] pl-4 text-xs leading-5 text-[#9ea99c]">Bendigo and surrounding areas<br />Victoria, Australia</div></div></div><div className="flex flex-col justify-between gap-3 pt-6 text-xs text-[#879185] sm:flex-row"><span>© {new Date().getFullYear()} JH Mechanical. Diesel mechanic, Bendigo.</span><span className="mono-face text-[10px] uppercase tracking-[.12em]">Keep your work moving.</span></div></div>
+        <div className="mx-auto max-w-[1240px]"><div className="grid gap-12 border-b border-[#3b443b] pb-12 md:grid-cols-[1.4fr_.8fr_.8fr_1fr]"><div><div className="flex items-center gap-3">
+          <span className="relative block h-[42px] w-[50px] shrink-0 overflow-hidden rounded-sm bg-white">
+            <img src={logoPath} alt="JH Mark" className="absolute left-1/2 top-[-7px] w-[80px] max-w-none -translate-x-1/2" />
+          </span>
+          <div className="flex flex-col">
+            <span className="display-face text-2xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8]">JH Mechanical</span>
+            <span className="mono-face mt-0.5 text-[10px] uppercase tracking-[0.15em] text-[#a4d45a]">Diesel Mechanic · Bendigo VIC</span>
+          </div>
+        </div><p className="mt-6 max-w-xs text-sm leading-6 text-[#aeb7a9]">Diesel mechanic services for trucks, fleets and heavy vehicles across Bendigo and surrounding Victoria.</p><a href={phoneHref} className="mt-6 inline-flex items-center gap-2 text-base font-bold text-[#a4d45a]" data-testid="link-footer-phone"><PhoneCall size={16} /> {phone}</a></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#a4d45a]">Navigate</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#services" data-testid="link-footer-services">Services</a><a href="#areas" data-testid="link-footer-areas">Service areas</a><Link href="/about" data-testid="link-footer-about">About JH</Link><a href="#faq" data-testid="link-footer-faq">FAQ</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#a4d45a]">Services</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#quote" data-testid="link-footer-diesel">Diesel mechanic</a><a href="#quote" data-testid="link-footer-servicing">Diesel servicing</a><a href="#quote" data-testid="link-footer-maintenance">Vehicle maintenance</a><a href="#quote" data-testid="link-footer-breakdown">Vehicle breakdown</a><a href="#quote" data-testid="link-footer-repairs">Vehicle repairs</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#a4d45a]">Find us online</h2><a href="https://www.facebook.com/dieselmechbendigo" target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-2 text-sm text-[#c4ccc1] hover:text-[#a4d45a]" data-testid="link-footer-facebook"><Facebook size={17} /> Facebook</a><div className="mt-8 border-l-2 border-[#a4d45a] pl-4 text-xs leading-5 text-[#9ea99c]">Bendigo and surrounding areas<br />Victoria, Australia</div></div></div><div className="flex flex-col justify-between gap-3 pt-6 text-xs text-[#879185] sm:flex-row"><span>© {new Date().getFullYear()} JH Mechanical. Diesel mechanic, Bendigo.</span><span className="mono-face text-[10px] uppercase tracking-[.12em]">Keep your work moving.</span></div></div>
       </footer>
       <a href={phoneHref} className="fixed bottom-4 right-4 z-30 flex items-center gap-2 bg-[#a4d45a] px-4 py-3 text-xs font-bold uppercase tracking-[.08em] text-[#1c201d] shadow-xl md:hidden" data-testid="link-floating-call"><PhoneCall size={16} /> Call JH</a>
     </div>
