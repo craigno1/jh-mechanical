@@ -20,7 +20,7 @@ import {
   Wrench,
   X,
 } from 'lucide-react';
-import logoMarkPath from '@assets/image_1788175621031.png';
+import logoPath from '@assets/JH_Mechnical_Logo_1788345228022.jpg';
 import heroImg from '@assets/image_1788154192187.png';
 import gallery1 from '@assets/image_1788154081149.png';
 import gallery2 from '@assets/image_1788154100216.png';
@@ -109,11 +109,10 @@ function Header({ menuOpen, setMenuOpen, onQuote }: { menuOpen: boolean; setMenu
     <header className="sticky top-0 z-40 border-b border-[#303530] bg-[#1c201d]/95 text-[#f2f0e8] backdrop-blur-md" onMouseLeave={() => setServicesOpen(false)}>
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-[#83c438] focus:px-4 focus:py-3 focus:text-[#1c201d]" data-testid="link-skip-content">Skip to content</a>
       <div className="mx-auto flex h-[76px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
-        <Link href="/" className="flex shrink-0 items-center gap-3 rounded-sm transition-opacity hover:opacity-90" data-testid="link-home-logo">
-          <span className="flex h-[42px] w-[48px] items-center justify-center overflow-hidden rounded-sm bg-[#fdfcf7] p-1 sm:h-[48px] sm:w-[54px]">
-            <img src={logoMarkPath} alt="JH Mechanical mark" className="h-full w-full object-contain" />
+        <Link href="/" className="flex shrink-0 items-center rounded-sm transition-opacity hover:opacity-90" data-testid="link-home-logo">
+          <span className="flex h-[60px] w-[66px] items-center justify-center overflow-hidden rounded-sm bg-white p-1">
+            <img src={logoPath} alt="JH Mechanical" className="h-full w-full object-contain" />
           </span>
-          <span className="display-face text-xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8] sm:text-2xl">JH Mechanical</span>
         </Link>
         <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
           <div className="relative">
@@ -331,14 +330,8 @@ function Home() {
         </section>
       </main>
       <footer className="bg-[#1c201d] px-5 pb-7 pt-16 text-[#e9ece4] lg:px-8">
-        <div className="mx-auto max-w-[1240px]"><div className="grid gap-12 border-b border-[#3b443b] pb-12 md:grid-cols-[1.4fr_.8fr_.8fr_1fr]"><div><div className="flex items-center gap-3">
-          <span className="flex h-[42px] w-[50px] shrink-0 items-center justify-center overflow-hidden rounded-sm bg-white p-1">
-            <img src={logoMarkPath} alt="JH Mark" className="h-full w-full object-contain" />
-          </span>
-          <div className="flex flex-col">
-            <span className="display-face text-2xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8]">JH Mechanical</span>
-            <span className="mono-face mt-0.5 text-[10px] uppercase tracking-[0.15em] text-[#83C438]">Diesel Mechanic · Bendigo VIC</span>
-          </div>
+        <div className="mx-auto max-w-[1240px]"><div className="grid gap-12 border-b border-[#3b443b] pb-12 md:grid-cols-[1.4fr_.8fr_.8fr_1fr]"><div><div className="flex w-fit items-center justify-center overflow-hidden rounded-sm bg-white p-2">
+          <img src={logoPath} alt="JH Mechanical" className="h-[112px] w-[124px] object-contain" />
         </div><p className="mt-6 max-w-xs text-sm leading-6 text-[#aeb7a9]">Diesel mechanic services for trucks, fleets and heavy vehicles across Bendigo and surrounding Victoria.</p><a href={phoneHref} className="mt-6 inline-flex items-center gap-2 text-base font-bold text-[#83C438]" data-testid="link-footer-phone"><PhoneCall size={16} /> {phone}</a></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#83C438]">Navigate</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#services" data-testid="link-footer-services">Services</a><a href="#areas" data-testid="link-footer-areas">Service areas</a><Link href="/about" data-testid="link-footer-about">About JH</Link><a href="#faq" data-testid="link-footer-faq">FAQ</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#83C438]">Services</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#quote" data-testid="link-footer-diesel">Diesel mechanic</a><a href="#quote" data-testid="link-footer-servicing">Diesel servicing</a><a href="#quote" data-testid="link-footer-maintenance">Vehicle maintenance</a><a href="#quote" data-testid="link-footer-breakdown">Vehicle breakdown</a><a href="#quote" data-testid="link-footer-repairs">Vehicle repairs</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#83C438]">Find us online</h2><a href="https://www.facebook.com/dieselmechbendigo" target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-2 text-sm text-[#c4ccc1] hover:text-[#83C438]" data-testid="link-footer-facebook"><Facebook size={17} /> Facebook</a><div className="mt-8 border-l-2 border-[#83C438] pl-4 text-xs leading-5 text-[#9ea99c]">Bendigo and surrounding areas<br />Victoria, Australia</div></div></div><div className="flex flex-col justify-between gap-3 pt-6 text-xs text-[#879185] sm:flex-row"><span>© {new Date().getFullYear()} JH Mechanical. Diesel mechanic, Bendigo.</span><span className="mono-face text-[10px] uppercase tracking-[.12em]">Victoria's trusted diesel mechanic</span></div></div>
       </footer>
       <a href={phoneHref} className="fixed bottom-4 right-4 z-30 flex items-center gap-2 bg-[#83C438] px-4 py-3 text-xs font-bold uppercase tracking-[.08em] text-[#1c201d] shadow-xl md:hidden" data-testid="link-floating-call"><PhoneCall size={16} /> Call JH</a>
