@@ -20,7 +20,7 @@ import {
   Wrench,
   X,
 } from 'lucide-react';
-import logoMarkPath from '@assets/image_1788175621031.png';
+import logoPath from '@assets/JH_Mechnical_Logo_1788345228022.jpg';
 import heroImg from '@assets/image_1788154192187.png';
 import gallery1 from '@assets/image_1788154081149.png';
 import gallery2 from '@assets/image_1788154100216.png';
@@ -100,7 +100,7 @@ function Header({ menuOpen, setMenuOpen, onQuote }: { menuOpen: boolean; setMenu
     window.history.replaceState(null, '', '#quote');
     const quoteSection = document.getElementById('quote');
     if (quoteSection) {
-      const headerOffset = 76;
+      const headerOffset = 92;
       const top = quoteSection.getBoundingClientRect().top + window.scrollY - headerOffset;
       window.scrollTo({ top, behavior: 'auto' });
     }
@@ -108,12 +108,11 @@ function Header({ menuOpen, setMenuOpen, onQuote }: { menuOpen: boolean; setMenu
   return (
     <header className="sticky top-0 z-40 border-b border-[#303530] bg-[#1c201d]/95 text-[#f2f0e8] backdrop-blur-md" onMouseLeave={() => setServicesOpen(false)}>
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-[#83c438] focus:px-4 focus:py-3 focus:text-[#1c201d]" data-testid="link-skip-content">Skip to content</a>
-      <div className="mx-auto flex h-[76px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
-        <Link href="/" className="flex shrink-0 items-center gap-3 rounded-sm transition-opacity hover:opacity-90" data-testid="link-home-logo">
-          <span className="flex h-[42px] w-[48px] items-center justify-center overflow-hidden rounded-sm bg-[#fdfcf7] p-1 sm:h-[48px] sm:w-[54px]">
-            <img src={logoMarkPath} alt="JH Mechanical mark" className="h-full w-full object-contain" />
+      <div className="mx-auto flex h-[92px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
+        <Link href="/" className="flex shrink-0 items-center rounded-sm transition-opacity hover:opacity-90" data-testid="link-home-logo">
+          <span className="flex h-[75px] w-[83px] items-center justify-center overflow-hidden rounded-sm bg-white p-1">
+            <img src={logoPath} alt="JH Mechanical" className="h-full w-full object-contain" />
           </span>
-          <span className="display-face text-xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8] sm:text-2xl">JH Mechanical</span>
         </Link>
         <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
           <div className="relative">
@@ -222,10 +221,10 @@ function Home() {
                 <button onClick={scrollToQuote} className="flex items-center justify-center gap-3 bg-[#83C438] px-6 py-4 text-sm font-bold uppercase tracking-[.08em] text-[#1c201d] hover:bg-[#94d14b]" data-testid="button-hero-quote">Get a free quote <ArrowUpRight size={17} /></button>
                 <a href={phoneHref} className="flex items-center justify-center gap-3 border border-[#5a6559] px-6 py-4 text-sm font-bold uppercase tracking-[.08em] text-[#f2f0e8] hover:border-[#83C438]" data-testid="link-hero-call"><PhoneCall size={17} className="text-[#83C438]" /> Call {phone}</a>
               </div>
-              <div className="mt-12 flex flex-wrap gap-x-7 gap-y-3 border-t border-[#353b35] pt-5 text-xs text-[#aab3a8]">
-                <span className="flex items-center gap-2"><CheckCircle2 size={15} className="text-[#83C438]" /> Local and dependable</span>
-                <span className="flex items-center gap-2"><CheckCircle2 size={15} className="text-[#83C438]" /> Heavy vehicle focused</span>
-                <span className="flex items-center gap-2"><CheckCircle2 size={15} className="text-[#83C438]" /> No fuss, clear advice</span>
+              <div className="mt-12 flex flex-wrap gap-x-7 gap-y-3 border-t border-[#353b35] pt-5 text-[1.5rem] leading-7 text-[#aab3a8]">
+                <span className="flex items-center gap-2"><CheckCircle2 size={18} className="shrink-0 text-[#83C438]" /> Local and dependable</span>
+                <span className="flex items-center gap-2"><CheckCircle2 size={18} className="shrink-0 text-[#83C438]" /> Heavy vehicle focused</span>
+                <span className="flex items-center gap-2"><CheckCircle2 size={18} className="shrink-0 text-[#83C438]" /> No fuss, clear advice</span>
               </div>
             </div>
             <div className="reveal reveal-delay-2 relative mx-auto w-full max-w-[500px] lg:ml-auto">
@@ -265,7 +264,7 @@ function Home() {
 
         <section className="bg-[#262d27] px-5 py-10 text-[#f2f0e8] sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] items-center gap-8 lg:grid-cols-[.85fr_1.15fr]">
-            <div><span className="eyebrow">The JH difference</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Capable hands.<br /><span className="text-[#83C438]">No drama.</span></h2><p className="mt-6 max-w-md text-sm leading-6 text-[#b9c1b7]">When your vehicle is part of how you make a living, you need more than a quick patch. You need someone who listens, knows diesel and tells you the truth about the job.</p><Link href="/about" className="mt-8 inline-flex items-center gap-2 border-b border-[#83C438] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#83C438]" data-testid="link-about-difference">Meet JH Mechanical <ArrowUpRight size={16} /></Link></div>
+             <div><span className="eyebrow eyebrow-readable">The JH difference</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Capable hands.<br /><span className="text-[#83C438]">No drama.</span></h2><p className="mt-6 max-w-md text-sm leading-6 text-[#b9c1b7]">When your vehicle is part of how you make a living, you need more than a quick patch. You need someone who listens, knows diesel and tells you the truth about the job.</p><Link href="/about" className="eyebrow-readable mt-8 inline-flex items-center gap-2 border-b border-[#83C438] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#83C438]" data-testid="link-about-difference">Meet JH Mechanical <ArrowUpRight size={16} /></Link></div>
             <div className="grid gap-px bg-[#485348] sm:grid-cols-2">
               {[['01', 'Local knowledge', 'Bendigo based, with a practical understanding of the work and roads around central Victoria.'], ['02', 'Straight talking', 'We explain what is happening, what matters now and what can wait.'], ['03', 'Work-ready thinking', 'Repairs and maintenance decisions made around uptime, not guesswork.'], ['04', 'One call away', 'When the unexpected happens, you can speak to a real mechanic about the next move.']].map(([number, title, text]) => <div key={number} className="bg-[#262d27] p-6 sm:p-7"><span className="mono-face text-xs text-[#83C438]">{number}</span><h3 className="display-face mt-8 text-3xl font-bold uppercase">{title}</h3><p className="mt-3 text-sm leading-6 text-[#aeb7aa]">{text}</p></div>)}
             </div>
@@ -274,7 +273,7 @@ function Home() {
 
         <section id="quote" className="bg-[#dedbd0] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] gap-10 lg:grid-cols-[.75fr_1.25fr] lg:items-start">
-            <div className="pt-3"><span className="eyebrow">Let’s get moving</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.9] sm:text-7xl">Good work<br />starts with<br /><span className="text-[#83C438]">a chat.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#5f665d]">Have a job in mind or a vehicle that will not cooperate? Send the details through and we will get back to you.</p><div className="mt-9 flex items-center gap-3"><span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#262d27] text-[#83C438]"><PhoneCall size={18} /></span><div><p className="mono-face text-[10px] uppercase tracking-[.12em] text-[#73796f]">Prefer to call?</p><a href={phoneHref} className="text-lg font-bold text-[#252b25]" data-testid="link-quote-section-phone">{phone}</a></div></div></div>
+             <div className="pt-3"><span className="eyebrow eyebrow-readable">Let’s get moving</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.9] sm:text-7xl">Good work<br />starts with<br /><span className="text-[#83C438]">a chat.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#5f665d]">Have a job in mind or a vehicle that will not cooperate? Send the details through and we will get back to you.</p><div className="mt-9 flex items-center gap-3"><span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#262d27] text-[#83C438]"><PhoneCall size={18} /></span><div><p className="mono-face text-[10px] uppercase tracking-[.12em] text-[#73796f]">Prefer to call?</p><a href={phoneHref} className="text-lg font-bold text-[#252b25]" data-testid="link-quote-section-phone">{phone}</a></div></div></div>
             <QuoteForm />
           </div>
         </section>
@@ -298,7 +297,7 @@ function Home() {
 
         <section id="areas" className="bg-[#e9e7de] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] gap-9 lg:grid-cols-[.8fr_1.2fr]">
-            <div><span className="eyebrow">Where we work</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Central Victoria<br /><span className="text-[#83C438]">covered.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#626a60]">Based in Bendigo, JH Mechanical helps keep vehicles moving across the region and along the routes that connect it.</p><a href="https://www.google.com/maps/search/Bendigo+Victoria" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 border-b border-[#30372f] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#30372f]" data-testid="link-map-directions"><MapPin size={16} className="text-[#83C438]" /> Open Bendigo map <ArrowUpRight size={15} /></a></div>
+             <div><span className="eyebrow eyebrow-readable">Where we work</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Central Victoria<br /><span className="text-[#83C438]">covered.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#626a60]">Based in Bendigo, JH Mechanical helps keep vehicles moving across the region and along the routes that connect it.</p><a href="https://www.google.com/maps/search/Bendigo+Victoria" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 border-b border-[#30372f] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#30372f]" data-testid="link-map-directions"><MapPin size={16} className="text-[#83C438]" /> Open Bendigo map <ArrowUpRight size={15} /></a></div>
             <div className="relative min-h-[360px] overflow-hidden border border-[#c3c5ba] bg-[#e1e3d8] shadow-[0_12px_25px_rgba(55,68,54,.08)] sm:min-h-[410px]">
               <iframe
                 title="JH Mechanical Service Area - Bendigo Victoria"
@@ -321,24 +320,18 @@ function Home() {
         </section>
 
         <section className="bg-[#f6f4ed] px-5 py-10 sm:py-14 lg:px-8">
-          <div className="mx-auto max-w-[1240px]"><div className="max-w-3xl"><span className="eyebrow">What people say</span><h2 className="display-face mt-4 text-[2.65rem] font-bold uppercase leading-[.88] tracking-[-.02em] sm:text-[4.9rem] lg:text-[5rem]">Good operators<br /><span className="text-[#83C438]">notice good work.</span></h2></div><div className="mt-8 grid gap-5 lg:grid-cols-3">
+           <div className="mx-auto max-w-[1240px]"><div className="max-w-3xl"><span className="eyebrow eyebrow-readable">What people say</span><h2 className="display-face mt-4 text-[2.65rem] font-bold uppercase leading-[.88] tracking-[-.02em] sm:text-[4.9rem] lg:text-[5rem]">Good operators<br /><span className="text-[#83C438]">notice good work.</span></h2></div><div className="mt-8 grid gap-5 lg:grid-cols-3">
             {[['“The kind of mechanic you want when the truck is your livelihood. Clear about the issue and got us back on the road.”', 'Illustrative placeholder', 'Fleet operator · Bendigo'], ['“No fuss, no guessing. JH explained what needed doing and what could wait — exactly what you want from a local trade.”', 'Illustrative placeholder', 'Owner-driver · Heathcote'], ['“A practical answer when we needed one. The follow-up advice was as valuable as the repair itself.”', 'Illustrative placeholder', 'Workshop customer · Central Victoria']].map(([quote, name, role], index) => <figure key={index} className="border-t-2 border-[#83C438] bg-[#eeece3] p-6 sm:p-8" data-testid={`testimonial-${index}`}><Quote size={25} className="text-[#83C438]" /><blockquote className="mt-6 text-lg font-medium leading-7 text-[#333a32]">{quote}</blockquote><figcaption className="mt-8 border-t border-[#d2d0c5] pt-4"><p className="text-sm font-bold text-[#333a32]">{name}</p><p className="mt-1 text-xs text-[#71786e]">{role}</p></figcaption></figure>)}
           </div><p className="mt-6 text-xs text-[#81877c]">Testimonials shown above are illustrative placeholders for the finished website.</p></div>
         </section>
 
         <section id="faq" className="bg-[#dedbd0] px-5 py-10 sm:py-14 lg:px-8">
-          <div className="mx-auto grid max-w-[1000px] gap-12 lg:grid-cols-[.75fr_1.25fr]"><div><span className="eyebrow">Questions, answered</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">No guesswork<br /><span className="text-[#83C438]">here.</span></h2><p className="mt-6 text-sm leading-6 text-[#646b61]">Still unsure? Give us a call and we will point you in the right direction.</p><a href={phoneHref} className="mt-7 inline-flex items-center gap-2 text-sm font-bold text-[#30372f]" data-testid="link-faq-phone"><PhoneCall size={16} className="text-[#83C438]" /> {phone}</a></div><div className="border-t border-[#bcbdb2]">{faqs.map((faq, index) => <div key={faq.q} className="border-b border-[#bcbdb2]"><button onClick={() => setOpenFaq(openFaq === index ? -1 : index)} className="flex w-full items-center justify-between gap-5 py-5 text-left text-base font-bold text-[#30372f]" aria-expanded={openFaq === index} data-testid={`button-faq-${index}`}><span>{faq.q}</span><ChevronDown size={19} className={`shrink-0 text-[#83C438] transition-transform ${openFaq === index ? 'rotate-180' : ''}`} /></button>{openFaq === index && <p className="max-w-2xl pb-6 pr-8 text-sm leading-6 text-[#62695f]" data-testid={`answer-faq-${index}`}>{faq.a}</p>}</div>)}</div></div>
+           <div className="mx-auto grid max-w-[1000px] gap-12 lg:grid-cols-[.75fr_1.25fr]"><div><span className="eyebrow eyebrow-readable">Questions, answered</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">No guesswork<br /><span className="text-[#83C438]">here.</span></h2><p className="mt-6 text-sm leading-6 text-[#646b61]">Still unsure? Give us a call and we will point you in the right direction.</p><a href={phoneHref} className="mt-7 inline-flex items-center gap-2 text-sm font-bold text-[#30372f]" data-testid="link-faq-phone"><PhoneCall size={16} className="text-[#83C438]" /> {phone}</a></div><div className="border-t border-[#bcbdb2]">{faqs.map((faq, index) => <div key={faq.q} className="border-b border-[#bcbdb2]"><button onClick={() => setOpenFaq(openFaq === index ? -1 : index)} className="flex w-full items-center justify-between gap-5 py-5 text-left text-base font-bold text-[#30372f]" aria-expanded={openFaq === index} data-testid={`button-faq-${index}`}><span>{faq.q}</span><ChevronDown size={19} className={`shrink-0 text-[#83C438] transition-transform ${openFaq === index ? 'rotate-180' : ''}`} /></button>{openFaq === index && <p className="max-w-2xl pb-6 pr-8 text-sm leading-6 text-[#62695f]" data-testid={`answer-faq-${index}`}>{faq.a}</p>}</div>)}</div></div>
         </section>
       </main>
       <footer className="bg-[#1c201d] px-5 pb-7 pt-16 text-[#e9ece4] lg:px-8">
-        <div className="mx-auto max-w-[1240px]"><div className="grid gap-12 border-b border-[#3b443b] pb-12 md:grid-cols-[1.4fr_.8fr_.8fr_1fr]"><div><div className="flex items-center gap-3">
-          <span className="flex h-[42px] w-[50px] shrink-0 items-center justify-center overflow-hidden rounded-sm bg-white p-1">
-            <img src={logoMarkPath} alt="JH Mark" className="h-full w-full object-contain" />
-          </span>
-          <div className="flex flex-col">
-            <span className="display-face text-2xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8]">JH Mechanical</span>
-            <span className="mono-face mt-0.5 text-[10px] uppercase tracking-[0.15em] text-[#83C438]">Diesel Mechanic · Bendigo VIC</span>
-          </div>
+        <div className="mx-auto max-w-[1240px]"><div className="grid gap-12 border-b border-[#3b443b] pb-12 md:grid-cols-[1.4fr_.8fr_.8fr_1fr]"><div><div className="flex w-fit items-center justify-center overflow-hidden rounded-sm bg-white p-2">
+          <img src={logoPath} alt="JH Mechanical" className="h-[112px] w-[124px] object-contain" />
         </div><p className="mt-6 max-w-xs text-sm leading-6 text-[#aeb7a9]">Diesel mechanic services for trucks, fleets and heavy vehicles across Bendigo and surrounding Victoria.</p><a href={phoneHref} className="mt-6 inline-flex items-center gap-2 text-base font-bold text-[#83C438]" data-testid="link-footer-phone"><PhoneCall size={16} /> {phone}</a></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#83C438]">Navigate</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#services" data-testid="link-footer-services">Services</a><a href="#areas" data-testid="link-footer-areas">Service areas</a><Link href="/about" data-testid="link-footer-about">About JH</Link><a href="#faq" data-testid="link-footer-faq">FAQ</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#83C438]">Services</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#quote" data-testid="link-footer-diesel">Diesel mechanic</a><a href="#quote" data-testid="link-footer-servicing">Diesel servicing</a><a href="#quote" data-testid="link-footer-maintenance">Vehicle maintenance</a><a href="#quote" data-testid="link-footer-breakdown">Vehicle breakdown</a><a href="#quote" data-testid="link-footer-repairs">Vehicle repairs</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#83C438]">Find us online</h2><a href="https://www.facebook.com/dieselmechbendigo" target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-2 text-sm text-[#c4ccc1] hover:text-[#83C438]" data-testid="link-footer-facebook"><Facebook size={17} /> Facebook</a><div className="mt-8 border-l-2 border-[#83C438] pl-4 text-xs leading-5 text-[#9ea99c]">Bendigo and surrounding areas<br />Victoria, Australia</div></div></div><div className="flex flex-col justify-between gap-3 pt-6 text-xs text-[#879185] sm:flex-row"><span>© {new Date().getFullYear()} JH Mechanical. Diesel mechanic, Bendigo.</span><span className="mono-face text-[10px] uppercase tracking-[.12em]">Victoria's trusted diesel mechanic</span></div></div>
       </footer>
       <a href={phoneHref} className="fixed bottom-4 right-4 z-30 flex items-center gap-2 bg-[#83C438] px-4 py-3 text-xs font-bold uppercase tracking-[.08em] text-[#1c201d] shadow-xl md:hidden" data-testid="link-floating-call"><PhoneCall size={16} /> Call JH</a>
