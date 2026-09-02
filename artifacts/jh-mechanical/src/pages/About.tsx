@@ -37,9 +37,9 @@ function About() {
     <div className="noise min-h-[100dvh] bg-[#f6f4ed] text-[#242a24]">
       <AboutSeo />
        <header className="sticky top-0 z-40 border-b border-[#303530] bg-[#1c201d]/95 text-[#f2f0e8] backdrop-blur-md">
-         <div className="mx-auto flex h-[76px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
+            <div className="mx-auto flex h-[92px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
             <Link href="/" className="flex shrink-0 items-center rounded-sm transition-opacity hover:opacity-90" data-testid="link-about-home-logo">
-              <span className="flex h-[60px] w-[66px] items-center justify-center overflow-hidden rounded-sm bg-white p-1">
+              <span className="flex h-[75px] w-[83px] items-center justify-center overflow-hidden rounded-sm bg-white p-1">
                 <img src={logoPath} alt="JH Mechanical" className="h-full w-full object-contain" />
               </span>
           </Link>
