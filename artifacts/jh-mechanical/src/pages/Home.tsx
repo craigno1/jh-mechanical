@@ -1,16 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'wouter';
 import {
   ArrowUpRight,
   CheckCircle2,
-  ChevronDown,
   CircleAlert,
   ClipboardCheck,
   Clock3,
-  Facebook,
   Gauge,
   MapPin,
-  Menu,
   Navigation,
   PhoneCall,
   Quote,
@@ -18,28 +15,21 @@ import {
   Truck,
   Upload,
   Wrench,
-  X,
 } from 'lucide-react';
-import logoMarkPath from '@assets/image_1788175621031.png';
 import heroImg from '@assets/image_1788154192187.png';
 import gallery1 from '@assets/image_1788154081149.png';
 import gallery2 from '@assets/image_1788154100216.png';
 import gallery3 from '@assets/image_1788154109579.png';
 import gallery4 from '@assets/image_1788154125619.png';
 import gallery5 from '@assets/image_1788154241783.png';
+import { Header } from '@/components/layout/Header';
+import { Footer } from '@/components/layout/Footer';
+import { SeoHead } from '@/components/layout/SeoHead';
+import { services } from '@/data/services';
+import { areas } from '@/data/areas';
 
 const phone = '03 5448 8149';
 const phoneHref = 'tel:+61354488149';
-
-const services = [
-  { title: 'Diesel mechanic', text: 'Practical diagnosis and repairs for the engines that keep your work moving.', icon: Wrench },
-  { title: 'Diesel servicing', text: 'Scheduled servicing that catches small problems before they become expensive ones.', icon: Gauge },
-  { title: 'Vehicle maintenance', text: 'Maintenance plans for trucks, machinery and busy local fleets.', icon: ClipboardCheck },
-  { title: 'Vehicle breakdown', text: 'A calm, capable response when a heavy vehicle stops where it should not.', icon: CircleAlert },
-  { title: 'Vehicle repairs', text: 'Straight answers, quality parts and repairs made to work hard again.', icon: Truck },
-];
-
-const areas = ['Bendigo', 'Heathcote', 'Seymour', 'Macedon', 'Shepparton', 'Lockington', 'Melbourne', 'Sunbury'];
 
 const faqs = [
   { q: 'What types of vehicles do you work on?', a: 'JH Mechanical works with diesel trucks, light commercial vehicles, fleet vehicles and a range of heavy vehicles. Call with the make, model and issue and we will tell you the best next step.' },
@@ -48,118 +38,6 @@ const faqs = [
   { q: 'Can I get an instant quote?', a: 'Send through your name, phone number and a short description of the job using the form below. Adding a photo can help us understand the issue before we speak.' },
   { q: 'Which areas around Bendigo do you cover?', a: 'JH Mechanical services Bendigo and surrounding Victoria, including Heathcote, Seymour, Macedon, Shepparton, Lockington, Melbourne and Sunbury.' },
 ];
-
-function SeoHead() {
-  useEffect(() => {
-    document.title = 'JH Mechanical | Diesel Mechanic Bendigo & Surrounding Victoria';
-    const description = 'Dependable diesel mechanic services in Bendigo and surrounding Victoria. JH Mechanical handles servicing, repairs, maintenance and heavy vehicle breakdown help.';
-    const setMeta = (selector: string, attrs: Record<string, string>) => {
-      let tag = document.head.querySelector(selector) as HTMLMetaElement | null;
-      if (!tag) {
-        tag = document.createElement('meta');
-        document.head.appendChild(tag);
-      }
-      Object.entries(attrs).forEach(([key, value]) => tag?.setAttribute(key, value));
-    };
-    setMeta('meta[name="description"]', { name: 'description', content: description });
-    setMeta('meta[property="og:title"]', { property: 'og:title', content: document.title });
-    setMeta('meta[property="og:description"]', { property: 'og:description', content: description });
-    setMeta('meta[property="og:type"]', { property: 'og:type', content: 'website' });
-    setMeta('meta[property="og:url"]', { property: 'og:url', content: window.location.origin + '/' });
-    let canonical = document.head.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
-    if (!canonical) {
-      canonical = document.createElement('link');
-      canonical.rel = 'canonical';
-      document.head.appendChild(canonical);
-    }
-    canonical.href = window.location.origin + '/';
-    let schema = document.head.querySelector('#jh-faq-schema') as HTMLScriptElement | null;
-    if (!schema) {
-      schema = document.createElement('script');
-      schema.id = 'jh-faq-schema';
-      schema.type = 'application/ld+json';
-      document.head.appendChild(schema);
-    }
-    schema.textContent = JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      mainEntity: faqs.map((faq) => ({ '@type': 'Question', name: faq.q, acceptedAnswer: { '@type': 'Answer', text: faq.a } })),
-    });
-    return () => schema?.remove();
-  }, []);
-  return null;
-}
-
-function Header({ menuOpen, setMenuOpen, onQuote }: { menuOpen: boolean; setMenuOpen: (open: boolean) => void; onQuote: () => void }) {
-  const [servicesOpen, setServicesOpen] = useState(false);
-  const closeAnd = (action: () => void) => { action(); setMenuOpen(false); };
-  const goToQuote = (event: React.MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
-    setServicesOpen(false);
-    setMenuOpen(false);
-    window.history.replaceState(null, '', '#quote');
-    const quoteSection = document.getElementById('quote');
-    if (quoteSection) {
-      const headerOffset = 76;
-      const top = quoteSection.getBoundingClientRect().top + window.scrollY - headerOffset;
-      window.scrollTo({ top, behavior: 'auto' });
-    }
-  };
-  return (
-    <header className="sticky top-0 z-40 border-b border-[#303530] bg-[#1c201d]/95 text-[#f2f0e8] backdrop-blur-md" onMouseLeave={() => setServicesOpen(false)}>
-      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-[#83c438] focus:px-4 focus:py-3 focus:text-[#1c201d]" data-testid="link-skip-content">Skip to content</a>
-      <div className="mx-auto flex h-[76px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
-        <Link href="/" className="flex shrink-0 items-center gap-3 rounded-sm transition-opacity hover:opacity-90" data-testid="link-home-logo">
-          <span className="flex h-[42px] w-[48px] items-center justify-center overflow-hidden rounded-sm bg-[#fdfcf7] p-1 sm:h-[48px] sm:w-[54px]">
-            <img src={logoMarkPath} alt="JH Mechanical mark" className="h-full w-full object-contain" />
-          </span>
-          <span className="display-face text-xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8] sm:text-2xl">JH Mechanical</span>
-        </Link>
-        <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
-          <div className="relative">
-            <button onClick={() => setServicesOpen(!servicesOpen)} className="flex items-center gap-1 text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" aria-expanded={servicesOpen} data-testid="button-nav-services">
-              Services <ChevronDown size={14} className={`transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
-            </button>
-            {servicesOpen && (
-              <div className="absolute left-0 top-full mt-5 w-56 rounded-sm border border-[#303530] bg-[#1c201d] py-2 shadow-xl">
-                {services.map(s => (
-                  <a key={s.title} href="#quote" onClick={goToQuote} className="block px-4 py-2.5 text-sm text-[#d4d9d0] transition-colors hover:bg-[#242a25] hover:text-[#83c438]" data-testid={`link-dropdown-${s.title.toLowerCase().replace(' ', '-')}`}>{s.title}</a>
-                ))}
-              </div>
-            )}
-          </div>
-          <a href="#areas" className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="link-nav-areas">Service areas</a>
-          <Link href="/about" className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="link-nav-about">About JH</Link>
-          <a href="#faq" className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="link-nav-faq">FAQ</a>
-        </nav>
-        <div className="hidden items-center gap-3 md:flex">
-          <a href={phoneHref} className="flex items-center gap-2 text-sm font-semibold text-[#f2f0e8]" data-testid="link-header-phone"><PhoneCall size={16} className="text-[#83c438]" /> {phone}</a>
-          <button onClick={onQuote} className="bg-[#83c438] px-4 py-3 text-xs font-bold uppercase tracking-[0.09em] text-[#1c201d] transition-colors hover:bg-[#94d14b]" data-testid="button-header-quote">Get a quote</button>
-        </div>
-        <button onClick={() => setMenuOpen(!menuOpen)} className="p-2 text-[#f2f0e8] md:hidden shrink-0" aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'} aria-expanded={menuOpen} data-testid="button-mobile-menu">
-          {menuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
-      </div>
-      {menuOpen && (
-        <nav className="border-t border-[#303530] bg-[#242a25] px-5 pb-5 pt-2 md:hidden" aria-label="Mobile navigation">
-          <div className="block border-b border-[#394139] py-4">
-            <span className="text-sm font-semibold text-[#83c438]">Services</span>
-            <div className="mt-3 flex flex-col gap-3 border-l border-[#394139] pl-3">
-              {services.map(s => <a key={s.title} href="#quote" onClick={goToQuote} className="text-sm text-[#d4d9d0]">{s.title}</a>)}
-            </div>
-          </div>
-          <a href="#areas" onClick={() => setMenuOpen(false)} className="block border-b border-[#394139] py-4 text-sm font-semibold" data-testid="link-mobile-areas">Service areas</a>
-          <Link href="/about" onClick={() => setMenuOpen(false)} className="block border-b border-[#394139] py-4 text-sm font-semibold" data-testid="link-mobile-about">About JH</Link>
-          <a href="#faq" onClick={() => setMenuOpen(false)} className="block border-b border-[#394139] py-4 text-sm font-semibold" data-testid="link-mobile-faq">FAQ</a>
-          <div className="flex items-center gap-3 pt-4">
-            <a href={phoneHref} className="flex flex-1 items-center justify-center gap-2 border border-[#596358] px-3 py-3 text-sm font-semibold" data-testid="link-mobile-phone"><PhoneCall size={16} className="text-[#83c438]" /> Call {phone}</a>
-            <button onClick={() => closeAnd(onQuote)} className="bg-[#83c438] px-4 py-3 text-xs font-bold uppercase tracking-[0.08em] text-[#1c201d]" data-testid="button-mobile-quote">Quote</button>
-          </div>
-        </nav>
-      )}
-    </header>
-  );
-}
 
 function QuoteForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -203,14 +81,33 @@ function QuoteForm() {
 }
 
 function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
-  const [mapZoom, setMapZoom] = useState(13);
   const scrollToQuote = () => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  const homeSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({ '@type': 'Question', name: faq.q, acceptedAnswer: { '@type': 'Answer', text: faq.a } })),
+  };
+
+  const servicesList = [
+    { ...services['diesel-mechanic'], icon: Wrench },
+    { ...services['diesel-servicing'], icon: Gauge },
+    { ...services['vehicle-maintenance'], icon: ClipboardCheck },
+    { ...services['vehicle-breakdown'], icon: CircleAlert },
+    { ...services['vehicle-repairs'], icon: Truck },
+  ];
+
   return (
-    <div className="noise min-h-[100dvh] overflow-hidden">
-      <SeoHead />
-      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} onQuote={scrollToQuote} />
+    <div className="noise min-h-[100dvh] overflow-hidden bg-[#f6f4ed]">
+      <SeoHead
+        title="JH Mechanical | Diesel Mechanic Bendigo & Surrounding Victoria"
+        description="Dependable diesel mechanic services in Bendigo and surrounding Victoria. JH Mechanical handles servicing, repairs, maintenance and heavy vehicle breakdown help."
+        canonicalUrl={window.location.origin + '/'}
+        schema={homeSchema}
+      />
+      <Header />
+      
       <main id="main-content">
         <section className="relative bg-[#1c201d] text-[#f2f0e8]">
           <div className="hero-grid absolute inset-0 opacity-40" />
@@ -253,11 +150,12 @@ function Home() {
           <div className="mx-auto max-w-[1240px]">
             <div className="flex flex-col justify-between gap-5 lg:flex-row lg:items-end"><div><h2 className="display-face text-4xl font-bold uppercase tracking-tight sm:text-5xl lg:text-6xl text-[#1c201d]">Our services</h2></div><p className="max-w-md text-sm leading-6 text-[#61675d] lg:mb-1">From routine diesel servicing to an unexpected breakdown, JH Mechanical keeps heavy vehicles safe, reliable and ready to earn their keep.</p></div>
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
-              {services.map(({ title, text, icon: Icon }, index) => (
-                <a href="#quote" key={title} className={`service-card group flex min-h-[250px] flex-col border border-[#d8d4c9] bg-[#f0eee6] p-5 sm:p-6 lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`} data-testid={`link-service-${index}`}>
+              {servicesList.map(({ slug, h1, subtitle, icon: Icon }, index) => (
+                <Link href={`/services/${slug}`} key={slug} className={`service-card group flex min-h-[250px] flex-col border border-[#d8d4c9] bg-[#f0eee6] p-5 sm:p-6 lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`}>
                   <div className="flex items-start justify-between"><Icon size={30} strokeWidth={1.5} className="text-[#83C438]" /><ArrowUpRight size={19} className="text-[#9ea59a] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" /></div>
-                  <h3 className="display-face mt-auto pt-6 text-[2rem] font-bold uppercase leading-[1.1] tracking-[-.01em] text-[#1c201d] transition-colors group-hover:text-[#83C438] lg:text-[2.2rem]">{title}</h3><p className="mt-3 text-sm leading-5 text-[#646b61]">{text}</p>
-                </a>
+                  <h3 className="display-face mt-auto pt-6 text-[2rem] font-bold uppercase leading-[1.1] tracking-[-.01em] text-[#1c201d] transition-colors group-hover:text-[#83C438] lg:text-[2.2rem]">{h1}</h3>
+                  <p className="mt-3 text-sm leading-5 text-[#646b61]">{subtitle}</p>
+                </Link>
               ))}
             </div>
           </div>
@@ -316,7 +214,13 @@ function Home() {
                 <p className="mt-0.5 text-xs font-semibold text-[#3d493d]">Central Victoria</p>
               </div>
             </div>
-            <div className="flex flex-wrap gap-x-8 gap-y-3 border-t border-[#c8c8bd] pt-7 lg:col-start-2">{areas.map((area) => <a href="#quote" key={area} className="text-sm font-semibold text-[#3d453c] underline decoration-[#99bd62] decoration-2 underline-offset-4 hover:text-[#83C438]" data-testid={`link-area-${area.toLowerCase()}`}>{area}</a>)}</div>
+            <div className="flex flex-wrap gap-x-8 gap-y-3 border-t border-[#c8c8bd] pt-7 lg:col-start-2">
+              {Object.values(areas).map((area) => (
+                <Link href={`/service-areas/${area.slug}`} key={area.slug} className="text-sm font-semibold text-[#3d453c] underline decoration-[#99bd62] decoration-2 underline-offset-4 hover:text-[#83C438]">
+                  {area.cityName}
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -327,21 +231,25 @@ function Home() {
         </section>
 
         <section id="faq" className="bg-[#dedbd0] px-5 py-10 sm:py-14 lg:px-8">
-          <div className="mx-auto grid max-w-[1000px] gap-12 lg:grid-cols-[.75fr_1.25fr]"><div><span className="eyebrow">Questions, answered</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">No guesswork<br /><span className="text-[#83C438]">here.</span></h2><p className="mt-6 text-sm leading-6 text-[#646b61]">Still unsure? Give us a call and we will point you in the right direction.</p><a href={phoneHref} className="mt-7 inline-flex items-center gap-2 text-sm font-bold text-[#30372f]" data-testid="link-faq-phone"><PhoneCall size={16} className="text-[#83C438]" /> {phone}</a></div><div className="border-t border-[#bcbdb2]">{faqs.map((faq, index) => <div key={faq.q} className="border-b border-[#bcbdb2]"><button onClick={() => setOpenFaq(openFaq === index ? -1 : index)} className="flex w-full items-center justify-between gap-5 py-5 text-left text-base font-bold text-[#30372f]" aria-expanded={openFaq === index} data-testid={`button-faq-${index}`}><span>{faq.q}</span><ChevronDown size={19} className={`shrink-0 text-[#83C438] transition-transform ${openFaq === index ? 'rotate-180' : ''}`} /></button>{openFaq === index && <p className="max-w-2xl pb-6 pr-8 text-sm leading-6 text-[#62695f]" data-testid={`answer-faq-${index}`}>{faq.a}</p>}</div>)}</div></div>
+          <div className="mx-auto max-w-[768px]">
+            <div className="text-center"><span className="eyebrow">Got questions?</span><h2 className="display-face mt-4 text-[2.65rem] font-bold uppercase leading-[.88] tracking-[-.02em] sm:text-[4.9rem]">Frequently asked.</h2></div>
+            <div className="mt-10 divide-y divide-[#c1beaf] border-y border-[#c1beaf]">
+              {faqs.map((faq, i) => (
+                <details key={i} className="group" open={i === openFaq} onToggle={(e) => { if (e.currentTarget.open) setOpenFaq(i); }}>
+                  <summary className="flex cursor-pointer items-center justify-between gap-4 py-5 text-lg font-bold text-[#2d332c] list-none transition-colors hover:text-[#83C438]"><span className="pr-4">{faq.q}</span><span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[#b2b0a3] text-[#83C438] group-open:bg-[#83C438] group-open:text-[#1c201d]"><ArrowUpRight size={16} className="transition-transform group-open:rotate-45" /></span></summary>
+                  <p className="pb-6 text-sm leading-6 text-[#5b615a] pr-8">{faq.a}</p>
+                </details>
+              ))}
+            </div>
+            <div className="mt-10 flex flex-col items-center justify-center gap-4 text-center">
+              <p className="text-sm text-[#5b615a]">Have a different question?</p>
+              <a href={phoneHref} className="inline-flex items-center gap-2 border-b-2 border-[#83C438] pb-1 text-lg font-bold text-[#2d332c] transition-colors hover:text-[#83C438]"><PhoneCall size={18} /> {phone}</a>
+            </div>
+          </div>
         </section>
       </main>
-      <footer className="bg-[#1c201d] px-5 pb-7 pt-16 text-[#e9ece4] lg:px-8">
-        <div className="mx-auto max-w-[1240px]"><div className="grid gap-12 border-b border-[#3b443b] pb-12 md:grid-cols-[1.4fr_.8fr_.8fr_1fr]"><div><div className="flex items-center gap-3">
-          <span className="flex h-[42px] w-[50px] shrink-0 items-center justify-center overflow-hidden rounded-sm bg-white p-1">
-            <img src={logoMarkPath} alt="JH Mark" className="h-full w-full object-contain" />
-          </span>
-          <div className="flex flex-col">
-            <span className="display-face text-2xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8]">JH Mechanical</span>
-            <span className="mono-face mt-0.5 text-[10px] uppercase tracking-[0.15em] text-[#83C438]">Diesel Mechanic · Bendigo VIC</span>
-          </div>
-        </div><p className="mt-6 max-w-xs text-sm leading-6 text-[#aeb7a9]">Diesel mechanic services for trucks, fleets and heavy vehicles across Bendigo and surrounding Victoria.</p><a href={phoneHref} className="mt-6 inline-flex items-center gap-2 text-base font-bold text-[#83C438]" data-testid="link-footer-phone"><PhoneCall size={16} /> {phone}</a></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#83C438]">Navigate</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#services" data-testid="link-footer-services">Services</a><a href="#areas" data-testid="link-footer-areas">Service areas</a><Link href="/about" data-testid="link-footer-about">About JH</Link><a href="#faq" data-testid="link-footer-faq">FAQ</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#83C438]">Services</h2><div className="mt-5 flex flex-col gap-3 text-sm text-[#c4ccc1]"><a href="#quote" data-testid="link-footer-diesel">Diesel mechanic</a><a href="#quote" data-testid="link-footer-servicing">Diesel servicing</a><a href="#quote" data-testid="link-footer-maintenance">Vehicle maintenance</a><a href="#quote" data-testid="link-footer-breakdown">Vehicle breakdown</a><a href="#quote" data-testid="link-footer-repairs">Vehicle repairs</a></div></div><div><h2 className="mono-face text-[10px] font-bold uppercase tracking-[.15em] text-[#83C438]">Find us online</h2><a href="https://www.facebook.com/dieselmechbendigo" target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-2 text-sm text-[#c4ccc1] hover:text-[#83C438]" data-testid="link-footer-facebook"><Facebook size={17} /> Facebook</a><div className="mt-8 border-l-2 border-[#83C438] pl-4 text-xs leading-5 text-[#9ea99c]">Bendigo and surrounding areas<br />Victoria, Australia</div></div></div><div className="flex flex-col justify-between gap-3 pt-6 text-xs text-[#879185] sm:flex-row"><span>© {new Date().getFullYear()} JH Mechanical. Diesel mechanic, Bendigo.</span><span className="mono-face text-[10px] uppercase tracking-[.12em]">Victoria's trusted diesel mechanic</span></div></div>
-      </footer>
-      <a href={phoneHref} className="fixed bottom-4 right-4 z-30 flex items-center gap-2 bg-[#83C438] px-4 py-3 text-xs font-bold uppercase tracking-[.08em] text-[#1c201d] shadow-xl md:hidden" data-testid="link-floating-call"><PhoneCall size={16} /> Call JH</a>
+
+      <Footer />
     </div>
   );
 }
