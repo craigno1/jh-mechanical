@@ -1,5 +1,5 @@
 [build]
-  command = "BASE_PATH=/ PORT=8888 pnpm --filter @workspace/jh-mechanical run build"
+  command = "pnpm --filter @workspace/jh-mechanical run build"
   publish = "artifacts/jh-mechanical/dist/public"
 
 [build.environment]

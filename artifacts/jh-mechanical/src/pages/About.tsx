@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'wouter';
 import { ArrowUpRight, CheckCircle2, ChevronDown, Facebook, MapPin, Menu, PhoneCall, ShieldCheck, Wrench, X } from 'lucide-react';
-import logoPath from '@assets/JH_Mechnical_Logo_1788345228022.jpg';
+import logoMarkPath from '@assets/image_1788175621031.png';
 import storefrontImg from '@assets/image_1788154164791.png';
 import teamImg from '@assets/image_1788177487503.png';
 
@@ -37,11 +37,12 @@ function About() {
     <div className="noise min-h-[100dvh] bg-[#f6f4ed] text-[#242a24]">
       <AboutSeo />
        <header className="sticky top-0 z-40 border-b border-[#303530] bg-[#1c201d]/95 text-[#f2f0e8] backdrop-blur-md">
-            <div className="mx-auto flex h-[92px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
-            <Link href="/" className="flex shrink-0 items-center rounded-sm transition-opacity hover:opacity-90" data-testid="link-about-home-logo">
-              <span className="flex h-[75px] w-[83px] items-center justify-center overflow-hidden rounded-sm bg-white p-1">
-                <img src={logoPath} alt="JH Mechanical" className="h-full w-full object-contain" />
-              </span>
+         <div className="mx-auto flex h-[76px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
+           <Link href="/" className="flex shrink-0 items-center gap-3 rounded-sm transition-opacity hover:opacity-90" data-testid="link-about-home-logo">
+             <span className="flex h-[42px] w-[48px] items-center justify-center overflow-hidden rounded-sm bg-[#fdfcf7] p-1 sm:h-[48px] sm:w-[54px]">
+               <img src={logoMarkPath} alt="JH Mechanical mark" className="h-full w-full object-contain" />
+             </span>
+             <span className="display-face text-xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8] sm:text-2xl">JH Mechanical</span>
           </Link>
            <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
              <div className="relative">

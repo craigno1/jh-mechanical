@@ -1,1 +1,0 @@
-- [GitHub and Netlify publishing](github-netlify-publishing.md) — use the Git pane for full repository pushes; connector API uploads may throttle.
