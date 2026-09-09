@@ -151,9 +151,9 @@ function Home() {
             <div className="flex flex-col justify-between gap-5 lg:flex-row lg:items-end"><div><h2 className="display-face text-4xl font-bold uppercase tracking-tight sm:text-5xl lg:text-6xl text-[#1c201d]">Our services</h2></div><p className="max-w-md text-sm leading-6 text-[#61675d] lg:mb-1">From routine diesel servicing to an unexpected breakdown, JH Mechanical keeps heavy vehicles safe, reliable and ready to earn their keep.</p></div>
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
               {servicesList.map(({ slug, h1, subtitle, icon: Icon }, index) => (
-                <Link href={`/services/${slug}`} key={slug} className={`service-card group flex min-h-[250px] flex-col border border-[#d8d4c9] bg-[#f0eee6] p-5 sm:p-6 lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`}>
+                <Link href={`/services/${slug}`} key={slug} className={`service-card group flex min-h-[205px] flex-col border border-[#d8d4c9] bg-[#f0eee6] p-5 lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`}>
                   <div className="flex items-start justify-between"><Icon size={30} strokeWidth={1.5} className="text-[#83C438]" /><ArrowUpRight size={19} className="text-[#9ea59a] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" /></div>
-                  <h3 className="display-face mt-auto pt-6 text-[2rem] font-bold uppercase leading-[1.1] tracking-[-.01em] text-[#1c201d] transition-colors group-hover:text-[#83C438] lg:text-[2.2rem]">{h1}</h3>
+                  <h3 className="display-face mt-auto pt-3 text-[2rem] font-bold uppercase leading-[1.1] tracking-[-.01em] text-[#1c201d] transition-colors group-hover:text-[#83C438] lg:text-[2.2rem]">{h1}</h3>
                   <p className="mt-3 text-sm leading-5 text-[#646b61]">{subtitle}</p>
                 </Link>
               ))}
