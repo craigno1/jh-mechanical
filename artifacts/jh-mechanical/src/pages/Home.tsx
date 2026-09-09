@@ -159,9 +159,6 @@ function Home() {
                 </Link>
               ))}
             </div>
-             <p className="mt-7 border-l-2 border-[#83C438] pl-4 text-base font-semibold text-[#3f473d]">
-               If it's not on the services list, just ask!
-             </p>
           </div>
         </section>
 
@@ -176,7 +173,7 @@ function Home() {
 
         <section id="quote" className="bg-[#dedbd0] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] gap-10 lg:grid-cols-[.75fr_1.25fr] lg:items-start">
-            <div className="pt-3"><span className="eyebrow">Let’s get moving</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.9] sm:text-7xl">Good work<br />starts with<br /><span className="text-[#83C438]">a chat.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#5f665d]">Have a job in mind or a vehicle that will not cooperate? Send the details through and we will get back to you.</p><div className="mt-9 flex items-center gap-3"><span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#262d27] text-[#83C438]"><PhoneCall size={18} /></span><div><p className="mono-face text-[13px] uppercase tracking-[.12em] text-[#73796f]">Prefer to call?</p><a href={phoneHref} className="text-lg font-bold text-[#252b25]" data-testid="link-quote-section-phone">{phone}</a></div></div></div>
+             <div className="pt-3"><span className="eyebrow">Let’s get moving</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.9] sm:text-7xl">Good work<br />starts with<br /><span className="text-[#83C438]">a chat.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#5f665d]">Have a job in mind or a vehicle that will not cooperate? Send the details through and we will get back to you.</p><div className="mt-9 flex items-center gap-3"><span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#262d27] text-[#83C438]"><PhoneCall size={18} /></span><div><p className="mono-face text-[13px] uppercase tracking-[.12em] text-[#73796f]">Prefer to call?</p><a href={phoneHref} className="text-lg font-bold text-[#252b25]" data-testid="link-quote-section-phone">{phone}</a></div></div><p className="mt-5 border-l-2 border-[#83C438] pl-4 text-base font-semibold text-[#3f473d]">If it's not on the services list, just ask!</p></div>
             <QuoteForm />
           </div>
         </section>
