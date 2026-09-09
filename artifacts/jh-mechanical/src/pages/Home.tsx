@@ -27,6 +27,7 @@ import { Footer } from '@/components/layout/Footer';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { services } from '@/data/services';
 import { areas } from '@/data/areas';
+import { getSiteUrl } from '@/lib/site-url';
 
 const phone = '03 5448 8149';
 const phoneHref = 'tel:+61354488149';
@@ -103,7 +104,7 @@ function Home() {
       <SeoHead
         title="JH Mechanical | Diesel Mechanic Bendigo & Surrounding Victoria"
         description="Dependable diesel mechanic services in Bendigo and surrounding Victoria. JH Mechanical handles servicing, repairs, maintenance and heavy vehicle breakdown help."
-        canonicalUrl={window.location.origin + '/'}
+        canonicalUrl={`${getSiteUrl()}/`}
         schema={homeSchema}
       />
       <Header />

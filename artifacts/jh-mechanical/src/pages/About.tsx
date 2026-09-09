@@ -5,17 +5,40 @@ import teamImg from '@assets/image_1788177487503.png';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { SeoHead } from '@/components/layout/SeoHead';
+import { getSiteUrl } from '@/lib/site-url';
 
 const phone = '03 5448 8149';
 const phoneHref = 'tel:+61354488149';
 
 function About() {
+  const siteUrl = getSiteUrl();
+  const aboutSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    name: 'About JH Mechanical',
+    url: `${siteUrl}/about`,
+    mainEntity: {
+      '@type': 'AutoRepair',
+      name: 'JH Mechanical',
+      telephone: '03 5448 8149',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Unit 3/39 Collins St',
+        addressLocality: 'Kangaroo Flat',
+        addressRegion: 'VIC',
+        postalCode: '3555',
+        addressCountry: 'AU',
+      },
+    },
+  };
+
   return (
     <div className="jh-readable noise min-h-[100dvh] bg-[#f6f4ed] text-[#242a24] flex flex-col">
       <SeoHead
         title="About JH Mechanical | Local Diesel Mechanic in Bendigo"
         description="Meet JH Mechanical, a practical and dependable Bendigo diesel mechanic supporting trucks, fleets and heavy vehicles across central Victoria."
-        canonicalUrl={window.location.origin + '/about'}
+        canonicalUrl={`${siteUrl}/about`}
+        schema={aboutSchema}
       />
       <Header />
       

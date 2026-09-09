@@ -6,6 +6,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import NotFound from '@/pages/not-found';
 import { Link } from 'wouter';
+import { getSiteUrl } from '@/lib/site-url';
 
 const phone = '03 5448 8149';
 const phoneHref = 'tel:+61354488149';
@@ -17,15 +18,16 @@ export default function AreaPage({ slug }: { slug: string }) {
     return <NotFound />;
   }
 
+  const siteUrl = getSiteUrl();
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'BreadcrumbList',
         'itemListElement': [
-          { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': `${window.location.origin}/` },
-          { '@type': 'ListItem', 'position': 2, 'name': 'Service Areas', 'item': `${window.location.origin}/#areas` },
-          { '@type': 'ListItem', 'position': 3, 'name': data.cityName, 'item': `${window.location.origin}/service-areas/${data.slug}` }
+          { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': `${siteUrl}/` },
+          { '@type': 'ListItem', 'position': 2, 'name': 'Service Areas', 'item': `${siteUrl}/#areas` },
+          { '@type': 'ListItem', 'position': 3, 'name': data.cityName, 'item': `${siteUrl}/service-areas/${data.slug}` }
         ]
       },
       {
@@ -46,7 +48,7 @@ export default function AreaPage({ slug }: { slug: string }) {
       <SeoHead
         title={data.metaTitle}
         description={data.metaDescription}
-        canonicalUrl={`${window.location.origin}/service-areas/${data.slug}`}
+        canonicalUrl={`${siteUrl}/service-areas/${data.slug}`}
         schema={schema}
       />
       <Header />
