@@ -1,8 +1,8 @@
-import img1 from '@assets/image_1788866147775.png';
 import img2 from '@assets/image_1788866165181.png';
 import img3 from '@assets/image_1788866176971.png';
 import img4 from '@assets/image_1788866203536.png';
 import img5 from '@assets/image_1788866217071.png';
+import dieselMechanicHero from '@assets/image_1788866246504.png';
 
 export type ServiceData = {
   slug: string;
@@ -26,7 +26,7 @@ export const services: Record<string, ServiceData> = {
     metaDescription: 'Experienced diesel mechanic serving Bendigo. We diagnose and repair heavy vehicles, trucks, and machinery so you can get back to work without the runaround.',
     h1: 'Diesel Mechanic',
     subtitle: 'Practical diagnosis and repairs for the engines that keep your work moving.',
-    heroImg: img1,
+    heroImg: dieselMechanicHero,
     intro: 'When your diesel equipment stops, your work stops. We provide straight-talking mechanical support for trucks, earthmoving machinery, and work fleets across the region. We focus on tracking down the root cause rather than just throwing parts at the problem.',
     sections: [
       {

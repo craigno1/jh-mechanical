@@ -3,6 +3,7 @@ import { Link, useLocation } from 'wouter';
 import { ChevronDown, Menu, PhoneCall, X } from 'lucide-react';
 import logoMarkPath from '@assets/image_1788175621031.png';
 import { services } from '@/data/services';
+import { areas } from '@/data/areas';
 
 const phone = '03 5448 8149';
 const phoneHref = 'tel:+61354488149';
@@ -10,12 +11,14 @@ const phoneHref = 'tel:+61354488149';
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const [areasOpen, setAreasOpen] = useState(false);
   const [location, setLocation] = useLocation();
 
   const closeAnd = (action?: () => void) => {
     if (action) action();
     setMenuOpen(false);
     setServicesOpen(false);
+    setAreasOpen(false);
   };
 
   const handleQuoteClick = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
@@ -34,25 +37,8 @@ export function Header() {
     }
   };
 
-  const handleAreasClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    if (location === '/') {
-      e.preventDefault();
-      closeAnd();
-      window.history.replaceState(null, '', '#areas');
-      const areasSection = document.getElementById('areas');
-      if (areasSection) {
-        const headerOffset = 76;
-        const top = areasSection.getBoundingClientRect().top + window.scrollY - headerOffset;
-        window.scrollTo({ top, behavior: 'smooth' });
-      }
-    } else {
-      closeAnd();
-      setLocation('/#areas');
-    }
-  };
-
   return (
-    <header className="sticky top-0 z-40 border-b border-[#303530] bg-[#1c201d]/95 text-[#f2f0e8] backdrop-blur-md" onMouseLeave={() => setServicesOpen(false)}>
+    <header className="sticky top-0 z-40 border-b border-[#303530] bg-[#1c201d]/95 text-[#f2f0e8] backdrop-blur-md" onMouseLeave={() => { setServicesOpen(false); setAreasOpen(false); }}>
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-[#83c438] focus:px-4 focus:py-3 focus:text-[#1c201d]">Skip to content</a>
       <div className="mx-auto flex h-[76px] max-w-[1240px] items-center justify-between gap-4 px-5 lg:px-8">
         <Link href="/" onClick={() => closeAnd()} className="flex shrink-0 items-center gap-3 rounded-sm transition-opacity hover:opacity-90">
@@ -63,7 +49,7 @@ export function Header() {
         </Link>
         <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
           <div className="relative">
-            <button onClick={() => setServicesOpen(!servicesOpen)} className="flex items-center gap-1 text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" aria-expanded={servicesOpen} data-testid="nav-services-toggle">
+            <button onClick={() => { setServicesOpen(!servicesOpen); setAreasOpen(false); }} className="flex items-center gap-1 text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" aria-expanded={servicesOpen} data-testid="nav-services-toggle">
               Services <ChevronDown size={14} className={`transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
             </button>
             {servicesOpen && (
@@ -76,7 +62,20 @@ export function Header() {
               </div>
             )}
           </div>
-          <a href="/#areas" onClick={handleAreasClick} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-areas-link">Service areas</a>
+          <div className="relative">
+            <button onClick={() => { setAreasOpen(!areasOpen); setServicesOpen(false); }} className="flex items-center gap-1 text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" aria-expanded={areasOpen} data-testid="nav-areas-toggle">
+              Service areas <ChevronDown size={14} className={`transition-transform ${areasOpen ? 'rotate-180' : ''}`} />
+            </button>
+            {areasOpen && (
+              <div className="absolute left-0 top-full mt-5 w-64 rounded-sm border border-[#303530] bg-[#1c201d] py-2 shadow-xl">
+                {Object.values(areas).map(area => (
+                  <Link key={area.slug} href={`/service-areas/${area.slug}`} onClick={() => closeAnd()} className="block px-4 py-2.5 text-sm text-[#d4d9d0] transition-colors hover:bg-[#242a25] hover:text-[#83c438]" data-testid={`nav-area-${area.slug}`}>
+                    {area.cityName}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
           <Link href="/about" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-about-link">About JH</Link>
           <a href="/#faq" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-faq-link">FAQ</a>
         </nav>
@@ -101,7 +100,16 @@ export function Header() {
               ))}
             </div>
           </div>
-          <a href="/#areas" onClick={handleAreasClick} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-areas-link">Service areas</a>
+          <div className="block border-b border-[#394139] py-4">
+            <span className="text-sm font-semibold text-[#83c438]">Service areas</span>
+            <div className="mt-3 grid grid-cols-2 gap-3 border-l border-[#394139] pl-3">
+              {Object.values(areas).map(area => (
+                <Link key={area.slug} href={`/service-areas/${area.slug}`} onClick={() => closeAnd()} className="text-sm text-[#d4d9d0]" data-testid={`mobile-area-${area.slug}`}>
+                  {area.cityName}
+                </Link>
+              ))}
+            </div>
+          </div>
           <Link href="/about" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-about-link">About JH</Link>
           <a href="/#faq" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-faq-link">FAQ</a>
           

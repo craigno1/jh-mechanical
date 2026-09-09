@@ -55,6 +55,11 @@ export function Footer() {
                   03 5448 8149
                 </a>
               </li>
+              <li>
+                <a href="https://www.google.com/maps/search/?api=1&query=Unit%203%2F39%20Collins%20St%2C%20Kangaroo%20Flat%20VIC%203555" target="_blank" rel="noreferrer" className="hover:text-[#83c438] transition-colors block leading-6" data-testid="footer-address-link">
+                  Unit 3/39 Collins St<br />Kangaroo Flat VIC 3555
+                </a>
+              </li>
               <li className="pt-2">
                 <Link href="/about" className="hover:text-[#83c438] transition-colors block" data-testid="footer-about-link">About JH</Link>
               </li>

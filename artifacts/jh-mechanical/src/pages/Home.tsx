@@ -172,7 +172,7 @@ function Home() {
 
         <section id="quote" className="bg-[#dedbd0] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] gap-10 lg:grid-cols-[.75fr_1.25fr] lg:items-start">
-            <div className="pt-3"><span className="eyebrow">Let’s get moving</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.9] sm:text-7xl">Good work<br />starts with<br /><span className="text-[#83C438]">a chat.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#5f665d]">Have a job in mind or a vehicle that will not cooperate? Send the details through and we will get back to you.</p><div className="mt-9 flex items-center gap-3"><span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#262d27] text-[#83C438]"><PhoneCall size={18} /></span><div><p className="mono-face text-[10px] uppercase tracking-[.12em] text-[#73796f]">Prefer to call?</p><a href={phoneHref} className="text-lg font-bold text-[#252b25]" data-testid="link-quote-section-phone">{phone}</a></div></div></div>
+            <div className="pt-3"><span className="eyebrow">Let’s get moving</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.9] sm:text-7xl">Good work<br />starts with<br /><span className="text-[#83C438]">a chat.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#5f665d]">Have a job in mind or a vehicle that will not cooperate? Send the details through and we will get back to you.</p><div className="mt-9 flex items-center gap-3"><span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#262d27] text-[#83C438]"><PhoneCall size={18} /></span><div><p className="mono-face text-[13px] uppercase tracking-[.12em] text-[#73796f]">Prefer to call?</p><a href={phoneHref} className="text-lg font-bold text-[#252b25]" data-testid="link-quote-section-phone">{phone}</a></div></div></div>
             <QuoteForm />
           </div>
         </section>
@@ -196,11 +196,11 @@ function Home() {
 
         <section id="areas" className="bg-[#e9e7de] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] gap-9 lg:grid-cols-[.8fr_1.2fr]">
-            <div><span className="eyebrow">Where we work</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Central Victoria<br /><span className="text-[#83C438]">covered.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#626a60]">Based in Bendigo, JH Mechanical helps keep vehicles moving across the region and along the routes that connect it.</p><a href="https://www.google.com/maps/search/Bendigo+Victoria" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 border-b border-[#30372f] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#30372f]" data-testid="link-map-directions"><MapPin size={16} className="text-[#83C438]" /> Open Bendigo map <ArrowUpRight size={15} /></a></div>
+            <div><span className="eyebrow">Where we work</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Central Victoria<br /><span className="text-[#83C438]">covered.</span></h2><p className="mt-6 max-w-sm text-sm leading-6 text-[#626a60]">Based at Unit 3/39 Collins St in Kangaroo Flat, JH Mechanical helps keep vehicles moving across Bendigo and the wider region.</p><a href="https://www.google.com/maps/search/?api=1&query=Unit%203%2F39%20Collins%20St%2C%20Kangaroo%20Flat%20VIC%203555" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 border-b border-[#30372f] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#30372f]" data-testid="link-map-directions"><MapPin size={16} className="text-[#83C438]" /> Open workshop map <ArrowUpRight size={15} /></a></div>
             <div className="relative min-h-[360px] overflow-hidden border border-[#c3c5ba] bg-[#e1e3d8] shadow-[0_12px_25px_rgba(55,68,54,.08)] sm:min-h-[410px]">
               <iframe
-                title="JH Mechanical Service Area - Bendigo Victoria"
-                src="https://www.google.com/maps?q=Bendigo%20Victoria&output=embed"
+                title="JH Mechanical workshop at Unit 3/39 Collins Street, Kangaroo Flat"
+                src="https://www.google.com/maps?q=Unit%203%2F39%20Collins%20St%2C%20Kangaroo%20Flat%20VIC%203555&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -216,7 +216,7 @@ function Home() {
             </div>
             <div className="flex flex-wrap gap-x-8 gap-y-3 border-t border-[#c8c8bd] pt-7 lg:col-start-2">
               {Object.values(areas).map((area) => (
-                <Link href={`/service-areas/${area.slug}`} key={area.slug} className="text-sm font-semibold text-[#3d453c] underline decoration-[#99bd62] decoration-2 underline-offset-4 hover:text-[#83C438]">
+                <Link href={`/service-areas/${area.slug}`} key={area.slug} className="text-xl font-semibold text-[#3d453c] underline decoration-[#99bd62] decoration-2 underline-offset-4 hover:text-[#83C438]">
                   {area.cityName}
                 </Link>
               ))}
