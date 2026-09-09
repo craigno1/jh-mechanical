@@ -190,6 +190,9 @@ export default function ServicePage({ slug }: { slug: string }) {
               <p className="mt-2 text-sm font-medium text-[#2f4216]">
                 Talk directly to a mechanic about your heavy vehicle.
               </p>
+              <p className="mt-2 text-base font-bold text-[#1c201d]">
+                If it's not on the services list, just ask!
+              </p>
             </div>
             <div className="flex flex-wrap gap-4 w-full sm:w-auto">
               <a href={phoneHref} className="flex flex-1 items-center justify-center gap-2 bg-[#1c201d] px-6 py-4 text-sm font-bold uppercase tracking-[.1em] text-[#f2f0e8] hover:bg-[#262d27] transition-colors" data-testid="service-footer-call">

@@ -159,6 +159,9 @@ function Home() {
                 </Link>
               ))}
             </div>
+             <p className="mt-7 border-l-2 border-[#83C438] pl-4 text-base font-semibold text-[#3f473d]">
+               If it's not on the services list, just ask!
+             </p>
           </div>
         </section>
 
