@@ -11,7 +11,7 @@ const phoneHref = 'tel:+61354488149';
 
 function About() {
   return (
-    <div className="noise min-h-[100dvh] bg-[#f6f4ed] text-[#242a24] flex flex-col">
+    <div className="jh-readable noise min-h-[100dvh] bg-[#f6f4ed] text-[#242a24] flex flex-col">
       <SeoHead
         title="About JH Mechanical | Local Diesel Mechanic in Bendigo"
         description="Meet JH Mechanical, a practical and dependable Bendigo diesel mechanic supporting trucks, fleets and heavy vehicles across central Victoria."

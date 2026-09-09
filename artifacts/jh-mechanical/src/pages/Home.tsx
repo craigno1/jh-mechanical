@@ -99,7 +99,7 @@ function Home() {
   ];
 
   return (
-    <div className="noise min-h-[100dvh] overflow-hidden bg-[#f6f4ed]">
+    <div className="jh-readable noise min-h-[100dvh] overflow-hidden bg-[#f6f4ed]">
       <SeoHead
         title="JH Mechanical | Diesel Mechanic Bendigo & Surrounding Victoria"
         description="Dependable diesel mechanic services in Bendigo and surrounding Victoria. JH Mechanical handles servicing, repairs, maintenance and heavy vehicle breakdown help."

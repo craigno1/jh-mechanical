@@ -43,7 +43,7 @@ export default function ServicePage({ slug }: { slug: string }) {
   };
 
   return (
-    <div className="noise min-h-[100dvh] bg-[#f6f4ed] text-[#242a24] flex flex-col">
+    <div className="jh-readable noise min-h-[100dvh] bg-[#f6f4ed] text-[#242a24] flex flex-col">
       <SeoHead
         title={data.metaTitle}
         description={data.metaDescription}
