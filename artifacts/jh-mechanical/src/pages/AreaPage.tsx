@@ -7,6 +7,7 @@ import { Footer } from '@/components/layout/Footer';
 import NotFound from '@/pages/not-found';
 import { Link } from 'wouter';
 import { getSiteUrl } from '@/lib/site-url';
+import { getBusinessId, getBusinessSchema } from '@/lib/business-schema';
 
 const phone = '03 5448 8149';
 const phoneHref = 'tel:+61354488149';
@@ -22,6 +23,7 @@ export default function AreaPage({ slug }: { slug: string }) {
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
+      getBusinessSchema(siteUrl),
       {
         '@type': 'BreadcrumbList',
         'itemListElement': [
@@ -31,10 +33,13 @@ export default function AreaPage({ slug }: { slug: string }) {
         ]
       },
       {
-        '@type': 'AutoRepair',
-        'name': 'JH Mechanical',
-        'telephone': '03 5448 8149',
+        '@type': 'Service',
+        '@id': `${siteUrl}/service-areas/${data.slug}#service`,
+        'name': `Diesel mechanic services in ${data.cityName}`,
         'description': data.metaDescription,
+        'provider': {
+          '@id': getBusinessId(siteUrl),
+        },
         'areaServed': {
           '@type': 'City',
           'name': data.cityName

@@ -6,6 +6,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { SeoHead } from '@/components/layout/SeoHead';
 import { getSiteUrl } from '@/lib/site-url';
+import { getBusinessId, getBusinessSchema } from '@/lib/business-schema';
 
 const phone = '03 5448 8149';
 const phoneHref = 'tel:+61354488149';
@@ -14,22 +15,18 @@ function About() {
   const siteUrl = getSiteUrl();
   const aboutSchema = {
     '@context': 'https://schema.org',
-    '@type': 'AboutPage',
-    name: 'About JH Mechanical',
-    url: `${siteUrl}/about`,
-    mainEntity: {
-      '@type': 'AutoRepair',
-      name: 'JH Mechanical',
-      telephone: '03 5448 8149',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: 'Unit 3/39 Collins St',
-        addressLocality: 'Kangaroo Flat',
-        addressRegion: 'VIC',
-        postalCode: '3555',
-        addressCountry: 'AU',
+    '@graph': [
+      getBusinessSchema(siteUrl),
+      {
+        '@type': 'AboutPage',
+        '@id': `${siteUrl}/about#webpage`,
+        name: 'About JH Mechanical',
+        url: `${siteUrl}/about`,
+        mainEntity: {
+          '@id': getBusinessId(siteUrl),
+        },
       },
-    },
+    ],
   };
 
   return (

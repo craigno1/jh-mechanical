@@ -8,6 +8,7 @@ import { Footer } from '@/components/layout/Footer';
 import NotFound from '@/pages/not-found';
 import { Link } from 'wouter';
 import { getSiteUrl } from '@/lib/site-url';
+import { getBusinessId, getBusinessSchema } from '@/lib/business-schema';
 
 const phone = '03 5448 8149';
 const phoneHref = 'tel:+61354488149';
@@ -23,6 +24,7 @@ export default function ServicePage({ slug }: { slug: string }) {
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
+      getBusinessSchema(siteUrl),
       {
         '@type': 'BreadcrumbList',
         'itemListElement': [
@@ -33,13 +35,16 @@ export default function ServicePage({ slug }: { slug: string }) {
       },
       {
         '@type': 'Service',
+        '@id': `${siteUrl}/services/${data.slug}#service`,
         'name': data.h1,
         'provider': {
-          '@type': 'AutoRepair',
-          'name': 'JH Mechanical',
-          'telephone': '03 5448 8149'
+          '@id': getBusinessId(siteUrl),
         },
-        'description': data.metaDescription
+        'description': data.metaDescription,
+        'areaServed': {
+          '@type': 'State',
+          'name': 'Victoria',
+        },
       }
     ]
   };
