@@ -175,7 +175,7 @@ function Home() {
           <div className="mx-auto grid max-w-[1240px] items-center gap-8 lg:grid-cols-[.85fr_1.15fr]">
             <div><span className="eyebrow">The JH difference</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Capable hands.<br /><span className="text-[#83C438]">No drama.</span></h2><p className="mt-6 max-w-md text-sm leading-6 text-[#b9c1b7]">When your vehicle is part of how you make a living, you need more than a quick patch. You need someone who listens, knows diesel and tells you the truth about the job.</p><Link href="/about" className="mt-8 inline-flex items-center gap-2 border-b border-[#83C438] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#83C438]" data-testid="link-about-difference">Meet JH Mechanical <ArrowUpRight size={16} /></Link></div>
             <div className="grid gap-px bg-[#485348] sm:grid-cols-2">
-              {[['01', 'Local knowledge', 'Bendigo based, with a practical understanding of the work and roads around central Victoria.'], ['02', 'Straight talking', 'We explain what is happening, what matters now and what can wait.'], ['03', 'Work-ready thinking', 'Repairs and maintenance decisions made around uptime, not guesswork.'], ['04', 'One call away', 'When the unexpected happens, you can speak to a real mechanic about the next move.']].map(([number, title, text]) => <div key={number} className="bg-[#262d27] p-6 sm:p-7"><span className="mono-face text-xs text-[#83C438]">{number}</span><h3 className="display-face mt-8 text-3xl font-bold uppercase">{title}</h3><p className="mt-3 text-sm leading-6 text-[#aeb7aa]">{text}</p></div>)}
+              {[['01', 'Local knowledge', 'Bendigo based, with a practical understanding of the work and roads around central Victoria.'], ['02', 'Straight talking', 'We explain what is happening, what matters now and what can wait.'], ['03', 'Work-ready thinking', 'Repairs and maintenance decisions made around uptime, not guesswork.'], ['04', 'One call away', 'When the unexpected happens, you can speak to a real mechanic about the next move.']].map(([number, title, text]) => <div key={number} className="bg-[#262d27] p-6 sm:p-7"><span className="mono-face text-base text-[#83C438]">{number}</span><h3 className="display-face mt-8 text-3xl font-bold uppercase">{title}</h3><p className="mt-3 text-sm leading-6 text-[#aeb7aa]">{text}</p></div>)}
             </div>
           </div>
         </section>
@@ -242,7 +242,7 @@ function Home() {
 
         <section id="faq" className="bg-[#dedbd0] px-5 py-10 sm:py-14 lg:px-8">
           <div className="mx-auto max-w-[768px]">
-            <div className="text-center"><span className="eyebrow">Got questions?</span><h2 className="display-face mt-4 text-[2.65rem] font-bold uppercase leading-[.88] tracking-[-.02em] sm:text-[4.9rem]">Frequently asked.</h2></div>
+            <div className="text-center"><span className="eyebrow">Got questions?</span><h2 className="display-face mt-4 text-[2.65rem] font-bold uppercase leading-[.88] tracking-[-.02em] sm:text-[4.9rem]">Frequently asked questions.</h2></div>
             <div className="mt-10 divide-y divide-[#c1beaf] border-y border-[#c1beaf]">
               {faqs.map((faq, i) => (
                 <details key={i} className="group" open={i === openFaq} onToggle={(e) => { if (e.currentTarget.open) setOpenFaq(i); }}>
