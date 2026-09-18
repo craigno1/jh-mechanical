@@ -166,21 +166,19 @@ export default function ServicePage({ slug }: { slug: string }) {
                 </div>
               </div>
 
-              {/* Related Areas */}
-              {data.relatedAreas && data.relatedAreas.length > 0 && (
-                <div className="bg-[#eeece3] p-6 border border-[#d9d4c8]">
-                  <h4 className="display-face text-xl font-bold uppercase mb-4 text-[#1c201d] border-b-2 border-[#83c438] pb-2 inline-block">Areas we cover</h4>
-                  <ul className="space-y-3">
-                    {data.relatedAreas.map(slug => areas[slug]).filter(Boolean).map(area => (
-                      <li key={area.slug}>
-                        <Link href={`/service-areas/${area.slug}`} className="flex items-center gap-2 text-sm font-semibold text-[#5e665c] hover:text-[#83c438] transition-colors" data-testid={`link-related-area-${area.slug}`}>
-                          <MapPin size={16} className="text-[#83c438]" /> {area.cityName}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              {/* Service Areas */}
+              <div className="bg-[#eeece3] p-6 border border-[#d9d4c8]">
+                <h4 className="display-face text-xl font-bold uppercase mb-4 text-[#1c201d] border-b-2 border-[#83c438] pb-2 inline-block">Areas we cover</h4>
+                <ul className="space-y-3">
+                  {Object.values(areas).map(area => (
+                    <li key={area.slug}>
+                      <Link href={`/service-areas/${area.slug}`} className="flex items-center gap-2 text-sm font-semibold text-[#5e665c] hover:text-[#83c438] transition-colors" data-testid={`link-related-area-${area.slug}`}>
+                        <MapPin size={16} className="text-[#83c438]" /> {area.cityName}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </section>

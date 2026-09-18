@@ -14,9 +14,9 @@ export function Footer() {
               Practical, dependable diesel mechanic services for Bendigo and surrounding Victoria. We keep heavy vehicles and machinery working hard.
             </p>
             <div className="mt-6 flex items-center gap-4">
-              <a href="https://www.facebook.com/dieselmechbendigo" target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center rounded-full bg-[#262d27] text-[#83C438] transition-colors hover:bg-[#323b33]">
+              <a href="https://www.facebook.com/dieselmechbendigo" target="_blank" rel="noreferrer" className="flex h-12 w-12 items-center justify-center rounded-full bg-[#262d27] text-[#83C438] transition-colors hover:bg-[#323b33]">
                 <span className="sr-only">Facebook</span>
-                <Facebook size={18} />
+                <Facebook size={26} />
               </a>
             </div>
           </div>
