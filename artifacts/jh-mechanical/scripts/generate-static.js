@@ -10,7 +10,7 @@ if (!process.env.URL) {
 }
 const baseUrl = process.env.URL.replace(/\/+$/, '');
 const routes = [
-  '/', '/about',
+  '/', '/about', '/products',
   '/services/diesel-mechanic', '/services/diesel-servicing',
   '/services/vehicle-maintenance', '/services/vehicle-breakdown',
   '/services/vehicle-repairs',

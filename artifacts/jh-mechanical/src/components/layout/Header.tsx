@@ -47,7 +47,7 @@ export function Header() {
           </span>
           <span className="display-face text-xl font-bold uppercase leading-none tracking-wide text-[#f2f0e8] sm:text-2xl">JH Mechanical</span>
         </Link>
-        <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
+        <nav className="hidden items-center gap-7 xl:flex" aria-label="Primary navigation">
           <div className="relative">
             <button onClick={() => { setServicesOpen(!servicesOpen); setAreasOpen(false); }} className="flex items-center gap-1 text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" aria-expanded={servicesOpen} data-testid="nav-services-toggle">
               Services <ChevronDown size={14} className={`transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
@@ -76,20 +76,21 @@ export function Header() {
               </div>
             )}
           </div>
+          <Link href="/products" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-products-link">Products</Link>
           <Link href="/about" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-about-link">About JH</Link>
           <a href="/#faq" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-faq-link">FAQ</a>
         </nav>
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="hidden items-center gap-3 xl:flex">
           <a href={phoneHref} className="flex items-center gap-2 text-sm font-semibold text-[#f2f0e8] hover:text-[#83c438] transition-colors" data-testid="nav-phone-link"><PhoneCall size={16} className="text-[#83c438]" /> {phone}</a>
           <button onClick={handleQuoteClick} className="bg-[#83c438] px-4 py-3 text-xs font-bold uppercase tracking-[.09em] text-[#1c201d] transition-colors hover:bg-[#94d14b]" data-testid="nav-quote-btn">Get a quote</button>
         </div>
-        <button onClick={() => setMenuOpen(!menuOpen)} className="p-2 text-[#f2f0e8] md:hidden shrink-0" aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'} aria-expanded={menuOpen} data-testid="mobile-menu-toggle">
+        <button onClick={() => setMenuOpen(!menuOpen)} className="p-2 text-[#f2f0e8] xl:hidden shrink-0" aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'} aria-expanded={menuOpen} data-testid="mobile-menu-toggle">
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
       
       {menuOpen && (
-        <nav className="border-t border-[#303530] bg-[#242a25] px-5 pb-5 pt-2 md:hidden overflow-y-auto max-h-[calc(100dvh-76px)]" aria-label="Mobile navigation">
+        <nav className="border-t border-[#303530] bg-[#242a25] px-5 pb-5 pt-2 xl:hidden overflow-y-auto max-h-[calc(100dvh-76px)]" aria-label="Mobile navigation">
           <div className="block border-b border-[#394139] py-4">
             <span className="text-sm font-semibold text-[#83c438]">Services</span>
             <div className="mt-3 flex flex-col gap-3 border-l border-[#394139] pl-3">
@@ -110,6 +111,7 @@ export function Header() {
               ))}
             </div>
           </div>
+          <Link href="/products" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-products-link">Products</Link>
           <Link href="/about" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-about-link">About JH</Link>
           <a href="/#faq" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-faq-link">FAQ</a>
           

@@ -1,0 +1,1 @@
+- [Products catalogue scope](products-catalogue.md) — consumables are purchased by request or as part of a job, not online.
