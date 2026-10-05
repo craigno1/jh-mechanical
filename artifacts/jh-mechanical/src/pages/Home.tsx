@@ -33,6 +33,7 @@ import { services } from '@/data/services';
 import { areas } from '@/data/areas';
 import { getSiteUrl } from '@/lib/site-url';
 import { getBusinessSchema } from '@/lib/business-schema';
+import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 
 const phone = '03 5448 8149';
 const phoneHref = 'tel:+61354488149';
@@ -87,6 +88,7 @@ function QuoteForm() {
 }
 
 function Home() {
+  const scrollRevealRef = useScrollReveal();
   const [openFaq, setOpenFaq] = useState(0);
   const scrollToQuote = () => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   const siteUrl = getSiteUrl();
@@ -122,7 +124,7 @@ function Home() {
       />
       <Header />
       
-      <main id="main-content">
+      <main id="main-content" ref={scrollRevealRef}>
         <section className="relative bg-[#1c201d] text-[#f2f0e8]">
           <div className="hero-grid absolute inset-0 opacity-40" />
           <div className="relative mx-auto grid max-w-[1240px] items-center gap-12 px-5 pb-20 pt-16 sm:pt-24 lg:grid-cols-[1.05fr_.95fr] lg:px-8 lg:pb-28 lg:pt-24">
@@ -202,7 +204,7 @@ function Home() {
                 <h2 className="display-face text-4xl font-bold uppercase tracking-tight sm:text-5xl lg:text-6xl text-[#1c201d]">Recent Work</h2>
               </div>
             </div>
-            <div className="mt-8 grid gap-4 lg:grid-cols-3">
+            <div className="mt-8 grid gap-4 lg:grid-cols-3" data-scroll-reveal>
               <div className="lg:col-span-2 overflow-hidden bg-[#242a25]"><img src={gallery1} alt="Recent diesel mechanic work in Bendigo" className="h-full w-full object-cover min-h-[300px] opacity-90 transition-transform duration-700 hover:scale-105" loading="lazy" /></div>
               <div className="overflow-hidden bg-[#242a25]"><img src={gallery2} alt="JH Mechanical working on a heavy vehicle" className="h-full w-full object-cover min-h-[300px] opacity-90 transition-transform duration-700 hover:scale-105" loading="lazy" /></div>
               <div className="overflow-hidden bg-[#242a25]"><img src={gallery3} alt="Truck maintenance in central Victoria" className="h-full w-full object-cover min-h-[250px] opacity-90 transition-transform duration-700 hover:scale-105" loading="lazy" /></div>
