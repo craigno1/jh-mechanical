@@ -80,7 +80,7 @@ export function Header() {
           <Link href="/about" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-about-link">About JH</Link>
           <a href="/#faq" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-faq-link">FAQ</a>
         </nav>
-        <div className="hidden shrink-0 items-center gap-2 whitespace-nowrap lg:flex xl:gap-3">
+        <div className="hidden shrink-0 items-center gap-6 whitespace-nowrap lg:flex xl:gap-8">
           <a href={phoneHref} className="flex items-center gap-2 text-sm font-semibold text-[#f2f0e8] hover:text-[#83c438] transition-colors" data-testid="nav-phone-link"><PhoneCall size={16} className="text-[#83c438]" /> {phone}</a>
           <button onClick={handleQuoteClick} className="bg-[#83c438] px-4 py-3 text-xs font-bold uppercase tracking-[.09em] text-[#1c201d] transition-colors hover:bg-[#94d14b]" data-testid="nav-quote-btn">Get a quote</button>
         </div>
