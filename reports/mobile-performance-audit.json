@@ -1,0 +1,207 @@
+{
+  "source": "Lighthouse CLI against published site; simulated mobile lab measurements, not real-user field data",
+  "pagespeed_api": {
+    "status": 429,
+    "reason": "Public API quota exceeded"
+  },
+  "core_web_vitals_field_data": "Not available from the attempted PageSpeed API; not assessed. No INP field measurement or indexing evidence available.",
+  "results": [
+    {
+      "url": "https://jh-mechanical.replit.app/",
+      "checked_at": "2026-10-09T12:01:50.619Z",
+      "lighthouse_version": "13.5.0",
+      "mobile": true,
+      "throttling_method": "simulate",
+      "cpu_slowdown": 4,
+      "performance": 52,
+      "seo": 100,
+      "warnings": [],
+      "metrics": {
+        "first-contentful-paint": {
+          "display": "6.6 s",
+          "value": 6648.361000000001
+        },
+        "largest-contentful-paint": {
+          "display": "7.0 s",
+          "value": 6951.118
+        },
+        "total-blocking-time": {
+          "display": "370 ms",
+          "value": 368.2569999999996
+        },
+        "cumulative-layout-shift": {
+          "display": "0",
+          "value": 0
+        },
+        "speed-index": {
+          "display": "6.6 s",
+          "value": 6648.361000000001
+        },
+        "total-byte-weight": {
+          "display": "Total size was 4,610 KiB",
+          "value": 4720901
+        },
+        "image-delivery-insight": {
+          "display": "Est savings of 3,836 KiB"
+        },
+        "render-blocking-insight": {
+          "display": "Est savings of 2,280 ms"
+        }
+      },
+      "image_delivery_findings": [
+        {
+          "url": "https://jh-mechanical.replit.app/assets/image_1788154192187-ClU9-F3i.png",
+          "bytes": 1746801,
+          "estimated_savings_bytes": 1708252
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/image_1788154125619-VYXgAUCq.png",
+          "bytes": 626492,
+          "estimated_savings_bytes": 609194
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/image_1789720831776-CbO0tKf-.png",
+          "bytes": 616383,
+          "estimated_savings_bytes": 599271
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/image_1789721445475-BfJKxVG1.png",
+          "bytes": 468954,
+          "estimated_savings_bytes": 448973
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/image_1789720432544-BZpe420H.png",
+          "bytes": 314301,
+          "estimated_savings_bytes": 297353
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/Screenshot_2026-09-18_184252_1789721472137-kHMPNSg0.png",
+          "bytes": 250851,
+          "estimated_savings_bytes": 233679
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+          "bytes": 31511,
+          "estimated_savings_bytes": 31376
+        }
+      ]
+    },
+    {
+      "url": "https://jh-mechanical.replit.app/products/",
+      "checked_at": "2026-10-09T12:03:12.207Z",
+      "lighthouse_version": "13.5.0",
+      "mobile": true,
+      "throttling_method": "simulate",
+      "cpu_slowdown": 4,
+      "performance": 67,
+      "seo": 100,
+      "warnings": [
+        "The page may not be loading as expected because your test URL (https://jh-mechanical.replit.app/products) was redirected to https://jh-mechanical.replit.app/products/. Try testing the second URL directly."
+      ],
+      "metrics": {
+        "first-contentful-paint": {
+          "display": "5.1 s",
+          "value": 5074.2339999999995
+        },
+        "largest-contentful-paint": {
+          "display": "5.3 s",
+          "value": 5337.224
+        },
+        "total-blocking-time": {
+          "display": "40 ms",
+          "value": 40.5
+        },
+        "cumulative-layout-shift": {
+          "display": "0",
+          "value": 0
+        },
+        "speed-index": {
+          "display": "5.1 s",
+          "value": 5074.2339999999995
+        },
+        "total-byte-weight": {
+          "display": "Total size was 11,641 KiB",
+          "value": 11920480
+        },
+        "image-delivery-insight": {
+          "display": "Est savings of 10,805 KiB"
+        },
+        "render-blocking-insight": {
+          "display": "Est savings of 1,800 ms"
+        }
+      },
+      "image_delivery_findings": [
+        {
+          "url": "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-CNm8LTaD.jpg",
+          "bytes": 4548632,
+          "estimated_savings_bytes": 4533422
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-DM3O6hB3.jpg",
+          "bytes": 2786771,
+          "estimated_savings_bytes": 2771561
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-CAyTY9rQ.png",
+          "bytes": 571378,
+          "estimated_savings_bytes": 552284
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-vycNo3_C.png",
+          "bytes": 518726,
+          "estimated_savings_bytes": 499875
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-DpEmTIIw.jpg",
+          "bytes": 496694,
+          "estimated_savings_bytes": 483908
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/powermaxd-products_1791199475170-B4Oa5LoF.png",
+          "bytes": 416573,
+          "estimated_savings_bytes": 401601
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/wuurth-products_1791199475173-CmkyYrRN.png",
+          "bytes": 411591,
+          "estimated_savings_bytes": 389774
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/adblue_1791199475173-D3w3QFvP.png",
+          "bytes": 402702,
+          "estimated_savings_bytes": 380152
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/trytechoils_1791199475171-Bs6DRBK6.png",
+          "bytes": 367324,
+          "estimated_savings_bytes": 349838
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-SL_va0jm.png",
+          "bytes": 313837,
+          "estimated_savings_bytes": 290534
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/perite-oils_1791199475175-B6o9kshc.png",
+          "bytes": 212205,
+          "estimated_savings_bytes": 201873
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-BZpru8lB.jpg",
+          "bytes": 147936,
+          "estimated_savings_bytes": 125119
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/dpf-cleanr_1791199475174-DoBmpSPL.png",
+          "bytes": 64781,
+          "estimated_savings_bytes": 52740
+        },
+        {
+          "url": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+          "bytes": 31511,
+          "estimated_savings_bytes": 31376
+        }
+      ]
+    }
+  ]
+}

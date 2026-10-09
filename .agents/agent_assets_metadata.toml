@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "Fp5JP2Mz3Y9M2CfMFPnVw"
+uri = "file://reports/published-site-audit.html"
+type = "html"
+title = "Published crawlability and mobile performance report"
+description = "All 16 live routes, 37 internal assets, slash/404 checks, mobile Lighthouse results, and Search Console setup steps."
+logical_id = "4142b886-5d41-4e17-9098-f573d2123131"
+content_hash = "sha256:4793d809e7a279a77d4a0086293557d3f73c715e1c0d4a45f1db7cf890b89728"
+size = 32335
+mtime_ms = 1791547483857
+storage_uri = "gcs://replit-rams-assets-riker/rams/assets/repl:c524622f-60ef-4413-b35d-55aa8133afe7/4142b886-5d41-4e17-9098-f573d2123131/dfdfe8e8-e05f-41c4-9d67-dfbd7cc3adf6"
+storage_version_token = "1791547484446059"
+content_type = "text/html"
