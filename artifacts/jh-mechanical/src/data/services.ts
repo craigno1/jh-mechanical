@@ -1,8 +1,8 @@
-import img2 from '@assets/image_1788866165181.png';
-import img3 from '@assets/image_1788866176971.png';
-import img4 from '@assets/image_1788866203536.png';
-import img5 from '@assets/image_1788866217071.png';
-import dieselMechanicHero from '@assets/image_1788866246504.png';
+import img2 from '@/assets/optimized/image_1788866165181.webp';
+import img3 from '@/assets/optimized/image_1788866176971.webp';
+import img4 from '@/assets/optimized/image_1788866203536.webp';
+import img5 from '@/assets/optimized/image_1788866217071.webp';
+import dieselMechanicHero from '@/assets/optimized/image_1788866246504.webp';
 
 export type ServiceData = {
   slug: string;

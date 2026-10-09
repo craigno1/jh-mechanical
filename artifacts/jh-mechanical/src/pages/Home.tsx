@@ -16,16 +16,16 @@ import {
   Upload,
   Wrench,
 } from 'lucide-react';
-import heroImg from '@assets/image_1788154192187.png';
-import gallery1 from '@assets/image_1788154081149.png';
-import gallery2 from '@assets/image_1788154100216.png';
-import gallery3 from '@assets/image_1788154109579.png';
-import gallery4 from '@assets/image_1788154125619.png';
-import gallery5 from '@assets/image_1788154241783.png';
-import repairsTileImg from '@assets/image_1789720432544.png';
-import breakdownTileImg from '@assets/image_1789720831776.png';
-import maintenanceTileImg from '@assets/image_1789721445475.png';
-import mechanicTileImg from '@assets/Screenshot_2026-09-18_184252_1789721472137.png';
+import heroImg from '@/assets/optimized/image_1788154192187.webp';
+import gallery1 from '@/assets/optimized/image_1788154081149.webp';
+import gallery2 from '@/assets/optimized/image_1788154100216.webp';
+import gallery3 from '@/assets/optimized/image_1788154109579.webp';
+import gallery4 from '@/assets/optimized/image_1788154125619.webp';
+import gallery5 from '@/assets/optimized/image_1788154241783.webp';
+import repairsTileImg from '@/assets/optimized/image_1789720432544.webp';
+import breakdownTileImg from '@/assets/optimized/image_1789720831776.webp';
+import maintenanceTileImg from '@/assets/optimized/image_1789721445475.webp';
+import mechanicTileImg from '@/assets/optimized/Screenshot_2026-09-18_184252_1789721472137.webp';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { SeoHead } from '@/components/layout/SeoHead';
@@ -143,7 +143,7 @@ function Home() {
             </div>
             <div className="reveal reveal-delay-2 relative mx-auto w-full max-w-[500px] lg:ml-auto">
               <div className="relative aspect-[4/4.5] overflow-hidden border border-[#3b443b] bg-[#1c201d]">
-                <img src={heroImg} alt="JH Mechanical working on a heavy vehicle" className="absolute inset-0 h-full w-full object-cover" />
+                <img src={heroImg} alt="JH Mechanical working on a heavy vehicle" className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111511]/90 via-[#111511]/20 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <p className="display-face text-3xl font-bold uppercase text-[#f2f0e8]">Keep your work moving</p>
@@ -151,7 +151,6 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="absolute bottom-5 right-5 hidden items-center gap-3 text-[#849083] lg:flex"><span className="h-px w-16 bg-[#526052]" />01 / 04</div>
         </section>
 
         <section className="border-b border-[#d9d4c8] bg-[#eeece3]">
@@ -168,7 +167,7 @@ function Home() {
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
               {servicesList.map(({ slug, h1, subtitle, icon: Icon, image }, index) => (
                 <Link href={`/services/${slug}`} key={slug} className={`service-card group relative isolate flex min-h-[267px] overflow-hidden border border-[#485348] p-5 text-[#f2f0e8] lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`}>
-                  <img src={image} alt="" className="absolute inset-0 -z-20 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <img src={image} alt="" className="absolute inset-0 -z-20 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
                   <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#111611]/70 via-[#111611]/48 to-[#111611]/95" />
                   <div className="flex w-full flex-col">
                     <div className="flex items-start justify-between"><Icon size={39} strokeWidth={1.7} className="text-[#83C438] drop-shadow-[0_2px_3px_rgba(0,0,0,.8)]" /><ArrowUpRight size={21} className="text-[#f2f0e8] drop-shadow-[0_2px_3px_rgba(0,0,0,.8)] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" /></div>

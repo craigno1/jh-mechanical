@@ -1,9 +1,9 @@
-import img1 from '@assets/image_1788866147775.png';
-import img3 from '@assets/image_1788866176971.png';
-import img6 from '@assets/image_1788866232386.png';
-import img7 from '@assets/image_1788866246504.png';
-import img8 from '@assets/image_1788866276475.png';
-import heroImg from '@assets/image_1788154192187.png';
+import img1 from '@/assets/optimized/image_1788866147775.webp';
+import img3 from '@/assets/optimized/image_1788866176971.webp';
+import img6 from '@/assets/optimized/image_1788866232386.webp';
+import img7 from '@/assets/optimized/image_1788866246504.webp';
+import img8 from '@/assets/optimized/image_1788866276475.webp';
+import heroImg from '@/assets/optimized/image_1788154192187.webp';
 
 export type AreaData = {
   slug: string;

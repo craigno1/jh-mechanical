@@ -1,7 +1,7 @@
 import { Link } from 'wouter';
 import { ArrowUpRight, CheckCircle2, MapPin, PhoneCall, ShieldCheck, Wrench } from 'lucide-react';
-import storefrontImg from '@assets/image_1788154164791.png';
-import teamImg from '@assets/image_1788177487503.png';
+import storefrontImg from '@/assets/optimized/image_1788154164791.webp';
+import teamImg from '@/assets/optimized/image_1788177487503.webp';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { SeoHead } from '@/components/layout/SeoHead';
