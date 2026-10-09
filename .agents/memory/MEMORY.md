@@ -1,2 +1,3 @@
 - [Products catalogue scope](products-catalogue.md) — consumables are purchased by request or as part of a job, not online.
 - [Homepage motion constraints](homepage-motion.md) — subtle scroll effects must preserve speed, crawlable content and reduced-motion accessibility.
+- [Production URL configuration](production-url.md) — pre-rendering needs an explicitly verified production origin; do not assume hosting supplies it.
