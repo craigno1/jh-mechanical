@@ -65,5 +65,13 @@ fs.writeFileSync(path.join(publicDir, 'robots.txt'), `User-agent: *
 Allow: /
 Sitemap: ${baseUrl}/sitemap.xml
 `);
+// A real missing page must not be rewritten to the homepage (a soft 404).
+fs.writeFileSync(
+  path.join(publicDir, '404.html'),
+  template
+    .replace('<!--seo-head-->', '<title>Page not found | JH Mechanical</title>')
+    .replace('content="index, follow"', 'content="noindex, follow"')
+    .replace('<div id="root"></div>', `<div id="root">${render('/404')}</div>`),
+);
 fs.rmSync(path.resolve(__dirname, '../dist/server'), { recursive: true, force: true });
 console.log(`Pre-rendered ${routes.length} crawlable pages.`);

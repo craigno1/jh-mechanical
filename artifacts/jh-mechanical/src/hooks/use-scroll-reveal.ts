@@ -19,12 +19,12 @@ export function useScrollReveal() {
         if (motion.matches) continue;
         const animation = entry.target.animate(
           [
-            { opacity: 0.25, transform: 'translateY(12px)' },
+            { opacity: 0.2, transform: 'translateY(16px)' },
             { opacity: 1, transform: 'translateY(0)' },
           ],
           {
-            duration: 420,
-            delay: Math.min(batchIndex++ * 40, 80),
+            duration: 560,
+            delay: Math.min(batchIndex++ * 50, 100),
             easing: 'cubic-bezier(0.2, 0.7, 0.2, 1)',
           },
         );
@@ -32,7 +32,7 @@ export function useScrollReveal() {
         animation.onfinish = () => animations.delete(animation);
         animation.oncancel = () => animations.delete(animation);
       }
-    }, { rootMargin: '0px 0px 60px 0px', threshold: 0 });
+    }, { rootMargin: '0px 0px -48px 0px', threshold: 0 });
 
     // Leave the hero and anything already visible untouched to protect initial paint.
     root.querySelectorAll(

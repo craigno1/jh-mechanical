@@ -20,8 +20,128 @@ serve = "static"
 publicDir = "artifacts/jh-mechanical/dist/public"
 
 [[services.production.rewrites]]
-from = "/*"
+from = "/"
 to = "/index.html"
+
+[[services.production.rewrites]]
+from = "/about"
+to = "/about/index.html"
+
+[[services.production.rewrites]]
+from = "/about/"
+to = "/about/index.html"
+
+[[services.production.rewrites]]
+from = "/products"
+to = "/products/index.html"
+
+[[services.production.rewrites]]
+from = "/products/"
+to = "/products/index.html"
+
+[[services.production.rewrites]]
+from = "/services/diesel-mechanic"
+to = "/services/diesel-mechanic/index.html"
+
+[[services.production.rewrites]]
+from = "/services/diesel-mechanic/"
+to = "/services/diesel-mechanic/index.html"
+
+[[services.production.rewrites]]
+from = "/services/diesel-servicing"
+to = "/services/diesel-servicing/index.html"
+
+[[services.production.rewrites]]
+from = "/services/diesel-servicing/"
+to = "/services/diesel-servicing/index.html"
+
+[[services.production.rewrites]]
+from = "/services/vehicle-maintenance"
+to = "/services/vehicle-maintenance/index.html"
+
+[[services.production.rewrites]]
+from = "/services/vehicle-maintenance/"
+to = "/services/vehicle-maintenance/index.html"
+
+[[services.production.rewrites]]
+from = "/services/vehicle-breakdown"
+to = "/services/vehicle-breakdown/index.html"
+
+[[services.production.rewrites]]
+from = "/services/vehicle-breakdown/"
+to = "/services/vehicle-breakdown/index.html"
+
+[[services.production.rewrites]]
+from = "/services/vehicle-repairs"
+to = "/services/vehicle-repairs/index.html"
+
+[[services.production.rewrites]]
+from = "/services/vehicle-repairs/"
+to = "/services/vehicle-repairs/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/heathcote"
+to = "/service-areas/heathcote/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/heathcote/"
+to = "/service-areas/heathcote/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/bendigo"
+to = "/service-areas/bendigo/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/bendigo/"
+to = "/service-areas/bendigo/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/seymour"
+to = "/service-areas/seymour/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/seymour/"
+to = "/service-areas/seymour/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/macedon"
+to = "/service-areas/macedon/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/macedon/"
+to = "/service-areas/macedon/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/shepparton"
+to = "/service-areas/shepparton/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/shepparton/"
+to = "/service-areas/shepparton/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/lockington"
+to = "/service-areas/lockington/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/lockington/"
+to = "/service-areas/lockington/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/melbourne"
+to = "/service-areas/melbourne/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/melbourne/"
+to = "/service-areas/melbourne/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/sunbury"
+to = "/service-areas/sunbury/index.html"
+
+[[services.production.rewrites]]
+from = "/service-areas/sunbury/"
+to = "/service-areas/sunbury/index.html"
 
 [services.env]
 PORT = "19141"

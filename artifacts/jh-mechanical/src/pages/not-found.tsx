@@ -14,8 +14,11 @@ export default function NotFound() {
           </div>
 
           <p className="mt-4 text-sm text-gray-600">
-            Did you forget to add the page to the router?
+            This page could not be found. Please check the address or return to the homepage.
           </p>
+          <a href={import.meta.env.BASE_URL} className="mt-5 inline-block font-semibold underline">
+            Back to JH Mechanical
+          </a>
         </CardContent>
       </Card>
     </div>
