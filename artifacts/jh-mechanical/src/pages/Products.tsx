@@ -46,7 +46,7 @@ function Products() {
       {
         '@type': 'CollectionPage',
         '@id': `${siteUrl}/products#webpage`,
-        name: 'Products - Consumables for Vehicles',
+        name: 'Products: Consumables for Vehicles',
         url: `${siteUrl}/products`,
       },
     ],
@@ -55,7 +55,7 @@ function Products() {
   return (
     <div className="jh-readable noise flex min-h-[100dvh] flex-col bg-[#f6f4ed]">
       <SeoHead
-        title="Products - Consumables for Vehicles"
+        title="Products: Consumables for Vehicles"
         description="Vehicle consumables available from JH Mechanical in Bendigo, including oils, AdBlue, cleaners, rags and DPF system cleaner. Ask us by phone."
         canonicalUrl={`${siteUrl}/products`}
         schema={schema}
@@ -66,7 +66,7 @@ function Products() {
           <div className="mx-auto max-w-[1240px]">
             <span className="eyebrow">Bendigo diesel workshop</span>
             <h1 className="display-face mt-5 max-w-4xl text-[2.65rem] font-bold uppercase leading-[.88] tracking-[-.03em] sm:text-[4.6rem]">
-              Products - <span className="text-[#83C438]">Consumables for Vehicles</span>
+              Products: <span className="text-[#83C438]">Consumables for Vehicles</span>
             </h1>
             <p className="mt-7 max-w-2xl border-l-2 border-[#83C438] pl-5 text-base leading-7 text-[#bdc5ba]">
               Vehicle products available to buy from us: everyday supplies that keep a working vehicle clean, topped up and running. They can be purchased by request or as part of a job. They are not available to buy through this website, so call us to discuss what you need.
