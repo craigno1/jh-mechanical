@@ -29,6 +29,12 @@ if (!basePath) {
 
 export default defineConfig({
   base: basePath,
+  define: {
+    // Only enable Netlify's form endpoint in builds actually hosted there.
+    'import.meta.env.VITE_NETLIFY_FORMS_ENABLED': JSON.stringify(
+      process.env.NETLIFY === 'true' ? 'true' : 'false',
+    ),
+  },
   plugins: [
     react(),
     tailwindcss(),

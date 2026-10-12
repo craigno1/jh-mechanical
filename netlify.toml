@@ -7,7 +7,6 @@
   BASE_PATH = "/"
   PORT = "8888"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# Public pages are pre-rendered to their own directory/index.html.
+# Do not add a wildcard homepage rewrite: Netlify serves 404.html for
+# unknown paths, keeping genuine HTTP 404s and route-specific SEO intact.

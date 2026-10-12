@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ResponsiveImage } from '@/components/ResponsiveImage';
+import { QuoteForm } from '@/components/QuoteForm';
 import { Link } from 'wouter';
 import {
   ArrowUpRight,
@@ -14,7 +15,6 @@ import {
   Quote,
   ShieldCheck,
   Truck,
-  Upload,
   Wrench,
 } from 'lucide-react';
 import heroImg from '@/assets/optimized/image_1788154192187.webp';
@@ -46,47 +46,6 @@ const faqs = [
   { q: 'Can I get an instant quote?', a: 'Send through your name, phone number and a short description of the job using the form below. Adding a photo can help us understand the issue before we speak.' },
   { q: 'Which areas around Bendigo do you cover?', a: 'JH Mechanical services Bendigo and surrounding Victoria, including Heathcote, Seymour, Macedon, Shepparton, Lockington, Melbourne and Sunbury.' },
 ];
-
-function QuoteForm() {
-  const [submitted, setSubmitted] = useState(false);
-  const [fileName, setFileName] = useState('');
-  return (
-    <div className="relative overflow-hidden bg-[#262d27] p-6 text-[#f2f0e8] shadow-[0_20px_60px_rgba(20,27,21,.2)] sm:p-8 lg:p-10">
-      <div className="absolute -right-14 -top-14 h-44 w-44 rounded-full border-[22px] border-[#83C438]/10" />
-      <div className="relative">
-        {!submitted ? (
-          <>
-            <div className="mb-7">
-              <span className="eyebrow">Free instant quote</span>
-              <h2 className="display-face mt-3 text-4xl font-bold uppercase leading-[.94] tracking-tight text-[#f2f0e8] sm:text-5xl">Tell us what<br /><span className="text-[#83C438]">needs doing.</span></h2>
-              <p className="mt-4 max-w-md text-sm leading-6 text-[#b9c0b6]">A few details helps us call you back prepared. No hard sell, no run-around.</p>
-            </div>
-            <form onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }} className="space-y-4">
-              <div className="grid gap-4 sm:grid-cols-2">
-                <label className="block text-xs font-semibold uppercase tracking-[.1em] text-[#c8cec4]">Your name<input required name="name" type="text" placeholder="e.g. Chris Taylor" className="mt-2 block w-full border border-[#515c51] bg-[#1c211d] px-4 py-3.5 text-sm font-normal normal-case tracking-normal text-[#f2f0e8] placeholder:text-[#768176]" data-testid="input-quote-name" /></label>
-                <label className="block text-xs font-semibold uppercase tracking-[.1em] text-[#c8cec4]">Best phone number<input required name="phone" type="tel" placeholder="04xx xxx xxx" className="mt-2 block w-full border border-[#515c51] bg-[#1c211d] px-4 py-3.5 text-sm font-normal normal-case tracking-normal text-[#f2f0e8] placeholder:text-[#768176]" data-testid="input-quote-phone" /></label>
-              </div>
-              <label className="block text-xs font-semibold uppercase tracking-[.1em] text-[#c8cec4]">What can we help with?<textarea required name="job" rows={4} placeholder="Tell us about the vehicle and the job..." className="mt-2 block w-full resize-none border border-[#515c51] bg-[#1c211d] px-4 py-3.5 text-sm font-normal normal-case tracking-normal text-[#f2f0e8] placeholder:text-[#768176]" data-testid="input-quote-job" /></label>
-              <label className="flex cursor-pointer items-center gap-3 border border-dashed border-[#687467] bg-[#303930] px-4 py-3.5 text-sm text-[#d6ddd1] transition-colors hover:border-[#83C438]">
-                <Upload size={18} className="shrink-0 text-[#83C438]" /><span className="min-w-0 truncate">{fileName || 'Add a photo of the vehicle or issue (optional)'}</span><input type="file" accept="image/*" className="sr-only" onChange={(event) => setFileName(event.target.files?.[0]?.name || '')} data-testid="input-quote-photo" />
-              </label>
-              <button type="submit" className="flex w-full items-center justify-center gap-3 bg-[#83C438] px-5 py-4 text-sm font-bold uppercase tracking-[.1em] text-[#1c201d] transition-colors hover:bg-[#94d14b]" data-testid="button-submit-quote">Send quote request <ArrowUpRight size={17} /></button>
-              <p className="text-center text-[11px] leading-5 text-[#899487]">We will use these details only to respond to your enquiry. For urgent breakdown help, call <a href={phoneHref} className="font-bold text-[#83C438]" data-testid="link-quote-phone">{phone}</a>.</p>
-            </form>
-          </>
-        ) : (
-          <div className="flex min-h-[445px] flex-col justify-center">
-            <CheckCircle2 size={44} className="text-[#83C438]" />
-            <span className="eyebrow mt-7">Request received</span>
-            <h2 className="display-face mt-3 text-5xl font-bold uppercase leading-[.94]">Thanks —<br /><span className="text-[#83C438]">we have it.</span></h2>
-            <p className="mt-5 max-w-sm text-sm leading-6 text-[#c1c9bd]">Your details are ready for the JH Mechanical team. For a faster answer, call us directly on <a href={phoneHref} className="font-semibold text-[#83C438]" data-testid="link-confirmation-phone">{phone}</a>.</p>
-            <button onClick={() => setSubmitted(false)} className="mt-8 w-fit border border-[#5a6759] px-5 py-3 text-xs font-bold uppercase tracking-[.1em] text-[#f2f0e8] hover:border-[#83C438]" data-testid="button-new-quote">Send another request</button>
-          </div>
-        )}
-      </div>
-    </div>
-  );
-}
 
 function Home() {
   const scrollRevealRef = useScrollReveal();

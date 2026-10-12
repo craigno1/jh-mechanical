@@ -2,3 +2,4 @@
 - [Homepage motion constraints](homepage-motion.md) — subtle scroll effects must preserve speed, crawlable content and reduced-motion accessibility.
 - [Production URL configuration](production-url.md) — pre-rendering needs an explicitly verified production origin; do not assume hosting supplies it.
 - [Photo optimization constraints](photo-optimization.md) — retain originals, mappings and crops; distinguish byte savings from measured performance.
+- [Netlify publishing](netlify-publishing.md) — update the existing GitHub-linked jh-mechanical project; do not create a new hosting project.
