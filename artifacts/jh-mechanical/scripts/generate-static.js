@@ -10,14 +10,14 @@ if (!process.env.URL) {
 }
 const baseUrl = process.env.URL.replace(/\/+$/, '');
 const routes = [
-  '/', '/about', '/products',
-  '/services/diesel-mechanic', '/services/diesel-servicing',
-  '/services/vehicle-maintenance', '/services/vehicle-breakdown',
-  '/services/vehicle-repairs',
-  '/service-areas/heathcote', '/service-areas/bendigo',
-  '/service-areas/seymour', '/service-areas/macedon',
-  '/service-areas/shepparton', '/service-areas/lockington',
-  '/service-areas/melbourne', '/service-areas/sunbury'
+  '/', '/about/', '/products/',
+  '/services/diesel-mechanic/', '/services/diesel-servicing/',
+  '/services/vehicle-maintenance/', '/services/vehicle-breakdown/',
+  '/services/vehicle-repairs/',
+  '/service-areas/heathcote/', '/service-areas/bendigo/',
+  '/service-areas/seymour/', '/service-areas/macedon/',
+  '/service-areas/shepparton/', '/service-areas/lockington/',
+  '/service-areas/melbourne/', '/service-areas/sunbury/'
 ];
 
 process.env.URL = baseUrl;

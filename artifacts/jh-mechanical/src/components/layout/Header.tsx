@@ -55,7 +55,7 @@ export function Header() {
             {servicesOpen && (
               <div className="absolute left-0 top-full mt-5 w-64 rounded-sm border border-[#303530] bg-[#1c201d] py-2 shadow-xl">
                 {Object.values(services).map(s => (
-                  <Link key={s.slug} href={`/services/${s.slug}`} onClick={() => closeAnd()} className="block px-4 py-2.5 text-sm text-[#d4d9d0] transition-colors hover:bg-[#242a25] hover:text-[#83c438]" data-testid={`nav-service-${s.slug}`}>
+                  <Link key={s.slug} href={`/services/${s.slug}/`} onClick={() => closeAnd()} className="block px-4 py-2.5 text-sm text-[#d4d9d0] transition-colors hover:bg-[#242a25] hover:text-[#83c438]" data-testid={`nav-service-${s.slug}`}>
                     {s.h1}
                   </Link>
                 ))}
@@ -69,15 +69,15 @@ export function Header() {
             {areasOpen && (
               <div className="absolute left-0 top-full mt-5 w-64 rounded-sm border border-[#303530] bg-[#1c201d] py-2 shadow-xl">
                 {Object.values(areas).map(area => (
-                  <Link key={area.slug} href={`/service-areas/${area.slug}`} onClick={() => closeAnd()} className="block px-4 py-2.5 text-sm text-[#d4d9d0] transition-colors hover:bg-[#242a25] hover:text-[#83c438]" data-testid={`nav-area-${area.slug}`}>
+                  <Link key={area.slug} href={`/service-areas/${area.slug}/`} onClick={() => closeAnd()} className="block px-4 py-2.5 text-sm text-[#d4d9d0] transition-colors hover:bg-[#242a25] hover:text-[#83c438]" data-testid={`nav-area-${area.slug}`}>
                     {area.cityName}
                   </Link>
                 ))}
               </div>
             )}
           </div>
-          <Link href="/products" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-products-link">Products</Link>
-          <Link href="/about" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-about-link">About JH</Link>
+          <Link href="/products/" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-products-link">Products</Link>
+          <Link href="/about/" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-about-link">About JH</Link>
           <a href="/#faq" onClick={() => closeAnd()} className="text-sm text-[#d4d9d0] transition-colors hover:text-[#83c438]" data-testid="nav-faq-link">FAQ</a>
         </nav>
         <div className="hidden shrink-0 items-center gap-6 whitespace-nowrap lg:flex xl:gap-8">
@@ -95,7 +95,7 @@ export function Header() {
             <span className="text-sm font-semibold text-[#83c438]">Services</span>
             <div className="mt-3 flex flex-col gap-3 border-l border-[#394139] pl-3">
               {Object.values(services).map(s => (
-                <Link key={s.slug} href={`/services/${s.slug}`} onClick={() => closeAnd()} className="text-sm text-[#d4d9d0]" data-testid={`mobile-service-${s.slug}`}>
+                <Link key={s.slug} href={`/services/${s.slug}/`} onClick={() => closeAnd()} className="text-sm text-[#d4d9d0]" data-testid={`mobile-service-${s.slug}`}>
                   {s.h1}
                 </Link>
               ))}
@@ -105,14 +105,14 @@ export function Header() {
             <span className="text-sm font-semibold text-[#83c438]">Service areas</span>
             <div className="mt-3 grid grid-cols-2 gap-3 border-l border-[#394139] pl-3">
               {Object.values(areas).map(area => (
-                <Link key={area.slug} href={`/service-areas/${area.slug}`} onClick={() => closeAnd()} className="text-sm text-[#d4d9d0]" data-testid={`mobile-area-${area.slug}`}>
+                <Link key={area.slug} href={`/service-areas/${area.slug}/`} onClick={() => closeAnd()} className="text-sm text-[#d4d9d0]" data-testid={`mobile-area-${area.slug}`}>
                   {area.cityName}
                 </Link>
               ))}
             </div>
           </div>
-          <Link href="/products" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-products-link">Products</Link>
-          <Link href="/about" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-about-link">About JH</Link>
+          <Link href="/products/" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-products-link">Products</Link>
+          <Link href="/about/" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-about-link">About JH</Link>
           <a href="/#faq" onClick={() => closeAnd()} className="block border-b border-[#394139] py-4 text-sm font-semibold text-[#f2f0e8]" data-testid="mobile-faq-link">FAQ</a>
           
           <div className="flex flex-col gap-3 pt-6 pb-2">

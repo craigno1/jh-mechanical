@@ -26,7 +26,7 @@ export function Footer() {
             <ul className="space-y-3">
               {Object.values(services).map(s => (
                 <li key={s.slug}>
-                  <Link href={`/services/${s.slug}`} className="text-sm hover:text-[#83c438] transition-colors" data-testid={`footer-service-${s.slug}`}>
+                  <Link href={`/services/${s.slug}/`} className="text-sm hover:text-[#83c438] transition-colors" data-testid={`footer-service-${s.slug}`}>
                     {s.h1}
                   </Link>
                 </li>
@@ -39,7 +39,7 @@ export function Footer() {
             <ul className="space-y-3">
               {Object.values(areas).map(a => (
                 <li key={a.slug}>
-                  <Link href={`/service-areas/${a.slug}`} className="text-sm hover:text-[#83c438] transition-colors" data-testid={`footer-area-${a.slug}`}>
+                  <Link href={`/service-areas/${a.slug}/`} className="text-sm hover:text-[#83c438] transition-colors" data-testid={`footer-area-${a.slug}`}>
                     {a.cityName}
                   </Link>
                 </li>
@@ -61,7 +61,7 @@ export function Footer() {
                 </a>
               </li>
               <li className="pt-2">
-                <Link href="/about" className="hover:text-[#83c438] transition-colors block" data-testid="footer-about-link">About JH</Link>
+                <Link href="/about/" className="hover:text-[#83c438] transition-colors block" data-testid="footer-about-link">About JH</Link>
               </li>
               <li>
                 <a href="/#quote" className="hover:text-[#83c438] transition-colors block" data-testid="footer-quote-link">Request a Quote</a>
@@ -77,7 +77,7 @@ export function Footer() {
           <span>&copy; {new Date().getFullYear()} JH Mechanical &middot; Bendigo, Victoria</span>
           <div className="flex gap-5">
             <Link href="/" className="hover:text-[#83c438] transition-colors" data-testid="footer-bottom-home">Home</Link>
-            <Link href="/about" className="hover:text-[#83c438] transition-colors" data-testid="footer-bottom-about">About</Link>
+            <Link href="/about/" className="hover:text-[#83c438] transition-colors" data-testid="footer-bottom-about">About</Link>
           </div>
         </div>
       </div>

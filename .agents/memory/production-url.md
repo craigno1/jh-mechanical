@@ -19,3 +19,15 @@ Check the hosting platform's trailing-slash redirects separately from the applic
 **Why:** Published directory-index pages redirected slashless requests to slash URLs even with explicit route rewrites. Their HTML still declared slashless canonicals. Both versions served the correct content, but redirects and canonicals sent conflicting preferred-URL signals.
 
 **How to apply:** Inspect the first HTTP response as well as the final HTML. Choose one URL convention consistently across redirects, canonical links, structured data and sitemap; do not assume an explicit rewrite prevents a directory redirect.
+
+Use trailing slashes for public page URLs; leave asset filenames unchanged.
+
+**Why:** The published static host permanently redirects slashless directory URLs to slash URLs. Matching that behaviour avoids changing hosting or introducing competing redirects.
+
+**How to apply:** Keep canonicals, sitemap, JSON-LD page references and internal page links on the slash form. Preferred URLs must return HTTP 200 on the first request, and the slashless alternatives must permanently redirect to them. Preserve genuine HTTP 404s for unknown paths.
+
+Confirm task changes are applied to the main version before asking the owner to publish.
+
+**Why:** Background tasks can run in isolated project copies. Two successful publishes rebuilt the site but still served the previous canonical convention; a successful publish alone does not prove it included the task's source changes.
+
+**How to apply:** Check the task/main-version handoff before repeating a publish request. Compare a specific changed canonical or sitemap entry in the live HTML, including an uncached request when necessary, rather than inferring inclusion from successful build logs.

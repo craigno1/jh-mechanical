@@ -1,0 +1,4462 @@
+{
+  "origin": "https://jh-mechanical.replit.app",
+  "checked_at": "2026-10-12T10:11:27.833341+00:00",
+  "method": "Unauthenticated HTTP GET; no JavaScript execution",
+  "pages": [
+    {
+      "route": "/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 57135,
+        "sha256": "f2dc8313ec25824c09d5ea23468138c4f74a0c1e4a930d7de2c3a4bf6310e5c0"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 57135,
+        "sha256": "f2dc8313ec25824c09d5ea23468138c4f74a0c1e4a930d7de2c3a4bf6310e5c0"
+      },
+      "title": [
+        "JH Mechanical | Diesel Mechanic Bendigo & Surrounding Victoria"
+      ],
+      "description": [
+        "Dependable diesel mechanic services in Bendigo and surrounding Victoria. JH Mechanical handles servicing, repairs, maintenance and heavy vehicle breakdown help."
+      ],
+      "h1": [
+        "Victoria's trusted diesel mechanic."
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "FAQPage"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "FAQPage",
+              "@id": "https://jh-mechanical.replit.app/#faq",
+              "url": "https://jh-mechanical.replit.app/#faq",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What types of vehicles do you work on?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "JH Mechanical works with diesel trucks, light commercial vehicles, fleet vehicles and a range of heavy vehicles. Call with the make, model and issue and we will tell you the best next step."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Do you help with vehicle breakdowns?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Breakdown help is available across Bendigo and surrounding areas, subject to location and availability. Call (03) 5448 8149 first so we can understand what has happened and get you moving safely."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How often should my diesel vehicle be serviced?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It depends on the vehicle, the work it does and its operating conditions. We can help set a sensible service rhythm around kilometres, engine hours or your fleet schedule."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I get an instant quote?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Send through your name, phone number and a short description of the job using the form below. Adding a photo can help us understand the issue before we speak."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Which areas around Bendigo do you cover?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "JH Mechanical services Bendigo and surrounding Victoria, including Heathcote, Seymour, Macedon, Shepparton, Lockington, Melbourne and Sunbury."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": true,
+        "schemas": true
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/Screenshot_2026-09-18_184252_1789721472137-DrULUfCj.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154081149-400-CAnoDE7I.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154081149-640-NrJDPNcj.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154081149-qYK0Vv6C.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154100216-400-PmNMooIk.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154100216-DK9vI-kX.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154109579-400-Bpeh4SzV.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154109579-640-DN7qdPal.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154109579-DNzaYlQv.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154125619-400-BNC2Ay34.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154125619-640-Dh20B7vY.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154125619-CJj9C0Id.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154192187-400-Ds_NBwut.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154192187-640-DUt-wc6h.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154192187-960-DCWN8Sxf.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154192187-DNzyj2nh.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154241783-400-jhVzTZ-l.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154241783-640-Ds2_DdZD.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154241783-Ce-d6WpG.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1789720432544-DLgEDhkA.webp",
+        "https://jh-mechanical.replit.app/assets/image_1789720831776-400-BjXUoaF8.webp",
+        "https://jh-mechanical.replit.app/assets/image_1789720831776-640-DDjUQ9D5.webp",
+        "https://jh-mechanical.replit.app/assets/image_1789720831776-BZtywkpC.webp",
+        "https://jh-mechanical.replit.app/assets/image_1789721445475-400-Dc-m30kl.webp",
+        "https://jh-mechanical.replit.app/assets/image_1789721445475-Dg23IvC8.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [],
+      "issues": []
+    },
+    {
+      "route": "/about/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/about/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 21266,
+        "sha256": "bef7dd98eb26080ade0155a559780fec6bb11becf76b25d0a2cdd950f8076d86"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/about/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 21266,
+        "sha256": "bef7dd98eb26080ade0155a559780fec6bb11becf76b25d0a2cdd950f8076d86"
+      },
+      "title": [
+        "About JH Mechanical | Local Diesel Mechanic in Bendigo"
+      ],
+      "description": [
+        "Meet JH Mechanical, a practical and dependable Bendigo diesel mechanic supporting trucks, fleets and heavy vehicles across central Victoria."
+      ],
+      "h1": [
+        "Local know-how. Properly applied."
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/about"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "AboutPage"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "AboutPage",
+              "@id": "https://jh-mechanical.replit.app/about#webpage",
+              "name": "About JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/about",
+              "mainEntity": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788154164791-400-Cp9eSjyr.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154164791-640-BUNEwhAf.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154164791-BLfvQS0l.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788177487503-400-CKg2h9nK.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788177487503-640-Fbz8biFt.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788177487503-960-ubblzXC9.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788177487503-hVe4xgCl.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/about",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/about",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/about/",
+            "x_robots_tag": null,
+            "bytes": 42,
+            "sha256": "454e2006f9de628d56c39765181c4efa2ace330761b65e6835fdf8078495aea9"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/about/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 21266,
+            "sha256": "bef7dd98eb26080ade0155a559780fec6bb11becf76b25d0a2cdd950f8076d86"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific AboutPage JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/about#webpage",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/about",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/products/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/products/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 25907,
+        "sha256": "02454d8e28d8c8b59ccf37306c47596de67c94c9ef0862f7973126bc9d808f7e"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/products/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 25907,
+        "sha256": "02454d8e28d8c8b59ccf37306c47596de67c94c9ef0862f7973126bc9d808f7e"
+      },
+      "title": [
+        "Products: Consumables for Vehicles"
+      ],
+      "description": [
+        "Vehicle consumables available from JH Mechanical in Bendigo, including oils, AdBlue, cleaners, rags and DPF system cleaner. Ask us by phone."
+      ],
+      "h1": [
+        "Products: Consumables for Vehicles"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/products"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "CollectionPage"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "CollectionPage",
+              "@id": "https://jh-mechanical.replit.app/products#webpage",
+              "name": "Products: Consumables for Vehicles",
+              "url": "https://jh-mechanical.replit.app/products"
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": false,
+        "descriptions": true,
+        "h1": false,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-400-Cw-YWs3E.webp",
+        "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-640-BqMICH7g.webp",
+        "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-D-sjaLQu.webp",
+        "https://jh-mechanical.replit.app/assets/adblue_1791199475173-400-BSagachs.webp",
+        "https://jh-mechanical.replit.app/assets/adblue_1791199475173-640-CRUgZrM-.webp",
+        "https://jh-mechanical.replit.app/assets/adblue_1791199475173-Cn4atuwe.webp",
+        "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-400-DOVNApXb.webp",
+        "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-640-pTxPyyR9.webp",
+        "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-Bw-XJEkn.webp",
+        "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-400-DuF1fDyO.webp",
+        "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-640-K_qRGz0V.webp",
+        "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-DVn5ebnG.webp",
+        "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-400-Da88wUI7.webp",
+        "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-640-DHzYeOhk.webp",
+        "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-D35ZYsAj.webp",
+        "https://jh-mechanical.replit.app/assets/dpf-cleanr_1791199475174-Dr8bpS_V.webp",
+        "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-400-YURazBZK.webp",
+        "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-640-BNneYG4u.webp",
+        "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-CmgQXiRI.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/assets/perite-oils_1791199475175-C5ocddMs.webp",
+        "https://jh-mechanical.replit.app/assets/powermaxd-products_1791199475170-400-BI26bsa8.webp",
+        "https://jh-mechanical.replit.app/assets/powermaxd-products_1791199475170-Cer1iiTq.webp",
+        "https://jh-mechanical.replit.app/assets/trytechoils_1791199475171-400-BIgHkmaT.webp",
+        "https://jh-mechanical.replit.app/assets/trytechoils_1791199475171-MxZUlJ4C.webp",
+        "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-400-B16c439C.webp",
+        "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-640-BJ_aNrSP.webp",
+        "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-BD89wkxU.webp",
+        "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-400-B8pICjy4.webp",
+        "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-640-B4pqj5y0.webp",
+        "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-DXjXe_uY.webp",
+        "https://jh-mechanical.replit.app/assets/wuurth-products_1791199475173-400-BwTRBS7M.webp",
+        "https://jh-mechanical.replit.app/assets/wuurth-products_1791199475173-CMTvNOXz.webp",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/products",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/products",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/products/",
+            "x_robots_tag": null,
+            "bytes": 45,
+            "sha256": "c9034cfbe1ecf3086af6a7626ea9dc8632cfa74a9cb664917125388b73b9d112"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/products/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 25907,
+            "sha256": "02454d8e28d8c8b59ccf37306c47596de67c94c9ef0862f7973126bc9d808f7e"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific CollectionPage JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/products#webpage",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/products",
+        "Published metadata differs from local generated HTML: {'title': False, 'descriptions': True, 'h1': False, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/services/diesel-mechanic/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/diesel-mechanic/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32875,
+        "sha256": "745fe98efca90d8ca0886a85fe29cc3b05c628cff356e9bf8f96263daecde37b"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/diesel-mechanic/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32875,
+        "sha256": "745fe98efca90d8ca0886a85fe29cc3b05c628cff356e9bf8f96263daecde37b"
+      },
+      "title": [
+        "Diesel Mechanic Bendigo | Practical Heavy Vehicle Repairs"
+      ],
+      "description": [
+        "Experienced diesel mechanic serving Bendigo. We diagnose and repair heavy vehicles, trucks, and machinery so you can get back to work without the runaround."
+      ],
+      "h1": [
+        "Diesel Mechanic"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/services/diesel-mechanic"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://jh-mechanical.replit.app/#services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Diesel Mechanic",
+                  "item": "https://jh-mechanical.replit.app/services/diesel-mechanic"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/services/diesel-mechanic#service",
+              "name": "Diesel Mechanic",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "description": "Experienced diesel mechanic serving Bendigo. We diagnose and repair heavy vehicles, trucks, and machinery so you can get back to work without the runaround.",
+              "areaServed": {
+                "@type": "State",
+                "name": "Victoria"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866246504-400-WwvpTYAo.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866246504-640-DAZiBlNU.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866246504-CWP8W-m4.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/services/diesel-mechanic",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/services/diesel-mechanic",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/services/diesel-mechanic/",
+            "x_robots_tag": null,
+            "bytes": 61,
+            "sha256": "c94fad1f93ec45efbf6dafcb8738fd1323d580711b9dd901b137040f8e1ba91e"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/services/diesel-mechanic/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 32875,
+            "sha256": "745fe98efca90d8ca0886a85fe29cc3b05c628cff356e9bf8f96263daecde37b"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/diesel-mechanic",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/diesel-mechanic#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/services/diesel-servicing/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/diesel-servicing/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32277,
+        "sha256": "bf3944e4311c7ebb741c90e8f92c8cad6b63eaaccf2e697f07c4740da4013c42"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/diesel-servicing/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32277,
+        "sha256": "bf3944e4311c7ebb741c90e8f92c8cad6b63eaaccf2e697f07c4740da4013c42"
+      },
+      "title": [
+        "Diesel Servicing Bendigo | Truck & Machinery Maintenance"
+      ],
+      "description": [
+        "Thorough diesel servicing for trucks and machinery. Catch small problems before they cause major breakdowns with a sensible maintenance schedule."
+      ],
+      "h1": [
+        "Diesel Servicing"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/services/diesel-servicing"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://jh-mechanical.replit.app/#services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Diesel Servicing",
+                  "item": "https://jh-mechanical.replit.app/services/diesel-servicing"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/services/diesel-servicing#service",
+              "name": "Diesel Servicing",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "description": "Thorough diesel servicing for trucks and machinery. Catch small problems before they cause major breakdowns with a sensible maintenance schedule.",
+              "areaServed": {
+                "@type": "State",
+                "name": "Victoria"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866165181-400-DsRrLFkf.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866165181-640-Cqy-BB5O.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866165181-960-qostOgcx.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866165181-BR0S4R6t.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/services/diesel-servicing",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/services/diesel-servicing",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/services/diesel-servicing/",
+            "x_robots_tag": null,
+            "bytes": 62,
+            "sha256": "14c0eda4ffdbbf9e62b7c4b188009d812f8149e70d1e98af8536bb3edb82df3c"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/services/diesel-servicing/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 32277,
+            "sha256": "bf3944e4311c7ebb741c90e8f92c8cad6b63eaaccf2e697f07c4740da4013c42"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/diesel-servicing",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/diesel-servicing#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/services/vehicle-maintenance/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/vehicle-maintenance/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32057,
+        "sha256": "806c9494619b91da060f2727cc1d6b68ca84519586cc97b3b2ac317549b08649"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/vehicle-maintenance/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32057,
+        "sha256": "806c9494619b91da060f2727cc1d6b68ca84519586cc97b3b2ac317549b08649"
+      },
+      "title": [
+        "Fleet & Heavy Vehicle Maintenance | JH Mechanical"
+      ],
+      "description": [
+        "Dependable vehicle maintenance plans for trucks, machinery, and busy local fleets in Central Victoria. Keep your operation running smoothly."
+      ],
+      "h1": [
+        "Vehicle Maintenance"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/services/vehicle-maintenance"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://jh-mechanical.replit.app/#services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Vehicle Maintenance",
+                  "item": "https://jh-mechanical.replit.app/services/vehicle-maintenance"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/services/vehicle-maintenance#service",
+              "name": "Vehicle Maintenance",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "description": "Dependable vehicle maintenance plans for trucks, machinery, and busy local fleets in Central Victoria. Keep your operation running smoothly.",
+              "areaServed": {
+                "@type": "State",
+                "name": "Victoria"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866176971-400-C9Vy5FdY.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866176971-640-Dw2GxI90.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866176971-DZU3I4Hz.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/services/vehicle-maintenance",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/services/vehicle-maintenance",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/services/vehicle-maintenance/",
+            "x_robots_tag": null,
+            "bytes": 65,
+            "sha256": "789cb4b52f47b124ddcbfc8acec34a8d5cfb0d9dda5b79ac84b7092fc4ccd9e1"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/services/vehicle-maintenance/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 32057,
+            "sha256": "806c9494619b91da060f2727cc1d6b68ca84519586cc97b3b2ac317549b08649"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-maintenance",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-maintenance#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/services/vehicle-breakdown/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/vehicle-breakdown/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32758,
+        "sha256": "2eb9a91fa82473f2fdd491fd0a2f88f63524b5426568471e41519ac5bafa1af9"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/vehicle-breakdown/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32758,
+        "sha256": "2eb9a91fa82473f2fdd491fd0a2f88f63524b5426568471e41519ac5bafa1af9"
+      },
+      "title": [
+        "Heavy Vehicle Breakdown Help Bendigo | Call JH Mechanical"
+      ],
+      "description": [
+        "Calm, capable response for heavy vehicle breakdowns. When your truck stops where it shouldn\u2019t, get straight answers and practical help."
+      ],
+      "h1": [
+        "Vehicle Breakdown"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/services/vehicle-breakdown"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://jh-mechanical.replit.app/#services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Vehicle Breakdown",
+                  "item": "https://jh-mechanical.replit.app/services/vehicle-breakdown"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/services/vehicle-breakdown#service",
+              "name": "Vehicle Breakdown",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "description": "Calm, capable response for heavy vehicle breakdowns. When your truck stops where it shouldn\u2019t, get straight answers and practical help.",
+              "areaServed": {
+                "@type": "State",
+                "name": "Victoria"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866203536-400-DP4xIfvX.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866203536-640-mfusu7QS.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866203536-960-Cpb5LGyv.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866203536-COicwnyf.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/services/vehicle-breakdown",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/services/vehicle-breakdown",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/services/vehicle-breakdown/",
+            "x_robots_tag": null,
+            "bytes": 63,
+            "sha256": "ea3a05f60b399402aae08d8be7cfc40ff6d1b4acbe473ed79f39f98ce5314d71"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/services/vehicle-breakdown/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 32758,
+            "sha256": "2eb9a91fa82473f2fdd491fd0a2f88f63524b5426568471e41519ac5bafa1af9"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-breakdown",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-breakdown#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/services/vehicle-repairs/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/vehicle-repairs/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32070,
+        "sha256": "86c6422a0f8c7d5858654f9b91400cd8f17e7fa8008055099e20c975f2e78751"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/services/vehicle-repairs/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 32070,
+        "sha256": "86c6422a0f8c7d5858654f9b91400cd8f17e7fa8008055099e20c975f2e78751"
+      },
+      "title": [
+        "Heavy Vehicle Repairs Bendigo | Straight Answers, Quality Work"
+      ],
+      "description": [
+        "Truck and machinery repairs built to last. We fix drivelines, suspension, brakes, and engine faults with quality parts and practical know-how."
+      ],
+      "h1": [
+        "Vehicle Repairs"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/services/vehicle-repairs"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://jh-mechanical.replit.app/#services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Vehicle Repairs",
+                  "item": "https://jh-mechanical.replit.app/services/vehicle-repairs"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/services/vehicle-repairs#service",
+              "name": "Vehicle Repairs",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "description": "Truck and machinery repairs built to last. We fix drivelines, suspension, brakes, and engine faults with quality parts and practical know-how.",
+              "areaServed": {
+                "@type": "State",
+                "name": "Victoria"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866217071-400-B3jnnDfw.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866217071-640-CFAPJyjB.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866217071-BUcpjDU6.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/services/vehicle-repairs",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/services/vehicle-repairs",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/services/vehicle-repairs/",
+            "x_robots_tag": null,
+            "bytes": 61,
+            "sha256": "a43672e4d1a4f1982155373189f0fee15dea575f32f5006981434a90faa40475"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/services/vehicle-repairs/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 32070,
+            "sha256": "86c6422a0f8c7d5858654f9b91400cd8f17e7fa8008055099e20c975f2e78751"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-repairs",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-repairs#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/service-areas/heathcote/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/heathcote/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30769,
+        "sha256": "fee89ef3bef0d4a7e0a590fa03531ce4e923e9c109adb13345e80a8ae6cebb66"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/heathcote/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30769,
+        "sha256": "fee89ef3bef0d4a7e0a590fa03531ce4e923e9c109adb13345e80a8ae6cebb66"
+      },
+      "title": [
+        "Diesel Mechanic Heathcote | JH Mechanical"
+      ],
+      "description": [
+        "Dependable diesel mechanic serving Heathcote. Heavy vehicle repairs, tractor maintenance, and truck servicing for local operators and agricultural businesses."
+      ],
+      "h1": [
+        "Diesel Mechanic Heathcote"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/service-areas/heathcote"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Service Areas",
+                  "item": "https://jh-mechanical.replit.app/#areas"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Heathcote",
+                  "item": "https://jh-mechanical.replit.app/service-areas/heathcote"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/service-areas/heathcote#service",
+              "name": "Diesel mechanic services in Heathcote",
+              "description": "Dependable diesel mechanic serving Heathcote. Heavy vehicle repairs, tractor maintenance, and truck servicing for local operators and agricultural businesses.",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Heathcote"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866232386-400-BaN4QGbA.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866232386-640-n2g2pFPg.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866232386-960-DqR65Zr-.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866232386-C8IFsNKs.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/service-areas/heathcote",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/service-areas/heathcote",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/service-areas/heathcote/",
+            "x_robots_tag": null,
+            "bytes": 60,
+            "sha256": "5ec83bbf6e4d074191b696352b6ddb9ac232636ba6e0f9839cd1ef30270ea9e0"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/service-areas/heathcote/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 30769,
+            "sha256": "fee89ef3bef0d4a7e0a590fa03531ce4e923e9c109adb13345e80a8ae6cebb66"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/heathcote",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/heathcote#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/service-areas/bendigo/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/bendigo/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30672,
+        "sha256": "d7769dd760a90d9d59dcf8e84d0c8886c98e443f80a1238c6b9be95262df4009"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/bendigo/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30672,
+        "sha256": "d7769dd760a90d9d59dcf8e84d0c8886c98e443f80a1238c6b9be95262df4009"
+      },
+      "title": [
+        "Diesel Mechanic Bendigo | Local Truck & Machinery Repairs"
+      ],
+      "description": [
+        "Bendigo\u2019s trusted local diesel mechanic. We provide straightforward servicing, breakdown help, and heavy vehicle repairs right across the Bendigo region."
+      ],
+      "h1": [
+        "Diesel Mechanic Bendigo"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/service-areas/bendigo"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Service Areas",
+                  "item": "https://jh-mechanical.replit.app/#areas"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Bendigo",
+                  "item": "https://jh-mechanical.replit.app/service-areas/bendigo"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/service-areas/bendigo#service",
+              "name": "Diesel mechanic services in Bendigo",
+              "description": "Bendigo\u2019s trusted local diesel mechanic. We provide straightforward servicing, breakdown help, and heavy vehicle repairs right across the Bendigo region.",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Bendigo"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788154192187-400-Ds_NBwut.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154192187-640-DUt-wc6h.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154192187-960-DCWN8Sxf.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788154192187-DNzyj2nh.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/service-areas/bendigo",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/service-areas/bendigo",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/service-areas/bendigo/",
+            "x_robots_tag": null,
+            "bytes": 58,
+            "sha256": "0044145a79dc0dfe8caaebfe169f7ac7b032c6f4b49ec11230bbf84987ccd69f"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/service-areas/bendigo/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 30672,
+            "sha256": "d7769dd760a90d9d59dcf8e84d0c8886c98e443f80a1238c6b9be95262df4009"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/bendigo",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/bendigo#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/service-areas/seymour/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/seymour/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30367,
+        "sha256": "7846339271739d1eca59b65fdb143fe8c0064e42cb4e4c1ca89b07d8ed86be95"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/seymour/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30367,
+        "sha256": "7846339271739d1eca59b65fdb143fe8c0064e42cb4e4c1ca89b07d8ed86be95"
+      },
+      "title": [
+        "Diesel Mechanic Seymour | Truck & Heavy Vehicle Services"
+      ],
+      "description": [
+        "Reliable diesel mechanic services for Seymour and surrounding districts. Practical repairs and maintenance for highway trucks and heavy machinery."
+      ],
+      "h1": [
+        "Diesel Mechanic Seymour"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/service-areas/seymour"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Service Areas",
+                  "item": "https://jh-mechanical.replit.app/#areas"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Seymour",
+                  "item": "https://jh-mechanical.replit.app/service-areas/seymour"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/service-areas/seymour#service",
+              "name": "Diesel mechanic services in Seymour",
+              "description": "Reliable diesel mechanic services for Seymour and surrounding districts. Practical repairs and maintenance for highway trucks and heavy machinery.",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Seymour"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866246504-400-WwvpTYAo.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866246504-640-DAZiBlNU.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866246504-CWP8W-m4.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/service-areas/seymour",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/service-areas/seymour",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/service-areas/seymour/",
+            "x_robots_tag": null,
+            "bytes": 58,
+            "sha256": "65b43e561058d316cb27ef6598783595cb82f43dc86d8873e33e5db6b043e16c"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/service-areas/seymour/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 30367,
+            "sha256": "7846339271739d1eca59b65fdb143fe8c0064e42cb4e4c1ca89b07d8ed86be95"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/seymour",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/seymour#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/service-areas/macedon/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/macedon/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30594,
+        "sha256": "b64af034a34345a9a936aebf3c6ff5df7f244474ab0d42307a361e277357ea95"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/macedon/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30594,
+        "sha256": "b64af034a34345a9a936aebf3c6ff5df7f244474ab0d42307a361e277357ea95"
+      },
+      "title": [
+        "Diesel Mechanic Macedon | Machinery & Truck Repairs"
+      ],
+      "description": [
+        "JH Mechanical provides practical diesel servicing and repairs for the Macedon Ranges. Reliable mechanical support for trucks and heavy equipment."
+      ],
+      "h1": [
+        "Diesel Mechanic Macedon"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/service-areas/macedon"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Service Areas",
+                  "item": "https://jh-mechanical.replit.app/#areas"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Macedon",
+                  "item": "https://jh-mechanical.replit.app/service-areas/macedon"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/service-areas/macedon#service",
+              "name": "Diesel mechanic services in Macedon",
+              "description": "JH Mechanical provides practical diesel servicing and repairs for the Macedon Ranges. Reliable mechanical support for trucks and heavy equipment.",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Macedon"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866147775-400-B8kJL7W6.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866147775-640-BJVus9XT.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866147775-960-BP-RMsz1.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866147775-D1LUsKBQ.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/service-areas/macedon",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/service-areas/macedon",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/service-areas/macedon/",
+            "x_robots_tag": null,
+            "bytes": 58,
+            "sha256": "cc5b28dfb0a8af35679821242edfc271a45f8ae00e992a8b5f36bcf1f2f51ac0"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/service-areas/macedon/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 30594,
+            "sha256": "b64af034a34345a9a936aebf3c6ff5df7f244474ab0d42307a361e277357ea95"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/macedon",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/macedon#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/service-areas/shepparton/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/shepparton/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30583,
+        "sha256": "2b6cced7fd5b91b9e2df48c22fdcecd9b25ee3a356aa80e98ac934e2e0939b93"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/shepparton/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30583,
+        "sha256": "2b6cced7fd5b91b9e2df48c22fdcecd9b25ee3a356aa80e98ac934e2e0939b93"
+      },
+      "title": [
+        "Diesel Mechanic Shepparton | Agricultural & Fleet Repairs"
+      ],
+      "description": [
+        "Diesel mechanic supporting Shepparton\u2019s agricultural and transport sectors. Straightforward machinery maintenance and truck repairs."
+      ],
+      "h1": [
+        "Diesel Mechanic Shepparton"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/service-areas/shepparton"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Service Areas",
+                  "item": "https://jh-mechanical.replit.app/#areas"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Shepparton",
+                  "item": "https://jh-mechanical.replit.app/service-areas/shepparton"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/service-areas/shepparton#service",
+              "name": "Diesel mechanic services in Shepparton",
+              "description": "Diesel mechanic supporting Shepparton\u2019s agricultural and transport sectors. Straightforward machinery maintenance and truck repairs.",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Shepparton"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866276475-400-BJ2rCgaH.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866276475-640-ByIcQHgl.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866276475-960-CJy-34CK.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866276475-C9sckN-M.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/service-areas/shepparton",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/service-areas/shepparton",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/service-areas/shepparton/",
+            "x_robots_tag": null,
+            "bytes": 61,
+            "sha256": "8e7fcbfb82882906fe694c2e4ef132fc0e5420db3afa8d2b2ef033f340e4ee47"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/service-areas/shepparton/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 30583,
+            "sha256": "2b6cced7fd5b91b9e2df48c22fdcecd9b25ee3a356aa80e98ac934e2e0939b93"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/shepparton",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/shepparton#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/service-areas/lockington/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/lockington/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30272,
+        "sha256": "91a671efa2dc650cd834a2261fdeb18c15ab44f3b204d1881154da261a9be08f"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/lockington/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30272,
+        "sha256": "91a671efa2dc650cd834a2261fdeb18c15ab44f3b204d1881154da261a9be08f"
+      },
+      "title": [
+        "Diesel Mechanic Lockington | Tractor & Truck Services"
+      ],
+      "description": [
+        "JH Mechanical serves the Lockington area with dependable diesel repairs. Heavy vehicle servicing, machinery maintenance, and practical advice."
+      ],
+      "h1": [
+        "Diesel Mechanic Lockington"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/service-areas/lockington"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Service Areas",
+                  "item": "https://jh-mechanical.replit.app/#areas"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Lockington",
+                  "item": "https://jh-mechanical.replit.app/service-areas/lockington"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/service-areas/lockington#service",
+              "name": "Diesel mechanic services in Lockington",
+              "description": "JH Mechanical serves the Lockington area with dependable diesel repairs. Heavy vehicle servicing, machinery maintenance, and practical advice.",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Lockington"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866176971-400-C9Vy5FdY.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866176971-640-Dw2GxI90.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866176971-DZU3I4Hz.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/service-areas/lockington",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/service-areas/lockington",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/service-areas/lockington/",
+            "x_robots_tag": null,
+            "bytes": 61,
+            "sha256": "44595a3695d873f30dd42da2fd8537817a9dca40cb3d8437113117edd7b8e0c5"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/service-areas/lockington/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 30272,
+            "sha256": "91a671efa2dc650cd834a2261fdeb18c15ab44f3b204d1881154da261a9be08f"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/lockington",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/lockington#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/service-areas/melbourne/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/melbourne/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30537,
+        "sha256": "321f66868bd002899e1f66b0b6093c9c2b7bea81f6ce8a92a77eef54ff255d21"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/melbourne/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30537,
+        "sha256": "321f66868bd002899e1f66b0b6093c9c2b7bea81f6ce8a92a77eef54ff255d21"
+      },
+      "title": [
+        "Diesel Mechanic Melbourne Services | Heavy Transport"
+      ],
+      "description": [
+        "JH Mechanical supports heavy transport operating between Bendigo and Melbourne. Reliable servicing and repairs for line-haul and fleet vehicles."
+      ],
+      "h1": [
+        "Diesel Support for Melbourne Routes"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/service-areas/melbourne"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Service Areas",
+                  "item": "https://jh-mechanical.replit.app/#areas"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Melbourne",
+                  "item": "https://jh-mechanical.replit.app/service-areas/melbourne"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/service-areas/melbourne#service",
+              "name": "Diesel mechanic services in Melbourne",
+              "description": "JH Mechanical supports heavy transport operating between Bendigo and Melbourne. Reliable servicing and repairs for line-haul and fleet vehicles.",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Melbourne"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866232386-400-BaN4QGbA.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866232386-640-n2g2pFPg.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866232386-960-DqR65Zr-.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866232386-C8IFsNKs.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/service-areas/melbourne",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/service-areas/melbourne",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/service-areas/melbourne/",
+            "x_robots_tag": null,
+            "bytes": 60,
+            "sha256": "8f4c93306e9253500ad051baa113d62fa885587ddcf8cebc35b48551c8d90f5d"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/service-areas/melbourne/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 30537,
+            "sha256": "321f66868bd002899e1f66b0b6093c9c2b7bea81f6ce8a92a77eef54ff255d21"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/melbourne",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/melbourne#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    },
+    {
+      "route": "/service-areas/sunbury/",
+      "initial_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/sunbury/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30328,
+        "sha256": "21d10e0395a54d881347c339037f2b0ec24df8675b097da813c2434ca80aceff"
+      },
+      "final_response": {
+        "status": 200,
+        "url": "https://jh-mechanical.replit.app/service-areas/sunbury/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 30328,
+        "sha256": "21d10e0395a54d881347c339037f2b0ec24df8675b097da813c2434ca80aceff"
+      },
+      "title": [
+        "Diesel Mechanic Sunbury | Truck & Earthmoving Repairs"
+      ],
+      "description": [
+        "Practical diesel mechanic services for Sunbury operators. Heavy vehicle maintenance, civil machinery repairs, and dependable diagnostics."
+      ],
+      "h1": [
+        "Diesel Mechanic Sunbury"
+      ],
+      "canonical": [
+        "https://jh-mechanical.replit.app/service-areas/sunbury"
+      ],
+      "json_ld_types": [
+        "AutoRepair",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AutoRepair",
+              "@id": "https://jh-mechanical.replit.app/#business",
+              "name": "JH Mechanical",
+              "url": "https://jh-mechanical.replit.app/",
+              "logo": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "image": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+              "telephone": "+61 3 5448 8149",
+              "description": "Practical, dependable diesel mechanic services for trucks, fleets, heavy vehicles and machinery across Bendigo and surrounding Victoria. Call ahead to discuss your vehicle and arrange service.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unit 3/39 Collins St",
+                "addressLocality": "Kangaroo Flat",
+                "addressRegion": "VIC",
+                "postalCode": "3555",
+                "addressCountry": "AU"
+              },
+              "areaServed": [
+                {
+                  "@type": "City",
+                  "name": "Bendigo"
+                },
+                {
+                  "@type": "City",
+                  "name": "Heathcote"
+                },
+                {
+                  "@type": "City",
+                  "name": "Seymour"
+                },
+                {
+                  "@type": "City",
+                  "name": "Macedon"
+                },
+                {
+                  "@type": "City",
+                  "name": "Shepparton"
+                },
+                {
+                  "@type": "City",
+                  "name": "Lockington"
+                },
+                {
+                  "@type": "City",
+                  "name": "Melbourne"
+                },
+                {
+                  "@type": "City",
+                  "name": "Sunbury"
+                },
+                {
+                  "@type": "State",
+                  "name": "Victoria"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/dieselmechbendigo"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+61 3 5448 8149",
+                "contactType": "customer service",
+                "description": "Call ahead to discuss your vehicle, confirm availability and arrange service.",
+                "availableLanguage": "English"
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://jh-mechanical.replit.app/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Service Areas",
+                  "item": "https://jh-mechanical.replit.app/#areas"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Sunbury",
+                  "item": "https://jh-mechanical.replit.app/service-areas/sunbury"
+                }
+              ]
+            },
+            {
+              "@type": "Service",
+              "@id": "https://jh-mechanical.replit.app/service-areas/sunbury#service",
+              "name": "Diesel mechanic services in Sunbury",
+              "description": "Practical diesel mechanic services for Sunbury operators. Heavy vehicle maintenance, civil machinery repairs, and dependable diagnostics.",
+              "provider": {
+                "@id": "https://jh-mechanical.replit.app/#business"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Sunbury"
+              }
+            }
+          ]
+        }
+      ],
+      "local_metadata_matches": {
+        "title": true,
+        "descriptions": true,
+        "h1": true,
+        "canonicals": false,
+        "schemas": false
+      },
+      "internal_assets": [
+        "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+        "https://jh-mechanical.replit.app/assets/image_1788866246504-400-WwvpTYAo.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866246504-640-DAZiBlNU.webp",
+        "https://jh-mechanical.replit.app/assets/image_1788866246504-CWP8W-m4.webp",
+        "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+        "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+        "https://jh-mechanical.replit.app/favicon.svg"
+      ],
+      "variants": [
+        {
+          "requested": "https://jh-mechanical.replit.app/service-areas/sunbury",
+          "initial_response": {
+            "status": 301,
+            "url": "https://jh-mechanical.replit.app/service-areas/sunbury",
+            "content_type": "text/html; charset=utf-8",
+            "location": "/service-areas/sunbury/",
+            "x_robots_tag": null,
+            "bytes": 58,
+            "sha256": "661af0a059ad16d3ac3fba7394d3d4135388d942c99c735c32c2da7f8fc48923"
+          },
+          "final_response": {
+            "status": 200,
+            "url": "https://jh-mechanical.replit.app/service-areas/sunbury/",
+            "content_type": "text/html; charset=utf-8",
+            "location": null,
+            "x_robots_tag": null,
+            "bytes": 30328,
+            "sha256": "21d10e0395a54d881347c339037f2b0ec24df8675b097da813c2434ca80aceff"
+          },
+          "metadata_matches": true
+        }
+      ],
+      "issues": [
+        "Canonical does not match route",
+        "Missing route-specific Service JSON-LD",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/sunbury",
+        "Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/sunbury#service",
+        "Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-400-Cw-YWs3E.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 17636,
+      "sha256": "e24f7424ecc201dc66509924910ed20cbe4e2c24eaad992495c98e438caaacfc",
+      "requested": "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-400-Cw-YWs3E.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-640-BqMICH7g.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 34502,
+      "sha256": "95e812fffe1399c8601327b07e04dcd4cc020695f27fd3c3d24bb930528c2767",
+      "requested": "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-640-BqMICH7g.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-D-sjaLQu.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 57272,
+      "sha256": "9bdec5d728bb2b676ccc55849877dd97ad57c24555327a86d84b7ba1fa18ed10",
+      "requested": "https://jh-mechanical.replit.app/assets/Glass-cleaner_1791199475175-D-sjaLQu.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/Screenshot_2026-09-18_184252_1789721472137-DrULUfCj.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 33436,
+      "sha256": "cf3abcd76758e882a2335bebb49f1f94a992e6418b2db58ededd07853eee4123",
+      "requested": "https://jh-mechanical.replit.app/assets/Screenshot_2026-09-18_184252_1789721472137-DrULUfCj.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/adblue_1791199475173-400-BSagachs.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 14102,
+      "sha256": "80e2a530fcde9d731e6e7551ca4d4b02f12fcbd2f870cbe7fdc7a64db267b283",
+      "requested": "https://jh-mechanical.replit.app/assets/adblue_1791199475173-400-BSagachs.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/adblue_1791199475173-640-CRUgZrM-.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 25608,
+      "sha256": "62e2a044d11fe0eeb325a80052127c1b0566b8eef759247e27bd898acfe3cc2d",
+      "requested": "https://jh-mechanical.replit.app/assets/adblue_1791199475173-640-CRUgZrM-.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/adblue_1791199475173-Cn4atuwe.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 39030,
+      "sha256": "51594c0d39a06758fd3c0ebf37c75ab9d377a6b35dea1ebc41978a2ecaf920e0",
+      "requested": "https://jh-mechanical.replit.app/assets/adblue_1791199475173-Cn4atuwe.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-400-DOVNApXb.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 16756,
+      "sha256": "1c2080546500c727e908310018a577b7f733581632da917b851a1e0c37e9870e",
+      "requested": "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-400-DOVNApXb.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-640-pTxPyyR9.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 35058,
+      "sha256": "348d0f3fb67203f3dd929e3c4fff0125947bbe544503c1f5b33c1031ca0e18f1",
+      "requested": "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-640-pTxPyyR9.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-Bw-XJEkn.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 40730,
+      "sha256": "10c37195578d44f18f68e7375a6ac8c2e5601d73e26f933ef3f730b3a7e74a69",
+      "requested": "https://jh-mechanical.replit.app/assets/brakecleaner_1791199475173-Bw-XJEkn.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-400-DuF1fDyO.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 23042,
+      "sha256": "750089586bfba12547b70efd4765b4448e172cd872a1f5b06393db65f9b4499f",
+      "requested": "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-400-DuF1fDyO.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-640-K_qRGz0V.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 51418,
+      "sha256": "3c34a2122a421be590a2d4c6837e7a639eb178c6b51397c509819a9120a528ab",
+      "requested": "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-640-K_qRGz0V.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-DVn5ebnG.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 95372,
+      "sha256": "6bab66ab1deb4545707df5763b0d418aa3ac5f132fd2cdd8e960c447592a3625",
+      "requested": "https://jh-mechanical.replit.app/assets/car-rags_1791199475174-DVn5ebnG.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-400-Da88wUI7.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 21694,
+      "sha256": "8c6f7c584aa7f8e226ccc06906554a1cbdf745e090aea708497db01c69665da1",
+      "requested": "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-400-Da88wUI7.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-640-DHzYeOhk.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 42690,
+      "sha256": "b5c8a44c14c875b62a355624517c09af7c9b86067cb66db7c9bb7375d62adab1",
+      "requested": "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-640-DHzYeOhk.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-D35ZYsAj.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 56356,
+      "sha256": "a5e03edd9003c79762abcc6c7dd1b4ea245dcad7683e937072b2e74346c3c685",
+      "requested": "https://jh-mechanical.replit.app/assets/degreaser_1791199475174-D35ZYsAj.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/dpf-cleanr_1791199475174-Dr8bpS_V.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 9456,
+      "sha256": "b8fdea98445d5c62be64372d9a4a3bbe6f0bd0950b0f061f211cf6c51007bd60",
+      "requested": "https://jh-mechanical.replit.app/assets/dpf-cleanr_1791199475174-Dr8bpS_V.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-400-YURazBZK.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 15498,
+      "sha256": "9fc135d47562d5f3b487c4a4b55d39c62e814175e9939616ac2dc702c3f0089c",
+      "requested": "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-400-YURazBZK.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-640-BNneYG4u.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 27856,
+      "sha256": "e0c08517ad6d8b64033194d424aefe8d90a17a1a3b7fadcb871130c641e86686",
+      "requested": "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-640-BNneYG4u.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-CmgQXiRI.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 44994,
+      "sha256": "76a5a63b8fcdce708840e08fa0fdbfb1717c5193e5e2eb09db79f1bcab08a9d1",
+      "requested": "https://jh-mechanical.replit.app/assets/hand-cleaner-bottles_1791199475175-CmgQXiRI.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154081149-400-CAnoDE7I.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 41988,
+      "sha256": "5f8bae49a16362464d0158fe9bba3e137d9aa23adf0f7a110af41f376b879a9b",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154081149-400-CAnoDE7I.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154081149-640-NrJDPNcj.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 99748,
+      "sha256": "e7fbaa0c9478f9e6d0e87853b10207dc0e9d0a1cdc540f6f274ea4d159ad0dbc",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154081149-640-NrJDPNcj.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154081149-qYK0Vv6C.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 104510,
+      "sha256": "da640b75cc94686191f1975a6f92cb2833ddcab97a00f34e823d960b9046b899",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154081149-qYK0Vv6C.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154100216-400-PmNMooIk.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 13636,
+      "sha256": "21383b7b8e0a55066f1b5498c7aafb28d22d92865ae33c0a28650221deeddfc0",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154100216-400-PmNMooIk.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154100216-DK9vI-kX.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 19602,
+      "sha256": "d59366e6dea634f3d2cc356da352632bbeb8ef551970cd63e4220ae8d3a5ac39",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154100216-DK9vI-kX.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154109579-400-Bpeh4SzV.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 28804,
+      "sha256": "9b767b54f262fa578920a2893a8d49fdcd55db2d0d5534f683581108f14d0a45",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154109579-400-Bpeh4SzV.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154109579-640-DN7qdPal.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 65424,
+      "sha256": "1252cba88cb6478fb67984dbe7beaca727f8d9110d4874d5a3d5c586c5ef9d52",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154109579-640-DN7qdPal.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154109579-DNzaYlQv.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 71766,
+      "sha256": "03bc110878f4467bec2bd6d5ec50637be087fd69f0d34bb12c5aa325568e3fb6",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154109579-DNzaYlQv.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154125619-400-BNC2Ay34.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 31608,
+      "sha256": "4eb1a8ce592b73914573564997f0503be62a137552b3827baf4ee458dc314429",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154125619-400-BNC2Ay34.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154125619-640-Dh20B7vY.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 74402,
+      "sha256": "12a65307aa95afa29f47f23b7c50359a797813b7a546bbd82c919320bde89c2c",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154125619-640-Dh20B7vY.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154125619-CJj9C0Id.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 81562,
+      "sha256": "329cc39646f3ade04d32edff9df0b2a32b3cd2e283017af2cc1c821751cc8658",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154125619-CJj9C0Id.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154164791-400-Cp9eSjyr.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 26458,
+      "sha256": "736c3dcde1202c939304e7b8d8884e3dcc33ffeaa157b00fa0d1a7c5b512229e",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154164791-400-Cp9eSjyr.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154164791-640-BUNEwhAf.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 59976,
+      "sha256": "6955f0c51756e3e767423c84499a5f5aeb2125f397e4cc111dd108cd35ab2e0b",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154164791-640-BUNEwhAf.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154164791-BLfvQS0l.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 68272,
+      "sha256": "21b7ed62c343ba4c362145a2c1f9118c0d79acf57141bc8096f7a0b921f15083",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154164791-BLfvQS0l.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154192187-400-Ds_NBwut.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 22798,
+      "sha256": "3f60c42dfbb7d3cc7b0ce236579a4010de604934cf0008f2e9ab53e764b56b5f",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154192187-400-Ds_NBwut.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154192187-640-DUt-wc6h.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 54022,
+      "sha256": "00982cc7cd9b1b7ffd5a9fb6e0ff3bb710b824f8c24b25d0cbe621515c0672fe",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154192187-640-DUt-wc6h.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154192187-960-DCWN8Sxf.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 113586,
+      "sha256": "dc79ad057284e3fafdf780d6112ab94a2062416fcecd82ae69eadc5ddb88ce82",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154192187-960-DCWN8Sxf.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154192187-DNzyj2nh.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 169322,
+      "sha256": "e5707d6eeca5f7c974ae2ca1f711315b2b257c7f300bf0f3a437154b430f7ef8",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154192187-DNzyj2nh.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154241783-400-jhVzTZ-l.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 32948,
+      "sha256": "57302ecd6417fa636b2a426e9c3852627e2ca1c5b9785950b3afd00966b5c006",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154241783-400-jhVzTZ-l.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154241783-640-Ds2_DdZD.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 81716,
+      "sha256": "e09f50f9c5be77837f1841443bfc1864d1c0d36de4b11f5b9bc07ee1aaeb6dd2",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154241783-640-Ds2_DdZD.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788154241783-Ce-d6WpG.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 96088,
+      "sha256": "87fd711699db003fad37f60bc78c7876b8a50f1091b926be5ebbbc1bd5ebca16",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788154241783-Ce-d6WpG.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+      "content_type": "image/png",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 31511,
+      "sha256": "71615ba5bdcd575d7e2938737eefac3c2fecd1b1c7d261da2d3cabac5796906b",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788175621031-Y46guXRm.png",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788177487503-400-CKg2h9nK.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 39972,
+      "sha256": "f14826d6b42a973b106c76c066e595cb46ef98b465f1ddd166b40b2f2784fe4a",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788177487503-400-CKg2h9nK.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788177487503-640-Fbz8biFt.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 84936,
+      "sha256": "596a89f549afb2057637587b746aacde46e411d785e47e02027b27d9da965c2b",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788177487503-640-Fbz8biFt.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788177487503-960-ubblzXC9.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 158996,
+      "sha256": "125c68b8c57bcedba1b5e64da9ec12918c6871f58430dcfac048c31ce4ca1c4a",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788177487503-960-ubblzXC9.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788177487503-hVe4xgCl.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 179490,
+      "sha256": "6d47f1d4e28fd72b5981ff6cbc6ab00f532c1df33d79f1d3b85c8090690d843a",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788177487503-hVe4xgCl.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866147775-400-B8kJL7W6.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 34642,
+      "sha256": "a888d57a448e1b1ed0f14f1bc333a57f4c8c2b9747e606b66441d3e3a7695152",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866147775-400-B8kJL7W6.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866147775-640-BJVus9XT.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 75706,
+      "sha256": "f72d1d867fe9ea4622a5cd91d2dddf70dfa57b8d6bfe39256ae4e7bb46f5bb0c",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866147775-640-BJVus9XT.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866147775-960-BP-RMsz1.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 139608,
+      "sha256": "66f8c224eb2778aa02af907c86726ae9bf47c4e1e5f059b7811830c5a2f1ac96",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866147775-960-BP-RMsz1.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866147775-D1LUsKBQ.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 198814,
+      "sha256": "b7ed087cc161ccaec503a8377915251822d48a6b8fd56bef5596d2734cc0893d",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866147775-D1LUsKBQ.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866165181-400-DsRrLFkf.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 31410,
+      "sha256": "adcfaf5740e1be7039cde98207ecf5387dd2408b34b85483da568bc9b49fe149",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866165181-400-DsRrLFkf.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866165181-640-Cqy-BB5O.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 74560,
+      "sha256": "5d8d101ee7f1e8a4637bf3450c00d05255956a4fd89bdbbd06278ceefc2f5dd8",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866165181-640-Cqy-BB5O.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866165181-960-qostOgcx.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 153146,
+      "sha256": "8ce2125ae9db59078f00811e4bb05abbd58c74d702d07cef1319fb61d3e48ffd",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866165181-960-qostOgcx.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866165181-BR0S4R6t.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 227804,
+      "sha256": "d511ef0958d70de2796781d1b98b8d7dce8bce22c9b2875f97543a4ecba346fe",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866165181-BR0S4R6t.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866176971-400-C9Vy5FdY.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 49800,
+      "sha256": "d01411642f77287fa733eabd7dc36cc7512018157599add85b4f1a6da0b3efdd",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866176971-400-C9Vy5FdY.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866176971-640-Dw2GxI90.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 118986,
+      "sha256": "f0e84abe424bc387e3aa1df436a2b1f16bb39ac27e70847bf9d54894e8bbe776",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866176971-640-Dw2GxI90.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866176971-DZU3I4Hz.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 161376,
+      "sha256": "8636be1ff08fd0092a8c44a1f691c9521a6f53477ab0e2ded8b9fddb656466ec",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866176971-DZU3I4Hz.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866203536-400-DP4xIfvX.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 20634,
+      "sha256": "f2fa7bd17d5484244d119e1157687b967a8a54fcc8893a7264687e1b53f21bda",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866203536-400-DP4xIfvX.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866203536-640-mfusu7QS.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 42772,
+      "sha256": "ff32bdb3251f7e1e90bc03afba316f067419319c73426596032d83a3f51e769a",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866203536-640-mfusu7QS.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866203536-960-Cpb5LGyv.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 79458,
+      "sha256": "cca2bc1c8efd351cced92246499d0e33fc223ccb3992bb051b5f3e1392bdfc1c",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866203536-960-Cpb5LGyv.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866203536-COicwnyf.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 109540,
+      "sha256": "0053e6c028938383be67f13902fdb804b9eb5cc57508c3034b7d71f021b41cf3",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866203536-COicwnyf.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866217071-400-B3jnnDfw.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 56556,
+      "sha256": "c1a0c308709b9f80149f8e49867eb520e27fe8e8ba7f6c219f5622998c3dfde5",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866217071-400-B3jnnDfw.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866217071-640-CFAPJyjB.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 130842,
+      "sha256": "1171b671de0dc6c2598a081d3f919f7c5f1b74da8c0e09817e72d7ec8c35e671",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866217071-640-CFAPJyjB.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866217071-BUcpjDU6.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 174182,
+      "sha256": "c2b33d0eca8924b340424b53d121752fe8753145d9b6d43296a32fb70582015a",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866217071-BUcpjDU6.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866232386-400-BaN4QGbA.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 27870,
+      "sha256": "c716527a777dcf32e78660b5c1da4466fe58e24625844400e0a91e34734bd0ad",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866232386-400-BaN4QGbA.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866232386-640-n2g2pFPg.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 61708,
+      "sha256": "55165ac08c47283194c345f32998f657a63875f83f3603c72c5c445e7237fdf6",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866232386-640-n2g2pFPg.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866232386-960-DqR65Zr-.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 123486,
+      "sha256": "9de85614ca6e57fa2587c0fed463c9f0981d30572200633fcbb9998135c4a87a",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866232386-960-DqR65Zr-.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866232386-C8IFsNKs.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 185520,
+      "sha256": "fee244286b282d9422e0850f443e4954683b81d7d181581cc47dbad2ca3c6644",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866232386-C8IFsNKs.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866246504-400-WwvpTYAo.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 43282,
+      "sha256": "07a8d0edb06b939fc9c7e538e02ace6def77df6090e763ac22ce5212ce703250",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866246504-400-WwvpTYAo.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866246504-640-DAZiBlNU.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 80988,
+      "sha256": "58b77b923d1174231c597373527d25cb53ddeb5ca3144e7a2915619d56831043",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866246504-640-DAZiBlNU.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866246504-CWP8W-m4.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 103758,
+      "sha256": "2415f9deabd188ecdbd25579675692b62226bb2339a358b4cb2d1cb685457a3e",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866246504-CWP8W-m4.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866276475-400-BJ2rCgaH.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 40922,
+      "sha256": "1d94048b029fe014f8cbb252d5aa66959d6a158e6c93251d83bb2b54fda55b96",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866276475-400-BJ2rCgaH.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866276475-640-ByIcQHgl.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 97530,
+      "sha256": "2d0eda92380d4898a9820621d6d8a085a5cf7e8668cce1bae7838b99cb8832f9",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866276475-640-ByIcQHgl.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866276475-960-CJy-34CK.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 205520,
+      "sha256": "48cc99f7dec7b70e1541bcf59839f5282ca20d3aeb1dd541fe2f2cd4795808b0",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866276475-960-CJy-34CK.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1788866276475-C9sckN-M.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 312988,
+      "sha256": "ec260ab06238f99dbdc4d9f5a41fab7069593cf2004693e1b224b70d5b98b341",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1788866276475-C9sckN-M.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1789720432544-DLgEDhkA.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 48832,
+      "sha256": "1f7cadb73fd2a43bd8b60185d30bd82d898e72edb86928443f7d94c0d999fec0",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1789720432544-DLgEDhkA.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1789720831776-400-BjXUoaF8.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 29322,
+      "sha256": "7842b9746c47137231262d1f51878b5be143806bf861bf737a472d7ce7a57fae",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1789720831776-400-BjXUoaF8.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1789720831776-640-DDjUQ9D5.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 69688,
+      "sha256": "e484de81f39e3f96b57fa1130f60e0678122adae89b83775f27d76301768e57e",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1789720831776-640-DDjUQ9D5.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1789720831776-BZtywkpC.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 77984,
+      "sha256": "edcf9850cd51bc13e233e6bdce0dd5d3307c5e591e06ac76a5dd4c6c7d0f167f",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1789720831776-BZtywkpC.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1789721445475-400-Dc-m30kl.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 43856,
+      "sha256": "e8330904f2aed996b3b74c32b733fa7b5edb08eafe0ef55f9357aff008d1afdf",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1789721445475-400-Dc-m30kl.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/image_1789721445475-Dg23IvC8.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 70402,
+      "sha256": "b16df3a55acad02ef7e406151c3ecc6b92557a6a346aa307d4b950cdf5f7ec4a",
+      "requested": "https://jh-mechanical.replit.app/assets/image_1789721445475-Dg23IvC8.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+      "content_type": "text/css; charset=utf-8",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 114242,
+      "sha256": "8c885b362c06084f2a6752ceac6ec916e2fb8987927979c4dbb71be26519a8bf",
+      "requested": "https://jh-mechanical.replit.app/assets/index-CN9pE3HY.css",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+      "content_type": "text/javascript; charset=utf-8",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 435793,
+      "sha256": "fa30943b37ab4a1a55a97aee5903006503c8f5c2df5d4d681a83ef129ed9187f",
+      "requested": "https://jh-mechanical.replit.app/assets/index-DsbLHM7L.js",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/perite-oils_1791199475175-C5ocddMs.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 35180,
+      "sha256": "2733b66fef54a8ab9a01444a046e8c4aaa743ee204904282400fa89ce25fd663",
+      "requested": "https://jh-mechanical.replit.app/assets/perite-oils_1791199475175-C5ocddMs.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/powermaxd-products_1791199475170-400-BI26bsa8.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 51474,
+      "sha256": "fa2772e6f3547a78bd001c1f120d8344ab021ac503ab40b37d19ac28c9a63919",
+      "requested": "https://jh-mechanical.replit.app/assets/powermaxd-products_1791199475170-400-BI26bsa8.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/powermaxd-products_1791199475170-Cer1iiTq.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 60870,
+      "sha256": "b6eeb2df8bc3c43d30e8f66e3ebaf08701dbdcfb4e3e243d6debf5474dc94a08",
+      "requested": "https://jh-mechanical.replit.app/assets/powermaxd-products_1791199475170-Cer1iiTq.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/trytechoils_1791199475171-400-BIgHkmaT.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 26000,
+      "sha256": "105639a6e4e00daa2fbdfd39b32e7a03fcaa427f07cdb866bce707e13875a284",
+      "requested": "https://jh-mechanical.replit.app/assets/trytechoils_1791199475171-400-BIgHkmaT.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/trytechoils_1791199475171-MxZUlJ4C.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 41486,
+      "sha256": "8e86404a40061a2ce7f743292d24f83b8737cf342b206951ea4d51cc6dc5b36e",
+      "requested": "https://jh-mechanical.replit.app/assets/trytechoils_1791199475171-MxZUlJ4C.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-400-B16c439C.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 23574,
+      "sha256": "f22891182498ce1b5673bfe36b5c8c7ceedf9153dff714cc50c9da8587da960e",
+      "requested": "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-400-B16c439C.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-640-BJ_aNrSP.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 44452,
+      "sha256": "f5d9b6eef4f99d4ca28a0866799191cdfde6d44cca3af77c1124c8cab462848a",
+      "requested": "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-640-BJ_aNrSP.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-BD89wkxU.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 72724,
+      "sha256": "8a348a9e3cfdd069856556eae15c80c64a89950b5e3f2d9f52b5ffd45263ee2a",
+      "requested": "https://jh-mechanical.replit.app/assets/tyre-shine_1791199475172-BD89wkxU.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-400-B8pICjy4.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 28610,
+      "sha256": "46d6ec06849602f5ce1845f7ff009505acc4791d28059e53484c917e4df832eb",
+      "requested": "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-400-B8pICjy4.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-640-B4pqj5y0.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 58570,
+      "sha256": "e31705068b9090fcc0e5a19d53b9bdbf0c5d8358aeb6b657cf75addb5dacb310",
+      "requested": "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-640-B4pqj5y0.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-DXjXe_uY.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 63792,
+      "sha256": "9cd8e8920696e704ae950a9356434345dac59896071f3d3c7d6d4663996b6342",
+      "requested": "https://jh-mechanical.replit.app/assets/windscreen-wash-fluid_1791199475172-DXjXe_uY.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/wuurth-products_1791199475173-400-BwTRBS7M.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 27388,
+      "sha256": "b2a49c73bb46ff2edfa6d56035a70394ba2ac66894f97addae868b2d30d30789",
+      "requested": "https://jh-mechanical.replit.app/assets/wuurth-products_1791199475173-400-BwTRBS7M.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/assets/wuurth-products_1791199475173-CMTvNOXz.webp",
+      "content_type": "image/webp",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 41186,
+      "sha256": "3dbf2e1f1a990b0e2a66b46f1265cbdf26240af75b58aca10bb52b4f788258e2",
+      "requested": "https://jh-mechanical.replit.app/assets/wuurth-products_1791199475173-CMTvNOXz.webp",
+      "ok": true
+    },
+    {
+      "status": 200,
+      "url": "https://jh-mechanical.replit.app/favicon.svg",
+      "content_type": "image/svg+xml",
+      "location": null,
+      "x_robots_tag": null,
+      "bytes": 163,
+      "sha256": "8ffbde9092b1fa4de97c9481b76f518b131268c82e7c555041925225b1dab6e0",
+      "requested": "https://jh-mechanical.replit.app/favicon.svg",
+      "ok": true
+    }
+  ],
+  "failures": [
+    "/about/: Canonical does not match route",
+    "/about/: Missing route-specific AboutPage JSON-LD",
+    "/about/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/about#webpage",
+    "/about/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/about",
+    "/about/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/products/: Canonical does not match route",
+    "/products/: Missing route-specific CollectionPage JSON-LD",
+    "/products/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/products#webpage",
+    "/products/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/products",
+    "/products/: Published metadata differs from local generated HTML: {'title': False, 'descriptions': True, 'h1': False, 'canonicals': False, 'schemas': False}",
+    "/services/diesel-mechanic/: Canonical does not match route",
+    "/services/diesel-mechanic/: Missing route-specific Service JSON-LD",
+    "/services/diesel-mechanic/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/diesel-mechanic",
+    "/services/diesel-mechanic/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/diesel-mechanic#service",
+    "/services/diesel-mechanic/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/services/diesel-servicing/: Canonical does not match route",
+    "/services/diesel-servicing/: Missing route-specific Service JSON-LD",
+    "/services/diesel-servicing/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/diesel-servicing",
+    "/services/diesel-servicing/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/diesel-servicing#service",
+    "/services/diesel-servicing/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/services/vehicle-maintenance/: Canonical does not match route",
+    "/services/vehicle-maintenance/: Missing route-specific Service JSON-LD",
+    "/services/vehicle-maintenance/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-maintenance",
+    "/services/vehicle-maintenance/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-maintenance#service",
+    "/services/vehicle-maintenance/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/services/vehicle-breakdown/: Canonical does not match route",
+    "/services/vehicle-breakdown/: Missing route-specific Service JSON-LD",
+    "/services/vehicle-breakdown/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-breakdown",
+    "/services/vehicle-breakdown/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-breakdown#service",
+    "/services/vehicle-breakdown/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/services/vehicle-repairs/: Canonical does not match route",
+    "/services/vehicle-repairs/: Missing route-specific Service JSON-LD",
+    "/services/vehicle-repairs/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-repairs",
+    "/services/vehicle-repairs/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/services/vehicle-repairs#service",
+    "/services/vehicle-repairs/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/service-areas/heathcote/: Canonical does not match route",
+    "/service-areas/heathcote/: Missing route-specific Service JSON-LD",
+    "/service-areas/heathcote/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/heathcote",
+    "/service-areas/heathcote/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/heathcote#service",
+    "/service-areas/heathcote/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/service-areas/bendigo/: Canonical does not match route",
+    "/service-areas/bendigo/: Missing route-specific Service JSON-LD",
+    "/service-areas/bendigo/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/bendigo",
+    "/service-areas/bendigo/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/bendigo#service",
+    "/service-areas/bendigo/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/service-areas/seymour/: Canonical does not match route",
+    "/service-areas/seymour/: Missing route-specific Service JSON-LD",
+    "/service-areas/seymour/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/seymour",
+    "/service-areas/seymour/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/seymour#service",
+    "/service-areas/seymour/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/service-areas/macedon/: Canonical does not match route",
+    "/service-areas/macedon/: Missing route-specific Service JSON-LD",
+    "/service-areas/macedon/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/macedon",
+    "/service-areas/macedon/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/macedon#service",
+    "/service-areas/macedon/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/service-areas/shepparton/: Canonical does not match route",
+    "/service-areas/shepparton/: Missing route-specific Service JSON-LD",
+    "/service-areas/shepparton/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/shepparton",
+    "/service-areas/shepparton/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/shepparton#service",
+    "/service-areas/shepparton/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/service-areas/lockington/: Canonical does not match route",
+    "/service-areas/lockington/: Missing route-specific Service JSON-LD",
+    "/service-areas/lockington/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/lockington",
+    "/service-areas/lockington/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/lockington#service",
+    "/service-areas/lockington/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/service-areas/melbourne/: Canonical does not match route",
+    "/service-areas/melbourne/: Missing route-specific Service JSON-LD",
+    "/service-areas/melbourne/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/melbourne",
+    "/service-areas/melbourne/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/melbourne#service",
+    "/service-areas/melbourne/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "/service-areas/sunbury/: Canonical does not match route",
+    "/service-areas/sunbury/: Missing route-specific Service JSON-LD",
+    "/service-areas/sunbury/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/sunbury",
+    "/service-areas/sunbury/: Schema page URL does not use preferred trailing slash: https://jh-mechanical.replit.app/service-areas/sunbury#service",
+    "/service-areas/sunbury/: Published metadata differs from local generated HTML: {'title': True, 'descriptions': True, 'h1': True, 'canonicals': False, 'schemas': False}",
+    "Sitemap does not contain exactly the expected routes",
+    "Internal page links do not use preferred trailing slash: ['https://jh-mechanical.replit.app/about', 'https://jh-mechanical.replit.app/products', 'https://jh-mechanical.replit.app/service-areas/bendigo', 'https://jh-mechanical.replit.app/service-areas/heathcote', 'https://jh-mechanical.replit.app/service-areas/lockington', 'https://jh-mechanical.replit.app/service-areas/macedon', 'https://jh-mechanical.replit.app/service-areas/melbourne', 'https://jh-mechanical.replit.app/service-areas/seymour', 'https://jh-mechanical.replit.app/service-areas/shepparton', 'https://jh-mechanical.replit.app/service-areas/sunbury', 'https://jh-mechanical.replit.app/services/diesel-mechanic', 'https://jh-mechanical.replit.app/services/diesel-servicing', 'https://jh-mechanical.replit.app/services/vehicle-breakdown', 'https://jh-mechanical.replit.app/services/vehicle-maintenance', 'https://jh-mechanical.replit.app/services/vehicle-repairs']"
+  ],
+  "robots": {
+    "status": 200,
+    "url": "https://jh-mechanical.replit.app/robots.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "location": null,
+    "x_robots_tag": null,
+    "bytes": 77,
+    "sha256": "8a5bd795183f68990aac8e3f4a624332aa9d85e920fa60c15606f4068df5be18",
+    "body": "User-agent: *\nAllow: /\nSitemap: https://jh-mechanical.replit.app/sitemap.xml\n"
+  },
+  "sitemap": {
+    "status": 200,
+    "url": "https://jh-mechanical.replit.app/sitemap.xml",
+    "content_type": "text/xml; charset=utf-8",
+    "location": null,
+    "x_robots_tag": null,
+    "bytes": 2538,
+    "sha256": "9423bc6e6df5025014bf522fb4fe3742cafe46dae5d8710b94037a09742a16d7",
+    "locations": [
+      "https://jh-mechanical.replit.app/",
+      "https://jh-mechanical.replit.app/about",
+      "https://jh-mechanical.replit.app/products",
+      "https://jh-mechanical.replit.app/services/diesel-mechanic",
+      "https://jh-mechanical.replit.app/services/diesel-servicing",
+      "https://jh-mechanical.replit.app/services/vehicle-maintenance",
+      "https://jh-mechanical.replit.app/services/vehicle-breakdown",
+      "https://jh-mechanical.replit.app/services/vehicle-repairs",
+      "https://jh-mechanical.replit.app/service-areas/heathcote",
+      "https://jh-mechanical.replit.app/service-areas/bendigo",
+      "https://jh-mechanical.replit.app/service-areas/seymour",
+      "https://jh-mechanical.replit.app/service-areas/macedon",
+      "https://jh-mechanical.replit.app/service-areas/shepparton",
+      "https://jh-mechanical.replit.app/service-areas/lockington",
+      "https://jh-mechanical.replit.app/service-areas/melbourne",
+      "https://jh-mechanical.replit.app/service-areas/sunbury"
+    ]
+  },
+  "unknown_urls": [
+    {
+      "requested": "https://jh-mechanical.replit.app/audit-missing-page-20261009",
+      "initial_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/audit-missing-page-20261009",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "final_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/audit-missing-page-20261009",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "title": [
+        "Page not found | JH Mechanical"
+      ],
+      "robots": [
+        "noindex, follow"
+      ]
+    },
+    {
+      "requested": "https://jh-mechanical.replit.app/audit-missing-page-20261009/",
+      "initial_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/audit-missing-page-20261009/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "final_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/audit-missing-page-20261009/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "title": [
+        "Page not found | JH Mechanical"
+      ],
+      "robots": [
+        "noindex, follow"
+      ]
+    },
+    {
+      "requested": "https://jh-mechanical.replit.app/services/audit-missing",
+      "initial_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/services/audit-missing",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "final_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/services/audit-missing",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "title": [
+        "Page not found | JH Mechanical"
+      ],
+      "robots": [
+        "noindex, follow"
+      ]
+    },
+    {
+      "requested": "https://jh-mechanical.replit.app/services/audit-missing/",
+      "initial_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/services/audit-missing/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "final_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/services/audit-missing/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "title": [
+        "Page not found | JH Mechanical"
+      ],
+      "robots": [
+        "noindex, follow"
+      ]
+    },
+    {
+      "requested": "https://jh-mechanical.replit.app/service-areas/audit-missing",
+      "initial_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/service-areas/audit-missing",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "final_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/service-areas/audit-missing",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "title": [
+        "Page not found | JH Mechanical"
+      ],
+      "robots": [
+        "noindex, follow"
+      ]
+    },
+    {
+      "requested": "https://jh-mechanical.replit.app/service-areas/audit-missing/",
+      "initial_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/service-areas/audit-missing/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "final_response": {
+        "status": 404,
+        "url": "https://jh-mechanical.replit.app/service-areas/audit-missing/",
+        "content_type": "text/html; charset=utf-8",
+        "location": null,
+        "x_robots_tag": null,
+        "bytes": 2093,
+        "sha256": "59106a6ef9449d671c8b65f56d26d8026bcd6c895685ed988870b1f29e518826"
+      },
+      "title": [
+        "Page not found | JH Mechanical"
+      ],
+      "robots": [
+        "noindex, follow"
+      ]
+    }
+  ],
+  "unrecognised_internal_links": [],
+  "nonpreferred_internal_links": [
+    "https://jh-mechanical.replit.app/about",
+    "https://jh-mechanical.replit.app/products",
+    "https://jh-mechanical.replit.app/service-areas/bendigo",
+    "https://jh-mechanical.replit.app/service-areas/heathcote",
+    "https://jh-mechanical.replit.app/service-areas/lockington",
+    "https://jh-mechanical.replit.app/service-areas/macedon",
+    "https://jh-mechanical.replit.app/service-areas/melbourne",
+    "https://jh-mechanical.replit.app/service-areas/seymour",
+    "https://jh-mechanical.replit.app/service-areas/shepparton",
+    "https://jh-mechanical.replit.app/service-areas/sunbury",
+    "https://jh-mechanical.replit.app/services/diesel-mechanic",
+    "https://jh-mechanical.replit.app/services/diesel-servicing",
+    "https://jh-mechanical.replit.app/services/vehicle-breakdown",
+    "https://jh-mechanical.replit.app/services/vehicle-maintenance",
+    "https://jh-mechanical.replit.app/services/vehicle-repairs"
+  ]
+}

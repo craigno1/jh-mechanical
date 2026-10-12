@@ -31,12 +31,12 @@ export default function ServicePage({ slug }: { slug: string }) {
         'itemListElement': [
           { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': `${siteUrl}/` },
           { '@type': 'ListItem', 'position': 2, 'name': 'Services', 'item': `${siteUrl}/#services` },
-          { '@type': 'ListItem', 'position': 3, 'name': data.h1, 'item': `${siteUrl}/services/${data.slug}` }
+          { '@type': 'ListItem', 'position': 3, 'name': data.h1, 'item': `${siteUrl}/services/${data.slug}/` }
         ]
       },
       {
         '@type': 'Service',
-        '@id': `${siteUrl}/services/${data.slug}#service`,
+        '@id': `${siteUrl}/services/${data.slug}/#service`,
         'name': data.h1,
         'provider': {
           '@id': getBusinessId(siteUrl),
@@ -55,7 +55,7 @@ export default function ServicePage({ slug }: { slug: string }) {
       <SeoHead
         title={data.metaTitle}
         description={data.metaDescription}
-        canonicalUrl={`${siteUrl}/services/${data.slug}`}
+        canonicalUrl={`${siteUrl}/services/${data.slug}/`}
         schema={schema}
       />
       <Header />
@@ -173,7 +173,7 @@ export default function ServicePage({ slug }: { slug: string }) {
                 <ul className="space-y-3">
                   {Object.values(areas).map(area => (
                     <li key={area.slug}>
-                      <Link href={`/service-areas/${area.slug}`} className="flex items-center gap-2 text-sm font-semibold text-[#5e665c] hover:text-[#83c438] transition-colors" data-testid={`link-related-area-${area.slug}`}>
+                      <Link href={`/service-areas/${area.slug}/`} className="flex items-center gap-2 text-sm font-semibold text-[#5e665c] hover:text-[#83c438] transition-colors" data-testid={`link-related-area-${area.slug}`}>
                         <MapPin size={16} className="text-[#83c438]" /> {area.cityName}
                       </Link>
                     </li>

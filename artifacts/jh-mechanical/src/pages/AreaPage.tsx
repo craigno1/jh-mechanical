@@ -30,12 +30,12 @@ export default function AreaPage({ slug }: { slug: string }) {
         'itemListElement': [
           { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': `${siteUrl}/` },
           { '@type': 'ListItem', 'position': 2, 'name': 'Service Areas', 'item': `${siteUrl}/#areas` },
-          { '@type': 'ListItem', 'position': 3, 'name': data.cityName, 'item': `${siteUrl}/service-areas/${data.slug}` }
+          { '@type': 'ListItem', 'position': 3, 'name': data.cityName, 'item': `${siteUrl}/service-areas/${data.slug}/` }
         ]
       },
       {
         '@type': 'Service',
-        '@id': `${siteUrl}/service-areas/${data.slug}#service`,
+        '@id': `${siteUrl}/service-areas/${data.slug}/#service`,
         'name': `Diesel mechanic services in ${data.cityName}`,
         'description': data.metaDescription,
         'provider': {
@@ -54,7 +54,7 @@ export default function AreaPage({ slug }: { slug: string }) {
       <SeoHead
         title={data.metaTitle}
         description={data.metaDescription}
-        canonicalUrl={`${siteUrl}/service-areas/${data.slug}`}
+        canonicalUrl={`${siteUrl}/service-areas/${data.slug}/`}
         schema={schema}
       />
       <Header />
@@ -174,7 +174,7 @@ export default function AreaPage({ slug }: { slug: string }) {
                   <ul className="space-y-3">
                     {data.relatedServices.map(slug => services[slug]).filter(Boolean).map(service => (
                       <li key={service.slug}>
-                        <Link href={`/services/${service.slug}`} className="flex items-center gap-2 text-sm font-semibold text-[#5e665c] hover:text-[#83c438] transition-colors" data-testid={`link-related-service-${service.slug}`}>
+                        <Link href={`/services/${service.slug}/`} className="flex items-center gap-2 text-sm font-semibold text-[#5e665c] hover:text-[#83c438] transition-colors" data-testid={`link-related-service-${service.slug}`}>
                           <Wrench size={16} className="text-[#83c438]" /> {service.h1}
                         </Link>
                       </li>

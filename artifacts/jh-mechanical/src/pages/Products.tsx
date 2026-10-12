@@ -45,9 +45,9 @@ function Products() {
       getBusinessSchema(siteUrl),
       {
         '@type': 'CollectionPage',
-        '@id': `${siteUrl}/products#webpage`,
+        '@id': `${siteUrl}/products/#webpage`,
         name: 'Products: Consumables for Vehicles',
-        url: `${siteUrl}/products`,
+        url: `${siteUrl}/products/`,
       },
     ],
   };
@@ -57,7 +57,7 @@ function Products() {
       <SeoHead
         title="Products: Consumables for Vehicles"
         description="Vehicle consumables available from JH Mechanical in Bendigo, including oils, AdBlue, cleaners, rags and DPF system cleaner. Ask us by phone."
-        canonicalUrl={`${siteUrl}/products`}
+        canonicalUrl={`${siteUrl}/products/`}
         schema={schema}
       />
       <Header />

@@ -38,7 +38,10 @@ class Page(HTMLParser):
             if a.get("rel") == "canonical":
                 self.canonicals.append(a.get("href", ""))
             if a.get("rel") in ("stylesheet", "modulepreload", "preload", "icon"):
-                self.assets.append(a.get("href", ""))
+                if a.get("href"):
+                    self.assets.append(a["href"])
+                if a.get("imagesrcset"):
+                    self.assets.extend(part.strip().split()[0] for part in a["imagesrcset"].split(",") if part.strip())
         if tag in ("img", "script", "source") and a.get("src"):
             self.assets.append(a["src"])
         if tag in ("img", "source") and a.get("srcset"):
@@ -117,6 +120,8 @@ def main():
         page = Page(body.decode())
         expected = origin + route
         issues = []
+        if direct["status"] != 200 or direct["location"] or result["url"] != expected:
+            issues.append("Preferred canonical target must return HTTP 200 without redirecting")
         if result["status"] != 200 or "text/html" not in result["content_type"]:
             issues.append("Expected HTML HTTP 200")
         for label, values in (("title", page.title), ("description", page.descriptions), ("H1", page.h1)):
@@ -128,7 +133,7 @@ def main():
             issues.append("Missing JSON-LD")
         graph = [node for schema in page.schemas for node in schema.get("@graph", [schema])]
         types = [node.get("@type") for node in graph]
-        expected_type = "FAQPage" if route == "/" else "CollectionPage" if route == "/products" else "AboutPage" if route == "/about" else "Service"
+        expected_type = "FAQPage" if route == "/" else "CollectionPage" if route == "/products/" else "AboutPage" if route == "/about/" else "Service"
         if not any(node.get("@type") == expected_type and
                    (node.get("url") or node.get("@id", "")).split("#")[0] == expected for node in graph):
             issues.append(f"Missing route-specific {expected_type} JSON-LD")
@@ -139,6 +144,10 @@ def main():
             for key, value in schema_urls(schema):
                 if value.startswith("http") and not value.startswith(origin + "/") and "facebook.com/" not in value:
                     issues.append(f"Unexpected schema origin: {value}")
+                if key in ("url", "@id", "item") and value.startswith(origin + "/"):
+                    schema_path = urllib.parse.urlparse(value).path
+                    if schema_path != "/" and schema_path.rstrip("/") + "/" in routes and not schema_path.endswith("/"):
+                        issues.append(f"Schema page URL does not use preferred trailing slash: {value}")
                 if key in ("image", "logo"):
                     page_assets.add(urllib.parse.urljoin(result["url"], value))
         for asset in page.assets:
@@ -162,14 +171,17 @@ def main():
                 issues.append(f"Published metadata differs from local generated HTML: {baseline_matches}")
         variants = []
         if route != "/":
-            slash_direct, _ = fetch(url + "/", follow=False)
-            slash, slash_body = fetch(url + "/")
+            alternate = url.rstrip("/")
+            slash_direct, _ = fetch(alternate, follow=False)
+            slash, slash_body = fetch(alternate)
             slash_page = Page(slash_body.decode())
             equal = all(getattr(page, field) == getattr(slash_page, field)
                         for field in ("title", "descriptions", "h1", "canonicals", "schemas"))
             if slash["status"] != 200 or not equal:
-                issues.append("Trailing-slash metadata differs or fails")
-            variants.append({"requested": url + "/", "initial_response": slash_direct, "final_response": slash,
+                issues.append("Slashless metadata differs or fails")
+            if slash_direct["status"] not in (301, 308) or urllib.parse.urljoin(alternate, slash_direct["location"] or "") != expected or slash["url"] != expected:
+                issues.append("Slashless URL must permanently redirect to the preferred trailing-slash URL")
+            variants.append({"requested": alternate, "initial_response": slash_direct, "final_response": slash,
                              "metadata_matches": equal})
         return {"route": route, "initial_response": direct, "final_response": result,
                 "title": page.title, "description": page.descriptions, "h1": page.h1,
@@ -230,13 +242,20 @@ def main():
                                        "final_response": result, "title": page.title, "robots": page.robots})
         if result["status"] != 404:
             report["failures"].append(f"Unknown URL did not return HTTP 404: {route}")
-    public_paths = set(routes)
+    public_paths = {route.rstrip("/") or "/" for route in routes}
     unknown_links = sorted({urllib.parse.urlparse(url).path.rstrip("/") or "/" for url in all_links
                             if urllib.parse.urlparse(url).netloc == parsed.netloc
                             and (urllib.parse.urlparse(url).path.rstrip("/") or "/") not in public_paths})
     report["unrecognised_internal_links"] = unknown_links
     if unknown_links:
         report["failures"].append(f"Internal links outside public routes: {unknown_links}")
+    nonpreferred_links = sorted({url for url in all_links
+                                if urllib.parse.urlparse(url).netloc == parsed.netloc
+                                and urllib.parse.urlparse(url).path != "/"
+                                and not urllib.parse.urlparse(url).path.endswith("/")})
+    report["nonpreferred_internal_links"] = nonpreferred_links
+    if nonpreferred_links:
+        report["failures"].append(f"Internal page links do not use preferred trailing slash: {nonpreferred_links}")
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     Path(args.output).write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps({"pages": len(routes), "assets": len(report["assets"]),

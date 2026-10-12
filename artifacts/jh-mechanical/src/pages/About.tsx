@@ -20,9 +20,9 @@ function About() {
       getBusinessSchema(siteUrl),
       {
         '@type': 'AboutPage',
-        '@id': `${siteUrl}/about#webpage`,
+        '@id': `${siteUrl}/about/#webpage`,
         name: 'About JH Mechanical',
-        url: `${siteUrl}/about`,
+        url: `${siteUrl}/about/`,
         mainEntity: {
           '@id': getBusinessId(siteUrl),
         },
@@ -35,7 +35,7 @@ function About() {
       <SeoHead
         title="About JH Mechanical | Local Diesel Mechanic in Bendigo"
         description="Meet JH Mechanical, a practical and dependable Bendigo diesel mechanic supporting trucks, fleets and heavy vehicles across central Victoria."
-        canonicalUrl={`${siteUrl}/about`}
+        canonicalUrl={`${siteUrl}/about/`}
         schema={aboutSchema}
       />
       <Header />

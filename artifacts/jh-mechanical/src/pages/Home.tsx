@@ -167,7 +167,7 @@ function Home() {
             <div className="flex flex-col justify-between gap-5 lg:flex-row lg:items-end"><div><h2 className="display-face text-4xl font-bold uppercase tracking-tight sm:text-5xl lg:text-6xl text-[#1c201d]">Our services</h2></div><p className="max-w-md text-sm leading-6 text-[#61675d] lg:mb-1">From routine diesel servicing to an unexpected breakdown, JH Mechanical keeps heavy vehicles safe, reliable and ready to earn their keep.</p></div>
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
               {servicesList.map(({ slug, h1, subtitle, icon: Icon, image }, index) => (
-                <Link href={`/services/${slug}`} key={slug} className={`service-card group relative isolate flex min-h-[267px] overflow-hidden border border-[#485348] p-5 text-[#f2f0e8] lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`}>
+                <Link href={`/services/${slug}/`} key={slug} className={`service-card group relative isolate flex min-h-[267px] overflow-hidden border border-[#485348] p-5 text-[#f2f0e8] lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`}>
                   <ResponsiveImage src={image} sizes="(min-width: 1304px) 403px, (min-width: 1024px) calc((100vw - 96px) / 3), (min-width: 768px) calc((100vw - 56px) / 2), calc(100vw - 40px)" alt="" className="absolute inset-0 -z-20 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#111611]/70 via-[#111611]/48 to-[#111611]/95" />
                   <div className="flex w-full flex-col">
@@ -183,7 +183,7 @@ function Home() {
 
         <section className="bg-[#262d27] px-5 py-10 text-[#f2f0e8] sm:py-14 lg:px-8">
           <div className="mx-auto grid max-w-[1240px] items-center gap-8 lg:grid-cols-[.85fr_1.15fr]">
-            <div><span className="eyebrow">The JH difference</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Capable hands.<br /><span className="text-[#83C438]">No drama.</span></h2><p className="mt-6 max-w-md text-sm leading-6 text-[#b9c1b7]">When your vehicle is part of how you make a living, you need more than a quick patch. You need someone who listens, knows diesel and tells you the truth about the job.</p><Link href="/about" className="mt-8 inline-flex items-center gap-2 border-b border-[#83C438] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#83C438]" data-testid="link-about-difference">Meet JH Mechanical <ArrowUpRight size={16} /></Link></div>
+            <div><span className="eyebrow">The JH difference</span><h2 className="display-face mt-4 text-5xl font-bold uppercase leading-[.92] sm:text-6xl">Capable hands.<br /><span className="text-[#83C438]">No drama.</span></h2><p className="mt-6 max-w-md text-sm leading-6 text-[#b9c1b7]">When your vehicle is part of how you make a living, you need more than a quick patch. You need someone who listens, knows diesel and tells you the truth about the job.</p><Link href="/about/" className="mt-8 inline-flex items-center gap-2 border-b border-[#83C438] pb-2 text-xs font-bold uppercase tracking-[.12em] text-[#83C438]" data-testid="link-about-difference">Meet JH Mechanical <ArrowUpRight size={16} /></Link></div>
             <div className="grid gap-px bg-[#485348] sm:grid-cols-2">
               {[['01', 'Local knowledge', 'Bendigo based, with a practical understanding of the work and roads around central Victoria.'], ['02', 'Straight talking', 'We explain what is happening, what matters now and what can wait.'], ['03', 'Work-ready thinking', 'Repairs and maintenance decisions made around uptime, not guesswork.'], ['04', 'One call away', 'When the unexpected happens, you can speak to a real mechanic about the next move.']].map(([number, title, text]) => <div key={number} className="bg-[#262d27] p-6 sm:p-7"><span className="mono-face text-base text-[#83C438]">{number}</span><h3 className="display-face mt-8 text-3xl font-bold uppercase">{title}</h3><p className="mt-3 text-sm leading-6 text-[#aeb7aa]">{text}</p></div>)}
             </div>
@@ -236,7 +236,7 @@ function Home() {
             </div>
             <div className="flex flex-wrap gap-x-8 gap-y-3 border-t border-[#c8c8bd] pt-7 lg:col-start-2">
               {Object.values(areas).map((area) => (
-                <Link href={`/service-areas/${area.slug}`} key={area.slug} className="text-xl font-semibold text-[#3d453c] underline decoration-[#99bd62] decoration-2 underline-offset-4 hover:text-[#83C438]">
+                <Link href={`/service-areas/${area.slug}/`} key={area.slug} className="text-xl font-semibold text-[#3d453c] underline decoration-[#99bd62] decoration-2 underline-offset-4 hover:text-[#83C438]">
                   {area.cityName}
                 </Link>
               ))}
