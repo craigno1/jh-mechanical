@@ -1,3 +1,4 @@
+import { ResponsiveImage } from '@/components/ResponsiveImage';
 import { useRoute } from 'wouter';
 import { ArrowUpRight, CheckCircle2, ChevronRight, PhoneCall, Wrench, CircleAlert, Settings, MapPin } from 'lucide-react';
 import { services } from '@/data/services';
@@ -94,7 +95,7 @@ export default function ServicePage({ slug }: { slug: string }) {
               </div>
             </div>
             <div className="reveal reveal-delay-2 relative aspect-[4/3.5] overflow-hidden border border-[#3b443b] bg-[#242a25]">
-              <img src={data.heroImg} alt={data.h1} className="absolute inset-0 h-full w-full object-cover opacity-90" />
+              <ResponsiveImage src={data.heroImg} sizes="(min-width: 1304px) 540px, (min-width: 1024px) calc((100vw - 104px) * .45), calc(100vw - 40px)" alt={data.h1} className="absolute inset-0 h-full w-full object-cover opacity-90" loading="eager" fetchPriority="high" />
             </div>
           </div>
         </section>

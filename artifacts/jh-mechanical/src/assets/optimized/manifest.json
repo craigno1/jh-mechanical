@@ -1,0 +1,562 @@
+{
+  "image_1788866147775.webp": {
+    "width": 1200,
+    "height": 900,
+    "originalBytes": 2111015,
+    "bytes": 198814,
+    "variants": [
+      {
+        "file": "responsive/image_1788866147775-400.webp",
+        "width": 400,
+        "bytes": 34642
+      },
+      {
+        "file": "responsive/image_1788866147775-640.webp",
+        "width": 640,
+        "bytes": 75706
+      },
+      {
+        "file": "responsive/image_1788866147775-960.webp",
+        "width": 960,
+        "bytes": 139608
+      }
+    ]
+  },
+  "image_1788866176971.webp": {
+    "width": 765,
+    "height": 1020,
+    "originalBytes": 1110364,
+    "bytes": 161376,
+    "variants": [
+      {
+        "file": "responsive/image_1788866176971-400.webp",
+        "width": 400,
+        "bytes": 49800
+      },
+      {
+        "file": "responsive/image_1788866176971-640.webp",
+        "width": 640,
+        "bytes": 118986
+      }
+    ]
+  },
+  "image_1788866232386.webp": {
+    "width": 1200,
+    "height": 900,
+    "originalBytes": 2171578,
+    "bytes": 185520,
+    "variants": [
+      {
+        "file": "responsive/image_1788866232386-400.webp",
+        "width": 400,
+        "bytes": 27870
+      },
+      {
+        "file": "responsive/image_1788866232386-640.webp",
+        "width": 640,
+        "bytes": 61708
+      },
+      {
+        "file": "responsive/image_1788866232386-960.webp",
+        "width": 960,
+        "bytes": 123486
+      }
+    ]
+  },
+  "image_1788866246504.webp": {
+    "width": 765,
+    "height": 1020,
+    "originalBytes": 1095825,
+    "bytes": 103758,
+    "variants": [
+      {
+        "file": "responsive/image_1788866246504-400.webp",
+        "width": 400,
+        "bytes": 43282
+      },
+      {
+        "file": "responsive/image_1788866246504-640.webp",
+        "width": 640,
+        "bytes": 80988
+      }
+    ]
+  },
+  "image_1788866276475.webp": {
+    "width": 1200,
+    "height": 900,
+    "originalBytes": 2519310,
+    "bytes": 312988,
+    "variants": [
+      {
+        "file": "responsive/image_1788866276475-400.webp",
+        "width": 400,
+        "bytes": 40922
+      },
+      {
+        "file": "responsive/image_1788866276475-640.webp",
+        "width": 640,
+        "bytes": 97530
+      },
+      {
+        "file": "responsive/image_1788866276475-960.webp",
+        "width": 960,
+        "bytes": 205520
+      }
+    ]
+  },
+  "image_1788154192187.webp": {
+    "width": 1200,
+    "height": 900,
+    "originalBytes": 1746801,
+    "bytes": 169322,
+    "variants": [
+      {
+        "file": "responsive/image_1788154192187-400.webp",
+        "width": 400,
+        "bytes": 22798
+      },
+      {
+        "file": "responsive/image_1788154192187-640.webp",
+        "width": 640,
+        "bytes": 54022
+      },
+      {
+        "file": "responsive/image_1788154192187-960.webp",
+        "width": 960,
+        "bytes": 113586
+      }
+    ]
+  },
+  "image_1788866165181.webp": {
+    "width": 1200,
+    "height": 900,
+    "originalBytes": 2057214,
+    "bytes": 227804,
+    "variants": [
+      {
+        "file": "responsive/image_1788866165181-400.webp",
+        "width": 400,
+        "bytes": 31410
+      },
+      {
+        "file": "responsive/image_1788866165181-640.webp",
+        "width": 640,
+        "bytes": 74560
+      },
+      {
+        "file": "responsive/image_1788866165181-960.webp",
+        "width": 960,
+        "bytes": 153146
+      }
+    ]
+  },
+  "image_1788866203536.webp": {
+    "width": 1200,
+    "height": 900,
+    "originalBytes": 1515755,
+    "bytes": 109540,
+    "variants": [
+      {
+        "file": "responsive/image_1788866203536-400.webp",
+        "width": 400,
+        "bytes": 20634
+      },
+      {
+        "file": "responsive/image_1788866203536-640.webp",
+        "width": 640,
+        "bytes": 42772
+      },
+      {
+        "file": "responsive/image_1788866203536-960.webp",
+        "width": 960,
+        "bytes": 79458
+      }
+    ]
+  },
+  "image_1788866217071.webp": {
+    "width": 765,
+    "height": 1020,
+    "originalBytes": 1347209,
+    "bytes": 174182,
+    "variants": [
+      {
+        "file": "responsive/image_1788866217071-400.webp",
+        "width": 400,
+        "bytes": 56556
+      },
+      {
+        "file": "responsive/image_1788866217071-640.webp",
+        "width": 640,
+        "bytes": 130842
+      }
+    ]
+  },
+  "image_1788154164791.webp": {
+    "width": 680,
+    "height": 510,
+    "originalBytes": 538875,
+    "bytes": 68272,
+    "variants": [
+      {
+        "file": "responsive/image_1788154164791-400.webp",
+        "width": 400,
+        "bytes": 26458
+      },
+      {
+        "file": "responsive/image_1788154164791-640.webp",
+        "width": 640,
+        "bytes": 59976
+      }
+    ]
+  },
+  "image_1788177487503.webp": {
+    "width": 1041,
+    "height": 890,
+    "originalBytes": 1573356,
+    "bytes": 179490,
+    "variants": [
+      {
+        "file": "responsive/image_1788177487503-400.webp",
+        "width": 400,
+        "bytes": 39972
+      },
+      {
+        "file": "responsive/image_1788177487503-640.webp",
+        "width": 640,
+        "bytes": 84936
+      },
+      {
+        "file": "responsive/image_1788177487503-960.webp",
+        "width": 960,
+        "bytes": 158996
+      }
+    ]
+  },
+  "image_1788154081149.webp": {
+    "width": 680,
+    "height": 510,
+    "originalBytes": 735905,
+    "bytes": 104510,
+    "variants": [
+      {
+        "file": "responsive/image_1788154081149-400.webp",
+        "width": 400,
+        "bytes": 41988
+      },
+      {
+        "file": "responsive/image_1788154081149-640.webp",
+        "width": 640,
+        "bytes": 99748
+      }
+    ]
+  },
+  "image_1788154100216.webp": {
+    "width": 510,
+    "height": 510,
+    "originalBytes": 216129,
+    "bytes": 19602,
+    "variants": [
+      {
+        "file": "responsive/image_1788154100216-400.webp",
+        "width": 400,
+        "bytes": 13636
+      }
+    ]
+  },
+  "image_1788154109579.webp": {
+    "width": 680,
+    "height": 510,
+    "originalBytes": 564299,
+    "bytes": 71766,
+    "variants": [
+      {
+        "file": "responsive/image_1788154109579-400.webp",
+        "width": 400,
+        "bytes": 28804
+      },
+      {
+        "file": "responsive/image_1788154109579-640.webp",
+        "width": 640,
+        "bytes": 65424
+      }
+    ]
+  },
+  "image_1788154125619.webp": {
+    "width": 680,
+    "height": 510,
+    "originalBytes": 626492,
+    "bytes": 81562,
+    "variants": [
+      {
+        "file": "responsive/image_1788154125619-400.webp",
+        "width": 400,
+        "bytes": 31608
+      },
+      {
+        "file": "responsive/image_1788154125619-640.webp",
+        "width": 640,
+        "bytes": 74402
+      }
+    ]
+  },
+  "image_1788154241783.webp": {
+    "width": 700,
+    "height": 581,
+    "originalBytes": 591566,
+    "bytes": 96088,
+    "variants": [
+      {
+        "file": "responsive/image_1788154241783-400.webp",
+        "width": 400,
+        "bytes": 32948
+      },
+      {
+        "file": "responsive/image_1788154241783-640.webp",
+        "width": 640,
+        "bytes": 81716
+      }
+    ]
+  },
+  "image_1789720432544.webp": {
+    "width": 377,
+    "height": 399,
+    "originalBytes": 314301,
+    "bytes": 48832,
+    "variants": []
+  },
+  "image_1789720831776.webp": {
+    "width": 680,
+    "height": 510,
+    "originalBytes": 616383,
+    "bytes": 77984,
+    "variants": [
+      {
+        "file": "responsive/image_1789720831776-400.webp",
+        "width": 400,
+        "bytes": 29322
+      },
+      {
+        "file": "responsive/image_1789720831776-640.webp",
+        "width": 640,
+        "bytes": 69688
+      }
+    ]
+  },
+  "image_1789721445475.webp": {
+    "width": 515,
+    "height": 451,
+    "originalBytes": 468954,
+    "bytes": 70402,
+    "variants": [
+      {
+        "file": "responsive/image_1789721445475-400.webp",
+        "width": 400,
+        "bytes": 43856
+      }
+    ]
+  },
+  "Screenshot_2026-09-18_184252_1789721472137.webp": {
+    "width": 379,
+    "height": 357,
+    "originalBytes": 250851,
+    "bytes": 33436,
+    "variants": []
+  },
+  "car-rags_1791199475174.webp": {
+    "width": 900,
+    "height": 504,
+    "originalBytes": 496694,
+    "bytes": 95372,
+    "variants": [
+      {
+        "file": "responsive/car-rags_1791199475174-400.webp",
+        "width": 400,
+        "bytes": 23042
+      },
+      {
+        "file": "responsive/car-rags_1791199475174-640.webp",
+        "width": 640,
+        "bytes": 51418
+      }
+    ]
+  },
+  "brakecleaner_1791199475173.webp": {
+    "width": 703,
+    "height": 718,
+    "originalBytes": 313837,
+    "bytes": 40730,
+    "variants": [
+      {
+        "file": "responsive/brakecleaner_1791199475173-400.webp",
+        "width": 400,
+        "bytes": 16756
+      },
+      {
+        "file": "responsive/brakecleaner_1791199475173-640.webp",
+        "width": 640,
+        "bytes": 35058
+      }
+    ]
+  },
+  "degreaser_1791199475174.webp": {
+    "width": 771,
+    "height": 637,
+    "originalBytes": 518726,
+    "bytes": 56356,
+    "variants": [
+      {
+        "file": "responsive/degreaser_1791199475174-400.webp",
+        "width": 400,
+        "bytes": 21694
+      },
+      {
+        "file": "responsive/degreaser_1791199475174-640.webp",
+        "width": 640,
+        "bytes": 42690
+      }
+    ]
+  },
+  "tyre-shine_1791199475172.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 147936,
+    "bytes": 72724,
+    "variants": [
+      {
+        "file": "responsive/tyre-shine_1791199475172-400.webp",
+        "width": 400,
+        "bytes": 23574
+      },
+      {
+        "file": "responsive/tyre-shine_1791199475172-640.webp",
+        "width": 640,
+        "bytes": 44452
+      }
+    ]
+  },
+  "Glass-cleaner_1791199475175.webp": {
+    "width": 900,
+    "height": 600,
+    "originalBytes": 4548632,
+    "bytes": 57272,
+    "variants": [
+      {
+        "file": "responsive/Glass-cleaner_1791199475175-400.webp",
+        "width": 400,
+        "bytes": 17636
+      },
+      {
+        "file": "responsive/Glass-cleaner_1791199475175-640.webp",
+        "width": 640,
+        "bytes": 34502
+      }
+    ]
+  },
+  "adblue_1791199475173.webp": {
+    "width": 900,
+    "height": 889,
+    "originalBytes": 402702,
+    "bytes": 39030,
+    "variants": [
+      {
+        "file": "responsive/adblue_1791199475173-400.webp",
+        "width": 400,
+        "bytes": 14102
+      },
+      {
+        "file": "responsive/adblue_1791199475173-640.webp",
+        "width": 640,
+        "bytes": 25608
+      }
+    ]
+  },
+  "hand-cleaner-bottles_1791199475175.webp": {
+    "width": 900,
+    "height": 600,
+    "originalBytes": 2786771,
+    "bytes": 44994,
+    "variants": [
+      {
+        "file": "responsive/hand-cleaner-bottles_1791199475175-400.webp",
+        "width": 400,
+        "bytes": 15498
+      },
+      {
+        "file": "responsive/hand-cleaner-bottles_1791199475175-640.webp",
+        "width": 640,
+        "bytes": 27856
+      }
+    ]
+  },
+  "windscreen-wash-fluid_1791199475172.webp": {
+    "width": 668,
+    "height": 559,
+    "originalBytes": 571378,
+    "bytes": 63792,
+    "variants": [
+      {
+        "file": "responsive/windscreen-wash-fluid_1791199475172-400.webp",
+        "width": 400,
+        "bytes": 28610
+      },
+      {
+        "file": "responsive/windscreen-wash-fluid_1791199475172-640.webp",
+        "width": 640,
+        "bytes": 58570
+      }
+    ]
+  },
+  "perite-oils_1791199475175.webp": {
+    "width": 369,
+    "height": 290,
+    "originalBytes": 212205,
+    "bytes": 35180,
+    "variants": []
+  },
+  "trytechoils_1791199475171.webp": {
+    "width": 548,
+    "height": 420,
+    "originalBytes": 367324,
+    "bytes": 41486,
+    "variants": [
+      {
+        "file": "responsive/trytechoils_1791199475171-400.webp",
+        "width": 400,
+        "bytes": 26000
+      }
+    ]
+  },
+  "powermaxd-products_1791199475170.webp": {
+    "width": 445,
+    "height": 447,
+    "originalBytes": 416573,
+    "bytes": 60870,
+    "variants": [
+      {
+        "file": "responsive/powermaxd-products_1791199475170-400.webp",
+        "width": 400,
+        "bytes": 51474
+      }
+    ]
+  },
+  "wuurth-products_1791199475173.webp": {
+    "width": 548,
+    "height": 524,
+    "originalBytes": 411591,
+    "bytes": 41186,
+    "variants": [
+      {
+        "file": "responsive/wuurth-products_1791199475173-400.webp",
+        "width": 400,
+        "bytes": 27388
+      }
+    ]
+  },
+  "dpf-cleanr_1791199475174.webp": {
+    "width": 399,
+    "height": 291,
+    "originalBytes": 64781,
+    "bytes": 9456,
+    "variants": []
+  }
+}

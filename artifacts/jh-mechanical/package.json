@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "optimize-images": "node scripts/optimize-images.js",
+    "check-images": "node scripts/check-images.js",
     "dev": "vite --config vite.config.ts --host 0.0.0.0",
     "build": "vite build --config vite.config.ts && vite build --config vite.config.ts --ssr src/entry-server.tsx --outDir dist/server && node scripts/generate-static.js",
     "serve": "vite preview --config vite.config.ts --host 0.0.0.0",

@@ -1,3 +1,4 @@
+import { ResponsiveImage } from '@/components/ResponsiveImage';
 import { ChevronRight, PhoneCall, MapPin, CheckCircle2, ArrowUpRight, CircleAlert, Wrench } from 'lucide-react';
 import { areas } from '@/data/areas';
 import { services } from '@/data/services';
@@ -94,7 +95,7 @@ export default function AreaPage({ slug }: { slug: string }) {
               </div>
             </div>
             <div className="reveal reveal-delay-2 relative aspect-[4/3.5] overflow-hidden border border-[#3b443b] bg-[#242a25]">
-              <img src={data.heroImg} alt={`${data.cityName} Diesel Mechanic Services`} className="absolute inset-0 h-full w-full object-cover opacity-90" />
+              <ResponsiveImage src={data.heroImg} sizes="(min-width: 1304px) 540px, (min-width: 1024px) calc((100vw - 104px) * .45), calc(100vw - 40px)" alt={`${data.cityName} Diesel Mechanic Services`} className="absolute inset-0 h-full w-full object-cover opacity-90" loading="eager" fetchPriority="high" />
               <div className="absolute bottom-5 left-5 bg-[#1c201d]/90 px-3 py-2 border border-[#3b443b]">
                 <p className="mono-face text-xs uppercase tracking-widest text-[#83c438]">{data.cityName} Area</p>
               </div>

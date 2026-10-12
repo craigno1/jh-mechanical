@@ -1,4 +1,5 @@
 import rags from '@/assets/optimized/car-rags_1791199475174.webp';
+import { ResponsiveImage } from '@/components/ResponsiveImage';
 import brake from '@/assets/optimized/brakecleaner_1791199475173.webp';
 import degreaser from '@/assets/optimized/degreaser_1791199475174.webp';
 import tyre from '@/assets/optimized/tyre-shine_1791199475172.webp';
@@ -78,7 +79,7 @@ function Products() {
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {products.map(({ name, image }, i) => (
                 <div key={name} className="relative isolate flex min-h-[170px] overflow-hidden border border-[#485348] p-4 text-[#f2f0e8]" data-testid={`tile-product-${i}`}>
-                  <img src={image} alt="" className="absolute inset-0 -z-20 h-full w-full object-cover" loading="lazy" />
+                  <ResponsiveImage src={image} sizes="(min-width: 1304px) 298px, (min-width: 1024px) calc((100vw - 112px) / 4), (min-width: 640px) calc((100vw - 56px) / 2), calc(100vw - 40px)" alt="" className="absolute inset-0 -z-20 h-full w-full object-cover" />
                   <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#111611]/45 via-[#111611]/45 to-[#111611]/95" />
                   <h2 className="display-face mt-auto text-2xl font-bold uppercase leading-[1.1] text-[#f2f0e8] drop-shadow-[0_2px_4px_rgba(0,0,0,.9)]">{name}</h2>
                 </div>

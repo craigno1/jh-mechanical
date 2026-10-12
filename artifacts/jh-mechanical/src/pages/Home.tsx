@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ResponsiveImage } from '@/components/ResponsiveImage';
 import { Link } from 'wouter';
 import {
   ArrowUpRight,
@@ -143,7 +144,7 @@ function Home() {
             </div>
             <div className="reveal reveal-delay-2 relative mx-auto w-full max-w-[500px] lg:ml-auto">
               <div className="relative aspect-[4/4.5] overflow-hidden border border-[#3b443b] bg-[#1c201d]">
-                <img src={heroImg} alt="JH Mechanical working on a heavy vehicle" className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
+                <ResponsiveImage src={heroImg} sizes="(min-width: 540px) 500px, calc(100vw - 40px)" alt="JH Mechanical working on a heavy vehicle" className="absolute inset-0 h-full w-full object-cover" loading="eager" fetchPriority="high" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111511]/90 via-[#111511]/20 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <p className="display-face text-3xl font-bold uppercase text-[#f2f0e8]">Keep your work moving</p>
@@ -167,7 +168,7 @@ function Home() {
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
               {servicesList.map(({ slug, h1, subtitle, icon: Icon, image }, index) => (
                 <Link href={`/services/${slug}`} key={slug} className={`service-card group relative isolate flex min-h-[267px] overflow-hidden border border-[#485348] p-5 text-[#f2f0e8] lg:col-span-2 ${index === 3 ? 'lg:col-start-2' : index === 4 ? 'lg:col-start-4' : ''}`}>
-                  <img src={image} alt="" className="absolute inset-0 -z-20 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
+                  <ResponsiveImage src={image} sizes="(min-width: 1304px) 403px, (min-width: 1024px) calc((100vw - 96px) / 3), (min-width: 768px) calc((100vw - 56px) / 2), calc(100vw - 40px)" alt="" className="absolute inset-0 -z-20 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#111611]/70 via-[#111611]/48 to-[#111611]/95" />
                   <div className="flex w-full flex-col">
                     <div className="flex items-start justify-between"><Icon size={39} strokeWidth={1.7} className="text-[#83C438] drop-shadow-[0_2px_3px_rgba(0,0,0,.8)]" /><ArrowUpRight size={21} className="text-[#f2f0e8] drop-shadow-[0_2px_3px_rgba(0,0,0,.8)] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" /></div>
@@ -204,11 +205,11 @@ function Home() {
               </div>
             </div>
             <div className="mt-8 grid gap-4 lg:grid-cols-3" data-scroll-reveal>
-              <div className="lg:col-span-2 overflow-hidden bg-[#242a25]"><img src={gallery1} alt="Recent diesel mechanic work in Bendigo" className="h-full w-full object-cover min-h-[300px] opacity-90 transition-transform duration-700 hover:scale-105" loading="lazy" /></div>
-              <div className="overflow-hidden bg-[#242a25]"><img src={gallery2} alt="JH Mechanical working on a heavy vehicle" className="h-full w-full object-cover min-h-[300px] opacity-90 transition-transform duration-700 hover:scale-105" loading="lazy" /></div>
-              <div className="overflow-hidden bg-[#242a25]"><img src={gallery3} alt="Truck maintenance in central Victoria" className="h-full w-full object-cover min-h-[250px] opacity-90 transition-transform duration-700 hover:scale-105" loading="lazy" /></div>
-              <div className="overflow-hidden bg-[#242a25]"><img src={gallery4} alt="Diesel servicing" className="h-full w-full object-cover min-h-[250px] opacity-90 transition-transform duration-700 hover:scale-105" loading="lazy" /></div>
-              <div className="overflow-hidden bg-[#242a25]"><img src={gallery5} alt="Heavy vehicle repair" className="h-full w-full object-cover min-h-[250px] opacity-90 transition-transform duration-700 hover:scale-105" loading="lazy" /></div>
+              <div className="lg:col-span-2 overflow-hidden bg-[#242a25]"><ResponsiveImage src={gallery1} sizes="(min-width: 1304px) 821px, (min-width: 1024px) calc((100vw - 80px) * 2 / 3), calc(100vw - 40px)" alt="Recent diesel mechanic work in Bendigo" className="h-full w-full object-cover min-h-[300px] opacity-90 transition-transform duration-700 hover:scale-105" /></div>
+              <div className="overflow-hidden bg-[#242a25]"><ResponsiveImage src={gallery2} sizes="(min-width: 1304px) 403px, (min-width: 1024px) calc((100vw - 96px) / 3), calc(100vw - 40px)" alt="JH Mechanical working on a heavy vehicle" className="h-full w-full object-cover min-h-[300px] opacity-90 transition-transform duration-700 hover:scale-105" /></div>
+              <div className="overflow-hidden bg-[#242a25]"><ResponsiveImage src={gallery3} sizes="(min-width: 1304px) 403px, (min-width: 1024px) calc((100vw - 96px) / 3), calc(100vw - 40px)" alt="Truck maintenance in central Victoria" className="h-full w-full object-cover min-h-[250px] opacity-90 transition-transform duration-700 hover:scale-105" /></div>
+              <div className="overflow-hidden bg-[#242a25]"><ResponsiveImage src={gallery4} sizes="(min-width: 1304px) 403px, (min-width: 1024px) calc((100vw - 96px) / 3), calc(100vw - 40px)" alt="Diesel servicing" className="h-full w-full object-cover min-h-[250px] opacity-90 transition-transform duration-700 hover:scale-105" /></div>
+              <div className="overflow-hidden bg-[#242a25]"><ResponsiveImage src={gallery5} sizes="(min-width: 1304px) 403px, (min-width: 1024px) calc((100vw - 96px) / 3), calc(100vw - 40px)" alt="Heavy vehicle repair" className="h-full w-full object-cover min-h-[250px] opacity-90 transition-transform duration-700 hover:scale-105" /></div>
             </div>
           </div>
         </section>

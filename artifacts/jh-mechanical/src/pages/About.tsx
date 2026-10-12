@@ -1,3 +1,4 @@
+import { ResponsiveImage } from '@/components/ResponsiveImage';
 import { Link } from 'wouter';
 import { ArrowUpRight, CheckCircle2, MapPin, PhoneCall, ShieldCheck, Wrench } from 'lucide-react';
 import storefrontImg from '@/assets/optimized/image_1788154164791.webp';
@@ -53,7 +54,7 @@ function About() {
              </div>
              <div className="reveal reveal-delay-1">
                <div className="relative aspect-[4/3] overflow-hidden bg-[#242a25]">
-                 <img src={teamImg} alt="JH Mechanical owner and family beside a service vehicle" className="absolute inset-0 h-full w-full object-cover" />
+                 <ResponsiveImage src={teamImg} sizes="(min-width: 1144px) 510px, (min-width: 1024px) calc((100vw - 96px) / 2), calc(100vw - 40px)" alt="JH Mechanical owner and family beside a service vehicle" className="absolute inset-0 h-full w-full object-cover" loading="eager" fetchPriority="high" />
                </div>
              </div>
            </div>
@@ -62,7 +63,7 @@ function About() {
           <section className="px-5 py-12 sm:py-[4.5rem] lg:px-8">
           <div className="mx-auto grid max-w-[1080px] gap-12 lg:grid-cols-[.9fr_1.1fr]">
             <div className="relative min-h-[410px] overflow-hidden bg-[#242a25] shadow-sm">
-              <img src={storefrontImg} alt="JH Mechanical workshop" className="absolute inset-0 h-full w-full object-cover opacity-90" />
+              <ResponsiveImage src={storefrontImg} sizes="(min-width: 1144px) 465px, (min-width: 1024px) calc((100vw - 112px) * .45), calc(100vw - 40px)" alt="JH Mechanical workshop" className="absolute inset-0 h-full w-full object-cover opacity-90" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#111511]/90 to-transparent" />
               <div className="absolute left-7 top-7 rounded-sm bg-[#f8f9f1]/90 px-3 py-2 shadow-sm">
                 <p className="mono-face text-[9px] uppercase tracking-[.15em] text-[#4b574b]">JH / Bendigo VIC</p>
