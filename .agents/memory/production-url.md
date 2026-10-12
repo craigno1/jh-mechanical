@@ -28,6 +28,6 @@ Use trailing slashes for public page URLs; leave asset filenames unchanged.
 
 Confirm task changes are applied to the main version before asking the owner to publish.
 
-**Why:** Background tasks can run in isolated project copies. Two successful publishes rebuilt the site but still served the previous canonical convention; a successful publish alone does not prove it included the task's source changes.
+**Why:** Background tasks can run in isolated project copies or remain queued. Successful publishes have served earlier URL conventions or omitted requested title and FAQ edits; a successful publish does not prove all requested changes were included.
 
-**How to apply:** Check the task/main-version handoff before repeating a publish request. Compare a specific changed canonical or sitemap entry in the live HTML, including an uncached request when necessary, rather than inferring inclusion from successful build logs.
+**How to apply:** Check the task/main-version handoff and each outstanding requested change before repeating a publish request. Plans and queued work are not implementation. Compare changed metadata or content in the live HTML, including an uncached request when necessary, rather than inferring inclusion from successful build logs.

@@ -43,6 +43,7 @@ const faqs = [
   { q: 'What types of vehicles do you work on?', a: 'JH Mechanical works with diesel trucks, light commercial vehicles, fleet vehicles and a range of heavy vehicles. Call with the make, model and issue and we will tell you the best next step.' },
   { q: 'Do you help with vehicle breakdowns?', a: 'Yes. Breakdown help is available across Bendigo and surrounding areas, subject to location and availability. Call (03) 5448 8149 first so we can understand what has happened and get you moving safely.' },
   { q: 'How often should my diesel vehicle be serviced?', a: 'It depends on the vehicle, the work it does and its operating conditions. We can help set a sensible service rhythm around kilometres, engine hours or your fleet schedule.' },
+  { q: 'Is there a callout fee?', a: 'Yes. This can be discussed as part of your quote. Everything is covered up front without hidden fees.' },
   { q: 'Can I get an instant quote?', a: 'Send through your name, phone number and a short description of the job using the form below. Adding a photo can help us understand the issue before we speak.' },
   { q: 'Which areas around Bendigo do you cover?', a: 'JH Mechanical services Bendigo and surrounding Victoria, including Heathcote, Seymour, Macedon, Shepparton, Lockington, Melbourne and Sunbury.' },
 ];

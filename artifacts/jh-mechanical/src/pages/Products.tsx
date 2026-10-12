@@ -55,7 +55,7 @@ function Products() {
   return (
     <div className="jh-readable noise flex min-h-[100dvh] flex-col bg-[#f6f4ed]">
       <SeoHead
-        title="Products: Consumables for Vehicles"
+        title="Products: Consumables for Vehicles | JH Mechanical"
         description="Vehicle consumables available from JH Mechanical in Bendigo, including oils, AdBlue, cleaners, rags and DPF system cleaner. Ask us by phone."
         canonicalUrl={`${siteUrl}/products/`}
         schema={schema}

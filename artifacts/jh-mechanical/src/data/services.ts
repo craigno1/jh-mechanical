@@ -22,7 +22,7 @@ export type ServiceData = {
 export const services: Record<string, ServiceData> = {
   'diesel-mechanic': {
     slug: 'diesel-mechanic',
-    metaTitle: 'Diesel Mechanic Bendigo | Practical Heavy Vehicle Repairs',
+    metaTitle: 'Diesel Mechanic Service | Heavy Vehicle Repairs Callout | JH Mechanical',
     metaDescription: 'Experienced diesel mechanic serving Bendigo. We diagnose and repair heavy vehicles, trucks, and machinery so you can get back to work without the runaround.',
     h1: 'Diesel Mechanic',
     subtitle: 'Practical diagnosis and repairs for the engines that keep your work moving.',
@@ -99,7 +99,7 @@ export const services: Record<string, ServiceData> = {
   },
   'vehicle-maintenance': {
     slug: 'vehicle-maintenance',
-    metaTitle: 'Fleet & Heavy Vehicle Maintenance | JH Mechanical',
+    metaTitle: 'Heavy Vehicle Maintenance Services | JH Mechanical',
     metaDescription: 'Dependable vehicle maintenance plans for trucks, machinery, and busy local fleets in Central Victoria. Keep your operation running smoothly.',
     h1: 'Vehicle Maintenance',
     subtitle: 'Maintenance plans for trucks, machinery and busy local fleets.',
@@ -137,7 +137,7 @@ export const services: Record<string, ServiceData> = {
   },
   'vehicle-breakdown': {
     slug: 'vehicle-breakdown',
-    metaTitle: 'Heavy Vehicle Breakdown Help Bendigo | Call JH Mechanical',
+    metaTitle: 'Heavy Vehicle Breakdown Help Victoria | Callout Service | JH Mechanical',
     metaDescription: 'Calm, capable response for heavy vehicle breakdowns. When your truck stops where it shouldn’t, get straight answers and practical help.',
     h1: 'Vehicle Breakdown',
     subtitle: 'A calm, capable response when a heavy vehicle stops where it should not.',
