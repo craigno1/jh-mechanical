@@ -118,6 +118,7 @@
   text-transform: uppercase;
 }
 .eyebrow::before { content: ""; width: 28px; height: 2px; background: currentColor; }
+.eyebrow-readable { font-size: 1.36rem; line-height: 1.15; }
 .hero-grid {
   background-image: linear-gradient(hsl(42 22% 95% / .04) 1px, transparent 1px), linear-gradient(90deg, hsl(42 22% 95% / .04) 1px, transparent 1px);
   background-size: 42px 42px;
@@ -152,4 +153,10 @@
   html { scroll-behavior: auto; }
   .reveal { animation: none; }
   .service-card, .lift { transition: none; }
+}
+@media (max-width: 639px) {
+  .noise p:not(.display-face):not(.mono-face) {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
 }
